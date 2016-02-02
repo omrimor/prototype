@@ -3,8 +3,8 @@
 $ = Framer.Importer.load("imported/flightBooking-Android-prototype@3x")
 
 # Modules
-# {Pointer} = require "Pointer"
-# android = require "androidRipple"
+{Pointer} = require "Pointer"
+android = require "androidRipple"
 
 # Defauls set up
 Utils.globalLayers($)
@@ -43,7 +43,7 @@ for artboard in allArtboards
 ###################################################################
 
 animateNextView = (clickLayer, animateLayer, layerToHide) ->
-# 	clickLayer.on(Events.Click, android.ripple)
+	clickLayer.on(Events.Click, android.ripple)
 	clickLayer.on Events.Click, ->
 		# Create back button layer
 		backBtn = new Layer
@@ -54,7 +54,7 @@ animateNextView = (clickLayer, animateLayer, layerToHide) ->
 		backBtn.opacity = 0
 		
 		# animate backBtn
-# 		backBtn.on(Events.Click, android.ripple)
+		backBtn.on(Events.Click, android.ripple)
 		animateBackView(backBtn, animateLayer, layerToHide)
 		
 		animateLayer.visible = true
@@ -70,7 +70,7 @@ animateNextView = (clickLayer, animateLayer, layerToHide) ->
 		
 ##################################################################			
 animateBackView = (clickLayer, animateLayer, originalLayer) ->
-# 	clickLayer.on(Events.Click, android.ripple)
+	clickLayer.on(Events.Click, android.ripple)
 	clickLayer.on Events.Click, ->
 		originalLayer.visible = true
 
@@ -86,7 +86,7 @@ animateBackView = (clickLayer, animateLayer, originalLayer) ->
 ##################################################################
 
 animateModelUp = (clickLayer, animateLayer, layerToHide) ->
-# 	clickLayer.on(Events.Click, android.ripple)
+	clickLayer.on(Events.Click, android.ripple)
 	clickLayer.on Events.Click, ->
 		# Create back button layer
 		backBtn = new Layer
@@ -97,7 +97,7 @@ animateModelUp = (clickLayer, animateLayer, layerToHide) ->
 		backBtn.opacity = 0
 		
 		# animate backBtn
-# 		backBtn.on(Events.Click, android.ripple)
+		backBtn.on(Events.Click, android.ripple)
 		animateModelDown(backBtn, animateLayer, layerToHide)
 		
 		animateLayer.visible = true
@@ -113,7 +113,7 @@ animateModelUp = (clickLayer, animateLayer, layerToHide) ->
 ##################################################################
 
 animateModelDown = (clickLayer, animateLayer, originalLayer) ->
-# 	clickLayer.on(Events.Click, android.ripple)
+	clickLayer.on(Events.Click, android.ripple)
 	clickLayer.on Events.Click, ->
 		originalLayer.visible = true
 		
