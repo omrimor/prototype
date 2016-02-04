@@ -9,76 +9,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "children": [
                             {
                                 "children": [], 
-                                "id": "6314BFDA-6325-49E7-834B-B79FED224129", 
+                                "id": "1E5EE178-12B4-430B-987D-7AA214505BE3", 
                                 "image": {
                                     "frame": {
-                                        "height": 36, 
-                                        "width": 72, 
-                                        "x": 208, 
-                                        "y": 540
+                                        "height": 48, 
+                                        "width": 328, 
+                                        "x": 16, 
+                                        "y": 534
                                     }, 
-                                    "path": "images/Layer-decline-6314BFDA-6325-49E7-834B-B79FED224129.png"
+                                    "path": "images/Layer-btn-1E5EE178-12B4-430B-987D-7AA214505BE3.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 36, 
-                                    "width": 72, 
-                                    "x": 208, 
-                                    "y": 540
+                                    "height": 48, 
+                                    "width": 328, 
+                                    "x": 16, 
+                                    "y": 534
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
                                     "opacity": 1
                                 }, 
-                                "name": "decline", 
-                                "visible": false
-                            }, 
-                            {
-                                "children": [], 
-                                "id": "A81A8543-562B-47DD-B692-61DC108E0F02", 
-                                "image": {
-                                    "frame": {
-                                        "height": 12, 
-                                        "width": 121, 
-                                        "x": 119, 
-                                        "y": 556
-                                    }, 
-                                    "path": "images/Layer-apply-A81A8543-562B-47DD-B692-61DC108E0F02.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 12, 
-                                    "width": 121, 
-                                    "x": 119, 
-                                    "y": 556
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "apply", 
+                                "name": "btn", 
                                 "visible": true
                             }
                         ], 
-                        "id": "3A9BA5A0-B4A1-4325-8884-2B981D431C25", 
+                        "id": "8673EBB6-5FBD-4CBD-A1FC-F5ACEA237E5C", 
                         "image": {
                             "frame": {
-                                "height": 60, 
+                                "height": 78, 
                                 "width": 360, 
                                 "x": 0, 
-                                "y": 532
+                                "y": 514
                             }, 
-                            "path": "images/Layer-findMyFlights-3A9BA5A0-B4A1-4325-8884-2B981D431C25.png"
+                            "path": "images/Layer-findMyFlights-8673EBB6-5FBD-4CBD-A1FC-F5ACEA237E5C.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 60, 
+                            "height": 78, 
                             "width": 360, 
                             "x": 0, 
-                            "y": 532
+                            "y": 514
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -115,37 +88,10 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }, 
                     {
-                        "children": [], 
-                        "id": "F0C1C280-E64A-441A-8BB4-2A75C4CD1781", 
-                        "image": {
-                            "frame": {
-                                "height": 2, 
-                                "width": 360, 
-                                "x": 0, 
-                                "y": 81
-                            }, 
-                            "path": "images/Layer-DividerGradient-F0C1C280-E64A-441A-8BB4-2A75C4CD1781.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 2, 
-                            "width": 360, 
-                            "x": 0, 
-                            "y": 81
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "DividerGradient", 
-                        "visible": true
-                    }, 
-                    {
                         "children": [
                             {
                                 "children": [], 
-                                "id": "9CC2809E-CBED-4EC5-8DDD-F94C693F125B", 
+                                "id": "CFBE3E89-4BFC-4E1A-9C7E-868FB209E438", 
                                 "image": {
                                     "frame": {
                                         "height": 16, 
@@ -153,7 +99,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                         "x": 19, 
                                         "y": 44
                                     }, 
-                                    "path": "images/Layer-back-9CC2809E-CBED-4EC5-8DDD-F94C693F125B.png"
+                                    "path": "images/Layer-back-CFBE3E89-4BFC-4E1A-9C7E-868FB209E438.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
@@ -171,20 +117,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "visible": true
                             }
                         ], 
-                        "id": "990E88ED-1C68-4ADC-A8C2-813E4F3260CF", 
+                        "id": "198FEFBD-081F-422E-AC6F-F51A19590245", 
                         "image": {
                             "frame": {
-                                "height": 91, 
+                                "height": 92, 
                                 "width": 360, 
                                 "x": 0, 
                                 "y": 0
                             }, 
-                            "path": "images/Layer-AppBarBackNormal-990E88ED-1C68-4ADC-A8C2-813E4F3260CF.png"
+                            "path": "images/Layer-AppBarBackNormal-198FEFBD-081F-422E-AC6F-F51A19590245.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 91, 
+                            "height": 92, 
                             "width": 360, 
                             "x": 0, 
                             "y": 0
@@ -567,24 +513,52 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
             {
                 "children": [
                     {
-                        "children": [], 
-                        "id": "1D0A322E-35BF-4399-8D69-90C4EFEB5E2B", 
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "AAD98CBE-B8FF-423E-A4C9-FE71FE7B06CC", 
+                                "image": {
+                                    "frame": {
+                                        "height": 48, 
+                                        "width": 328, 
+                                        "x": 16, 
+                                        "y": 534
+                                    }, 
+                                    "path": "images/Layer-btn-AAD98CBE-B8FF-423E-A4C9-FE71FE7B06CC.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 48, 
+                                    "width": 328, 
+                                    "x": 16, 
+                                    "y": 534
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "btn", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "D361916E-A8C0-4212-891A-A8E289A76FF4", 
                         "image": {
                             "frame": {
-                                "height": 60, 
+                                "height": 78, 
                                 "width": 360, 
                                 "x": 0, 
-                                "y": 532
+                                "y": 514
                             }, 
-                            "path": "images/Layer-findFlightsBtn-1D0A322E-35BF-4399-8D69-90C4EFEB5E2B.png"
+                            "path": "images/Layer-findFlightsBtn-D361916E-A8C0-4212-891A-A8E289A76FF4.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 60, 
+                            "height": 78, 
                             "width": 360, 
                             "x": 0, 
-                            "y": 532
+                            "y": 514
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -621,37 +595,10 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }, 
                     {
-                        "children": [], 
-                        "id": "B6D6F28F-5E58-4E42-B1C5-BC28F0FA7507", 
-                        "image": {
-                            "frame": {
-                                "height": 2, 
-                                "width": 360, 
-                                "x": 0, 
-                                "y": 81
-                            }, 
-                            "path": "images/Layer-DividerGradient-B6D6F28F-5E58-4E42-B1C5-BC28F0FA7507.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 2, 
-                            "width": 360, 
-                            "x": 0, 
-                            "y": 81
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "DividerGradient", 
-                        "visible": true
-                    }, 
-                    {
                         "children": [
                             {
                                 "children": [], 
-                                "id": "AA992785-E028-49FA-A256-574EEE4D3C25", 
+                                "id": "D55760F2-2CE1-473C-AA63-F5C9181AB37D", 
                                 "image": {
                                     "frame": {
                                         "height": 16, 
@@ -659,7 +606,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                         "x": 19, 
                                         "y": 44
                                     }, 
-                                    "path": "images/Layer-back-AA992785-E028-49FA-A256-574EEE4D3C25.png"
+                                    "path": "images/Layer-back-D55760F2-2CE1-473C-AA63-F5C9181AB37D.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
@@ -677,20 +624,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "visible": true
                             }
                         ], 
-                        "id": "C8B2209F-EEAC-4696-9DBF-D5CBCA3A7FEA", 
+                        "id": "92E825D0-0C56-46F0-A99F-F5CBEC339C81", 
                         "image": {
                             "frame": {
-                                "height": 91, 
+                                "height": 92, 
                                 "width": 360, 
                                 "x": 0, 
                                 "y": 0
                             }, 
-                            "path": "images/Layer-AppBarBackNormal-C8B2209F-EEAC-4696-9DBF-D5CBCA3A7FEA.png"
+                            "path": "images/Layer-AppBarBackNormal-92E825D0-0C56-46F0-A99F-F5CBEC339C81.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 91, 
+                            "height": 92, 
                             "width": 360, 
                             "x": 0, 
                             "y": 0
@@ -1182,7 +1129,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "id": "4F46071B-B77F-4C8A-8F4D-7CCA61711AC2", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
@@ -1192,7 +1139,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -1814,76 +1761,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "F87B1CFF-7D18-4D17-9650-76C6A6374A9F", 
+                        "id": "2A0C2578-79B1-4957-A8FC-D04A6747041F", 
                         "image": {
                             "frame": {
-                                "height": 36, 
-                                "width": 72, 
-                                "x": 208, 
-                                "y": 540
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-decline-F87B1CFF-7D18-4D17-9650-76C6A6374A9F.png"
+                            "path": "images/Layer-btn-2A0C2578-79B1-4957-A8FC-D04A6747041F.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 36, 
-                            "width": 72, 
-                            "x": 208, 
-                            "y": 540
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "decline", 
-                        "visible": false
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "2C6316DB-5ADC-4C69-88B9-DA816A0E5AFE", 
-                        "image": {
-                            "frame": {
-                                "height": 12, 
-                                "width": 38, 
-                                "x": 161, 
-                                "y": 556
-                            }, 
-                            "path": "images/Layer-apply-2C6316DB-5ADC-4C69-88B9-DA816A0E5AFE.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 12, 
-                            "width": 38, 
-                            "x": 161, 
-                            "y": 556
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "50820669-1530-4021-B33D-06FB2AB9BAB9", 
+                "id": "7B2AB128-D18B-4BC8-9186-A475B7FB168D", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-doneDates-50820669-1530-4021-B33D-06FB2AB9BAB9.png"
+                    "path": "images/Layer-doneDates-7B2AB128-D18B-4BC8-9186-A475B7FB168D.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -1919,278 +1839,57 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
     {
         "children": [
             {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "3BF26803-21AF-4C76-B470-151AA7FA6997", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 404
-                                    }, 
-                                    "path": "images/Layer-radioOff-3BF26803-21AF-4C76-B470-151AA7FA6997.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 404
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOff", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "D6DAACEF-5253-4623-985A-57BBC15BDF4F", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 113, 
-                                "x": 66, 
-                                "y": 404
-                            }, 
-                            "path": "images/Layer-row_copy_7-D6DAACEF-5253-4623-985A-57BBC15BDF4F.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 113, 
-                            "x": 66, 
-                            "y": 404
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "rowcopy7", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "2B255757-02FD-45D5-A5B0-225ED7C6F727", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 356
-                                    }, 
-                                    "path": "images/Layer-radioOff-2B255757-02FD-45D5-A5B0-225ED7C6F727.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 356
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOff", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "04209F1E-51AF-49C3-A942-297ECB22EDC3", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 106, 
-                                "x": 66, 
-                                "y": 356
-                            }, 
-                            "path": "images/Layer-row_copy_6-04209F1E-51AF-49C3-A942-297ECB22EDC3.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 106, 
-                            "x": 66, 
-                            "y": 356
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "rowcopy6", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "19B392BC-6BD1-4CD6-8C5F-A1E32905D542", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 308
-                                    }, 
-                                    "path": "images/Layer-radioOff-19B392BC-6BD1-4CD6-8C5F-A1E32905D542.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 308
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOff", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "20D68840-E3B0-487A-803E-F7F17E482818", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 131, 
-                                "x": 66, 
-                                "y": 308
-                            }, 
-                            "path": "images/Layer-row_copy_5-20D68840-E3B0-487A-803E-F7F17E482818.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 131, 
-                            "x": 66, 
-                            "y": 308
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "rowcopy5", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "840EED37-6B46-4020-9B39-824608E4D22F", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 260
-                                    }, 
-                                    "path": "images/Layer-radioOn-840EED37-6B46-4020-9B39-824608E4D22F.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 260
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOn", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "1684E5F4-557B-4C03-860E-67C48C1C6937", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 156, 
-                                "x": 66, 
-                                "y": 260
-                            }, 
-                            "path": "images/Layer-row-1684E5F4-557B-4C03-860E-67C48C1C6937.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 156, 
-                            "x": 66, 
-                            "y": 260
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "row", 
-                        "visible": true
-                    }
-                ], 
-                "id": "FA0B4786-CF27-4118-9901-BC086A3E939F", 
+                "children": [], 
+                "id": "33EDD09A-74C2-44BE-A682-B56715D7D8B4", 
                 "image": {
                     "frame": {
-                        "height": 360, 
-                        "width": 356, 
-                        "x": 2, 
-                        "y": 159
+                        "height": 50, 
+                        "width": 100, 
+                        "x": 244, 
+                        "y": 73
                     }, 
-                    "path": "images/Layer-dialog-FA0B4786-CF27-4118-9901-BC086A3E939F.png"
+                    "path": "images/Layer-toolTipRight-33EDD09A-74C2-44BE-A682-B56715D7D8B4.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 360, 
-                    "width": 356, 
-                    "x": 2, 
-                    "y": 159
+                    "height": 50, 
+                    "width": 100, 
+                    "x": 244, 
+                    "y": 73
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "dialog", 
+                "name": "toolTipRight", 
                 "visible": true
             }, 
             {
                 "children": [], 
-                "id": "83232ACB-B624-4BEF-913D-9D0E6A977BD6", 
+                "id": "6E2A697C-F3E4-4B81-92F1-330B18C23D46", 
                 "image": {
                     "frame": {
-                        "height": 640, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
+                        "height": 50, 
+                        "width": 100, 
+                        "x": 16, 
+                        "y": 73
                     }, 
-                    "path": "images/Layer-scrim-83232ACB-B624-4BEF-913D-9D0E6A977BD6.png"
+                    "path": "images/Layer-toolTipLeft-6E2A697C-F3E4-4B81-92F1-330B18C23D46.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 640, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
+                    "height": 50, 
+                    "width": 100, 
+                    "x": 16, 
+                    "y": 73
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "scrim", 
+                "name": "toolTipLeft", 
                 "visible": true
             }, 
             {
@@ -2251,7 +1950,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "A65FFE5C-41AB-4B72-830B-B5017D27D788", 
+                        "id": "4F7F0113-4F7B-4ABD-B631-AD86D10A2D21", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -2259,7 +1958,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-A65FFE5C-41AB-4B72-830B-B5017D27D788.png"
+                            "path": "images/Layer-back-4F7F0113-4F7B-4ABD-B631-AD86D10A2D21.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -2278,7 +1977,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "AD041852-11E9-405F-A9AF-6F7FB7CB2FFD", 
+                        "id": "1333211F-E6A4-442F-A7AC-1040BAFDB523", 
                         "image": {
                             "frame": {
                                 "height": 10, 
@@ -2286,7 +1985,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 297, 
                                 "y": 46
                             }, 
-                            "path": "images/Layer-refine-AD041852-11E9-405F-A9AF-6F7FB7CB2FFD.png"
+                            "path": "images/Layer-refine-1333211F-E6A4-442F-A7AC-1040BAFDB523.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -2305,7 +2004,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "7F280AAA-F624-4FFD-A742-82B7C9366D0F", 
+                        "id": "3D14AE0E-04DC-456D-BBD0-95F323B370FC", 
                         "image": {
                             "frame": {
                                 "height": 19, 
@@ -2313,7 +2012,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 258, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-7F280AAA-F624-4FFD-A742-82B7C9366D0F.png"
+                            "path": "images/Layer-graph-3D14AE0E-04DC-456D-BBD0-95F323B370FC.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -2331,20 +2030,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "09DCC206-4FFB-487A-AA7E-7EC3ECC1A4EE", 
+                "id": "2CE122C0-7E49-48FF-B21B-6022FFCC7F59", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-AppBarBackWithSubheader-09DCC206-4FFB-487A-AA7E-7EC3ECC1A4EE.png"
+                    "path": "images/Layer-AppBarBackWithSubheaderWithActions-2CE122C0-7E49-48FF-B21B-6022FFCC7F59.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -2353,7 +2052,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "AppBarBackWithSubheader", 
+                "name": "AppBarBackWithSubheaderWithActions", 
                 "visible": true
             }, 
             {
@@ -2554,145 +2253,267 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
             {
                 "children": [
                     {
+                        "children": [], 
+                        "id": "A9DC23EF-09AB-4FC5-BEEA-66517C2CC640", 
+                        "image": {
+                            "frame": {
+                                "height": 21, 
+                                "width": 8, 
+                                "x": 176, 
+                                "y": 134
+                            }, 
+                            "path": "images/Layer-divider-A9DC23EF-09AB-4FC5-BEEA-66517C2CC640.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 21, 
+                            "width": 8, 
+                            "x": 176, 
+                            "y": 134
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "divider", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "5C834234-E964-4DE3-BC65-5F5DDCA9C631", 
+                        "image": {
+                            "frame": {
+                                "height": 14, 
+                                "width": 67, 
+                                "x": 227, 
+                                "y": 105
+                            }, 
+                            "path": "images/Layer-landingTxt-5C834234-E964-4DE3-BC65-5F5DDCA9C631.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "text", 
+                        "layerFrame": {
+                            "height": 14, 
+                            "width": 67, 
+                            "x": 227, 
+                            "y": 105
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "css": [
+                                "/* Landing by: */", 
+                                "font-family: Roboto-Regular;", 
+                                "font-size: 14px;", 
+                                "color: #2F4850;", 
+                                "line-height: 16px;"
+                            ], 
+                            "string": "Landing by"
+                        }, 
+                        "name": "landingTxt", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "3A122D45-1439-421C-BDEB-F871A8D5AD63", 
+                        "image": {
+                            "frame": {
+                                "height": 12, 
+                                "width": 84, 
+                                "x": 16, 
+                                "y": 105
+                            }, 
+                            "path": "images/Layer-takeoffTxt-3A122D45-1439-421C-BDEB-F871A8D5AD63.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "text", 
+                        "layerFrame": {
+                            "height": 12, 
+                            "width": 84, 
+                            "x": 16, 
+                            "y": 105
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "css": [
+                                "/* Take-off from: */", 
+                                "font-family: Roboto-Regular;", 
+                                "font-size: 14px;", 
+                                "color: #2F4850;", 
+                                "line-height: 16px;"
+                            ], 
+                            "string": "Take-off from"
+                        }, 
+                        "name": "takeoffTxt", 
+                        "visible": true
+                    }, 
+                    {
                         "children": [
                             {
                                 "children": [], 
-                                "id": "5C834234-E964-4DE3-BC65-5F5DDCA9C631", 
+                                "id": "0E3A97A7-8A8B-4149-923F-BC602B9D132C", 
                                 "image": {
                                     "frame": {
-                                        "height": 14, 
-                                        "width": 102, 
-                                        "x": 242, 
-                                        "y": 104
+                                        "height": 13, 
+                                        "width": 22, 
+                                        "x": 314, 
+                                        "y": 138
                                     }, 
-                                    "path": "images/Layer-landingTxt-5C834234-E964-4DE3-BC65-5F5DDCA9C631.png"
+                                    "path": "images/Layer-landingIcon-0E3A97A7-8A8B-4149-923F-BC602B9D132C.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 14, 
-                                    "width": 102, 
-                                    "x": 242, 
-                                    "y": 104
+                                    "height": 13, 
+                                    "width": 22, 
+                                    "x": 314, 
+                                    "y": 138
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
                                     "opacity": 1
                                 }, 
-                                "name": "landingTxt", 
+                                "name": "landingIcon", 
                                 "visible": true
                             }, 
                             {
                                 "children": [], 
-                                "id": "3A122D45-1439-421C-BDEB-F871A8D5AD63", 
+                                "id": "2A49E143-ECC9-42D3-8953-557C4DAB0CB2", 
                                 "image": {
                                     "frame": {
-                                        "height": 12, 
-                                        "width": 111, 
-                                        "x": 16, 
-                                        "y": 104
+                                        "height": 30, 
+                                        "width": 30, 
+                                        "x": 309, 
+                                        "y": 130
                                     }, 
-                                    "path": "images/Layer-takeoffTxt-3A122D45-1439-421C-BDEB-F871A8D5AD63.png"
+                                    "path": "images/Layer-landingInnerShadow-2A49E143-ECC9-42D3-8953-557C4DAB0CB2.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 12, 
-                                    "width": 111, 
-                                    "x": 16, 
-                                    "y": 104
+                                    "height": 30, 
+                                    "width": 30, 
+                                    "x": 309, 
+                                    "y": 130
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
                                     "opacity": 1
                                 }, 
-                                "name": "takeoffTxt", 
-                                "visible": true
-                            }, 
-                            {
-                                "children": [
-                                    {
-                                        "children": [], 
-                                        "id": "75F89C0C-ED9D-44A5-84A0-A3C1EE05852F", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 34, 
-                                                "width": 37, 
-                                                "x": 305, 
-                                                "y": 127
-                                            }, 
-                                            "path": "images/Layer-landingKnob-75F89C0C-ED9D-44A5-84A0-A3C1EE05852F.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 34, 
-                                            "width": 37, 
-                                            "x": 305, 
-                                            "y": 127
-                                        }, 
-                                        "maskFrame": null, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "landingKnob", 
-                                        "visible": true
-                                    }, 
-                                    {
-                                        "children": [], 
-                                        "id": "66AC26F0-8380-4309-ACA6-837FA7651AD3", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 34, 
-                                                "width": 37, 
-                                                "x": 15, 
-                                                "y": 127
-                                            }, 
-                                            "path": "images/Layer-takeOffKnob-66AC26F0-8380-4309-ACA6-837FA7651AD3.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 34, 
-                                            "width": 37, 
-                                            "x": 15, 
-                                            "y": 127
-                                        }, 
-                                        "maskFrame": null, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "takeOffKnob", 
-                                        "visible": true
-                                    }
-                                ], 
-                                "id": "E1BAE952-2B43-4559-A9DA-D7EBE5A3161D", 
-                                "image": {
-                                    "frame": {
-                                        "height": 34, 
-                                        "width": 329, 
-                                        "x": 15, 
-                                        "y": 127
-                                    }, 
-                                    "path": "images/Layer-slider-E1BAE952-2B43-4559-A9DA-D7EBE5A3161D.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 34, 
-                                    "width": 329, 
-                                    "x": 15, 
-                                    "y": 127
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "slider", 
+                                "name": "landingInnerShadow", 
                                 "visible": true
                             }
                         ], 
-                        "id": "CFEA5897-8C4A-472F-B419-C2A16AEEDE37", 
+                        "id": "75F89C0C-ED9D-44A5-84A0-A3C1EE05852F", 
+                        "image": {
+                            "frame": {
+                                "height": 30, 
+                                "width": 30, 
+                                "x": 309, 
+                                "y": 130
+                            }, 
+                            "path": "images/Layer-landingKnob-75F89C0C-ED9D-44A5-84A0-A3C1EE05852F.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 30, 
+                            "width": 30, 
+                            "x": 309, 
+                            "y": 130
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "landingKnob", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "548297AB-0827-4273-8503-E19B237FAEE5", 
+                                "image": {
+                                    "frame": {
+                                        "height": 11, 
+                                        "width": 24, 
+                                        "x": 23, 
+                                        "y": 139
+                                    }, 
+                                    "path": "images/Layer-takeoffIcon-548297AB-0827-4273-8503-E19B237FAEE5.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 11, 
+                                    "width": 24, 
+                                    "x": 23, 
+                                    "y": 139
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "takeoffIcon", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "3E01BA16-B494-4777-A34B-812FBC67A7AA", 
+                                "image": {
+                                    "frame": {
+                                        "height": 30, 
+                                        "width": 30, 
+                                        "x": 19, 
+                                        "y": 130
+                                    }, 
+                                    "path": "images/Layer-takeoffInnerShadow-3E01BA16-B494-4777-A34B-812FBC67A7AA.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 30, 
+                                    "width": 30, 
+                                    "x": 19, 
+                                    "y": 130
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "takeoffInnerShadow", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "66AC26F0-8380-4309-ACA6-837FA7651AD3", 
+                        "image": {
+                            "frame": {
+                                "height": 30, 
+                                "width": 30, 
+                                "x": 19, 
+                                "y": 130
+                            }, 
+                            "path": "images/Layer-takeOffKnob-66AC26F0-8380-4309-ACA6-837FA7651AD3.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 30, 
+                            "width": 30, 
+                            "x": 19, 
+                            "y": 130
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "takeOffKnob", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "C14261C7-0FF3-4BE0-9AE2-5225E79BDD59", 
                         "image": {
                             "frame": {
                                 "height": 96, 
@@ -2700,7 +2521,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 0, 
                                 "y": 78
                             }, 
-                            "path": "images/Layer-timeFilters-CFEA5897-8C4A-472F-B419-C2A16AEEDE37.png"
+                            "path": "images/Layer-sliderBG-C14261C7-0FF3-4BE0-9AE2-5225E79BDD59.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -2714,11 +2535,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "timeFilters", 
+                        "name": "sliderBG", 
                         "visible": true
                     }
                 ], 
-                "id": "D9086E16-9978-4C09-8E08-54AE43023AC2", 
+                "id": "CFEA5897-8C4A-472F-B419-C2A16AEEDE37", 
+                "image": {
+                    "frame": {
+                        "height": 96, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 78
+                    }, 
+                    "path": "images/Layer-slider-CFEA5897-8C4A-472F-B419-C2A16AEEDE37.png"
+                }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
@@ -2731,7 +2561,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "results", 
+                "name": "slider", 
                 "visible": true
             }, 
             {
@@ -3383,49 +3213,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "4ABD1E57-C65A-4018-BFB6-4CDD3C4D38AB", 
+                        "id": "CB4DE1A5-4BF1-4B14-BAA8-D623967E069B", 
                         "image": {
                             "frame": {
-                                "height": 10, 
-                                "width": 45, 
-                                "x": 157, 
-                                "y": 557
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-4ABD1E57-C65A-4018-BFB6-4CDD3C4D38AB.png"
+                            "path": "images/Layer-btn-CB4DE1A5-4BF1-4B14-BAA8-D623967E069B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 10, 
-                            "width": 45, 
-                            "x": 157, 
-                            "y": 557
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "D51C1369-EE60-4E7D-82A3-3ABF44937CCC", 
+                "id": "A7B76376-9E48-46A0-9345-E00FB49E8C39", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-applyBtn-D51C1369-EE60-4E7D-82A3-3ABF44937CCC.png"
+                    "path": "images/Layer-applyBtn-A7B76376-9E48-46A0-9345-E00FB49E8C39.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -3465,22 +3295,22 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "DF5DDEF3-3A27-42DD-829F-EDADDCB0D037", 
+                        "id": "C1ECEF43-6832-4E34-8891-4E2EEF9EDE27", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 43, 
-                                "x": 299, 
+                                "height": 11, 
+                                "width": 40, 
+                                "x": 300, 
                                 "y": 46
                             }, 
-                            "path": "images/Layer-apply-DF5DDEF3-3A27-42DD-829F-EDADDCB0D037.png"
+                            "path": "images/Layer-apply-C1ECEF43-6832-4E34-8891-4E2EEF9EDE27.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 43, 
-                            "x": 299, 
+                            "height": 11, 
+                            "width": 40, 
+                            "x": 300, 
                             "y": 46
                         }, 
                         "maskFrame": null, 
@@ -3492,7 +3322,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "59280343-C013-4243-8C0D-B25E2157DED9", 
+                        "id": "305F4278-5EFB-4097-A2CD-7BCDFCD9CBE4", 
                         "image": {
                             "frame": {
                                 "height": 14, 
@@ -3500,7 +3330,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 21, 
                                 "y": 45
                             }, 
-                            "path": "images/Layer-closeX-59280343-C013-4243-8C0D-B25E2157DED9.png"
+                            "path": "images/Layer-closeX-305F4278-5EFB-4097-A2CD-7BCDFCD9CBE4.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -3518,20 +3348,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "19247B76-17C0-4562-A69D-F239F53BEE36", 
+                "id": "EAB7E5F9-0605-44E9-8270-C4B97CF03F94", 
                 "image": {
                     "frame": {
-                        "height": 88, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-AppBarBackWithSubheader-19247B76-17C0-4562-A69D-F239F53BEE36.png"
+                    "path": "images/Layer-AppBarBackWithSubheader-EAB7E5F9-0605-44E9-8270-C4B97CF03F94.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 88, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -4481,49 +4311,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "13AA7D15-C8F1-44C0-A053-80365F3ADBF4", 
+                        "id": "7F8A486E-2124-4A2B-A989-D8DF95FD7EDD", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 171, 
-                                "x": 95, 
-                                "y": 556
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-13AA7D15-C8F1-44C0-A053-80365F3ADBF4.png"
+                            "path": "images/Layer-btn-7F8A486E-2124-4A2B-A989-D8DF95FD7EDD.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 171, 
-                            "x": 95, 
-                            "y": 556
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "E5242E5F-61F2-480B-8026-FEC17D3FC1A2", 
+                "id": "3E9C396C-CEDA-44AA-AEDC-DB0C28DE0982", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-selectOutBoundBtn-E5242E5F-61F2-480B-8026-FEC17D3FC1A2.png"
+                    "path": "images/Layer-selectOutBoundBtn-3E9C396C-CEDA-44AA-AEDC-DB0C28DE0982.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -4617,7 +4447,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "10712555-88C3-4C1E-9771-60045F484D1F", 
+                        "id": "1E98168F-DCDF-4A0E-BBCE-DEC1FDD523B9", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -4625,7 +4455,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-10712555-88C3-4C1E-9771-60045F484D1F.png"
+                            "path": "images/Layer-back-1E98168F-DCDF-4A0E-BBCE-DEC1FDD523B9.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -4644,7 +4474,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "DC6E0127-0141-4778-9E0D-CFE489B0BDC2", 
+                        "id": "9633E95A-7FD3-49CC-BD73-4865EDAA92B1", 
                         "image": {
                             "frame": {
                                 "height": 19, 
@@ -4652,7 +4482,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 323, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-DC6E0127-0141-4778-9E0D-CFE489B0BDC2.png"
+                            "path": "images/Layer-graph-9633E95A-7FD3-49CC-BD73-4865EDAA92B1.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -4670,20 +4500,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "EF4C69D8-A42B-4AD2-B7C7-9987902E3C70", 
+                "id": "116FDD77-8A9E-42EC-A5E6-B65D26340DAA", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-EF4C69D8-A42B-4AD2-B7C7-9987902E3C70.png"
+                    "path": "images/Layer-app_bar-116FDD77-8A9E-42EC-A5E6-B65D26340DAA.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -5012,20 +4842,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "id": "8D69E4F5-A589-4152-B365-8B9597A7B240", 
                         "image": {
                             "frame": {
-                                "height": 457, 
-                                "width": 360, 
-                                "x": 0, 
-                                "y": 131
+                                "height": 423, 
+                                "width": 330, 
+                                "x": 15, 
+                                "y": 146
                             }, 
                             "path": "images/Layer-details-8D69E4F5-A589-4152-B365-8B9597A7B240.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 457, 
-                            "width": 360, 
-                            "x": 0, 
-                            "y": 131
+                            "height": 423, 
+                            "width": 330, 
+                            "x": 15, 
+                            "y": 146
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -5090,6 +4920,15 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }
                 ], 
                 "id": "5E0C8257-EB71-400D-8B43-9F8C76ACFFF4", 
+                "image": {
+                    "frame": {
+                        "height": 695, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 83
+                    }, 
+                    "path": "images/Layer-scrollContentOutboundDetails-5E0C8257-EB71-400D-8B43-9F8C76ACFFF4.png"
+                }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
@@ -5189,7 +5028,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "5386614B-9CDC-416A-9EDA-AAF95A528E14", 
+                        "id": "97EE2406-CD5D-43F7-BCB8-ADE22B884E66", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -5197,7 +5036,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-5386614B-9CDC-416A-9EDA-AAF95A528E14.png"
+                            "path": "images/Layer-back-97EE2406-CD5D-43F7-BCB8-ADE22B884E66.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -5216,7 +5055,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "8BD71483-3D10-43D1-8294-A505AC5263E6", 
+                        "id": "5250E189-6416-4DE5-BA57-F300A93399C3", 
                         "image": {
                             "frame": {
                                 "height": 10, 
@@ -5224,7 +5063,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 297, 
                                 "y": 46
                             }, 
-                            "path": "images/Layer-apply-8BD71483-3D10-43D1-8294-A505AC5263E6.png"
+                            "path": "images/Layer-refine-5250E189-6416-4DE5-BA57-F300A93399C3.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -5238,12 +5077,12 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "refine", 
                         "visible": true
                     }, 
                     {
                         "children": [], 
-                        "id": "68A85791-C626-4BA0-979F-D5582084DD67", 
+                        "id": "921F6B40-1361-474B-96FC-30F0E24F32D2", 
                         "image": {
                             "frame": {
                                 "height": 19, 
@@ -5251,7 +5090,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 258, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-68A85791-C626-4BA0-979F-D5582084DD67.png"
+                            "path": "images/Layer-graph-921F6B40-1361-474B-96FC-30F0E24F32D2.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -5269,20 +5108,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "E65E0BA2-CE6D-42AB-A0AD-5A3A8DFB66F5", 
+                "id": "A68C6042-5CC3-4434-BEB9-5D21E0CC9203", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-E65E0BA2-CE6D-42AB-A0AD-5A3A8DFB66F5.png"
+                    "path": "images/Layer-AppBarBackWithSubheaderWithActions-A68C6042-5CC3-4434-BEB9-5D21E0CC9203.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -5291,7 +5130,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "appbar", 
+                "name": "AppBarBackWithSubheaderWithActions", 
                 "visible": true
             }, 
             {
@@ -5468,7 +5307,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "x": 0, 
                         "y": 79
                     }, 
-                    "path": "images/Layer-slider-94D42D37-225F-414B-BD41-274AD28534C2.png"
+                    "path": "images/Layer-sliderReturn-94D42D37-225F-414B-BD41-274AD28534C2.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -5482,7 +5321,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "slider", 
+                "name": "sliderReturn", 
                 "visible": true
             }, 
             {
@@ -5901,7 +5740,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "D2A38080-18E9-4594-B3D2-F42C6390BB89", 
+                        "id": "BED08225-313E-4F33-8FBD-D7EF6FAF385B", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -5909,7 +5748,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-D2A38080-18E9-4594-B3D2-F42C6390BB89.png"
+                            "path": "images/Layer-back-BED08225-313E-4F33-8FBD-D7EF6FAF385B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -5928,7 +5767,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "69535A08-0721-4041-923A-432457F31233", 
+                        "id": "50B5D459-FCC2-4245-8EFA-CFC3718CD32B", 
                         "image": {
                             "frame": {
                                 "height": 19, 
@@ -5936,7 +5775,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 323, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-69535A08-0721-4041-923A-432457F31233.png"
+                            "path": "images/Layer-graph-50B5D459-FCC2-4245-8EFA-CFC3718CD32B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -5954,20 +5793,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "B107F9E9-6F92-46A7-B612-11244B13CAEF", 
+                "id": "D9B465C9-42B2-4CE3-ACD2-11E73EB029B5", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-B107F9E9-6F92-46A7-B612-11244B13CAEF.png"
+                    "path": "images/Layer-app_bar-D9B465C9-42B2-4CE3-ACD2-11E73EB029B5.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -6010,49 +5849,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "AB29372C-EB60-4F33-A68E-E368105A1E25", 
+                        "id": "B18B8ABD-1E0E-494C-BB0B-E6C55098BD73", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 149, 
-                                "x": 106, 
-                                "y": 556
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-AB29372C-EB60-4F33-A68E-E368105A1E25.png"
+                            "path": "images/Layer-btn-B18B8ABD-1E0E-494C-BB0B-E6C55098BD73.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 149, 
-                            "x": 106, 
-                            "y": 556
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "FCEEAD7D-4926-4B9E-9194-07EA9425F2CD", 
+                "id": "F0532D4B-3D9E-42BC-81B9-0D3E98FEA98F", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-selectReturnBtn-FCEEAD7D-4926-4B9E-9194-07EA9425F2CD.png"
+                    "path": "images/Layer-selectReturnBtn-F0532D4B-3D9E-42BC-81B9-0D3E98FEA98F.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -6351,20 +6190,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "id": "EDA23A56-3702-4F21-A87F-3A589002266E", 
                         "image": {
                             "frame": {
-                                "height": 458, 
-                                "width": 360, 
-                                "x": 0, 
-                                "y": 131
+                                "height": 427, 
+                                "width": 330, 
+                                "x": 15, 
+                                "y": 146
                             }, 
                             "path": "images/Layer-details-EDA23A56-3702-4F21-A87F-3A589002266E.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 458, 
-                            "width": 360, 
-                            "x": 0, 
-                            "y": 131
+                            "height": 427, 
+                            "width": 330, 
+                            "x": 15, 
+                            "y": 146
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -6429,10 +6268,19 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }
                 ], 
                 "id": "D8696196-97F1-4836-9315-59C89B37B7D2", 
+                "image": {
+                    "frame": {
+                        "height": 794, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 83
+                    }, 
+                    "path": "images/Layer-scrollContentReturnDetails-D8696196-97F1-4836-9315-59C89B37B7D2.png"
+                }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 729, 
+                    "height": 794, 
                     "width": 360, 
                     "x": 0, 
                     "y": 83
@@ -6528,7 +6376,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "67BC92C3-74AD-4CA0-9D16-3EB79B6099AA", 
+                        "id": "17AE251B-B106-4318-861E-4E85A6D2CED5", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -6536,7 +6384,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-67BC92C3-74AD-4CA0-9D16-3EB79B6099AA.png"
+                            "path": "images/Layer-back-17AE251B-B106-4318-861E-4E85A6D2CED5.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -6554,20 +6402,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "DD2CBC81-6001-4169-A166-FB84149999E0", 
+                "id": "DFFB5B05-142C-4E5B-B009-C73A71F892BE", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-DD2CBC81-6001-4169-A166-FB84149999E0.png"
+                    "path": "images/Layer-app_bar-DFFB5B05-142C-4E5B-B009-C73A71F892BE.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -6610,49 +6458,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "B6071BE9-C5C9-49FD-9201-ECC78E174776", 
+                        "id": "89C46D60-32BD-43AB-9A63-EE0C0A5AC6E4", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 131, 
-                                "x": 115, 
-                                "y": 556
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-B6071BE9-C5C9-49FD-9201-ECC78E174776.png"
+                            "path": "images/Layer-btn-89C46D60-32BD-43AB-9A63-EE0C0A5AC6E4.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 131, 
-                            "x": 115, 
-                            "y": 556
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "55DF1861-783F-47C6-8F52-F061862DD0AB", 
+                "id": "2762F9D4-4F22-458F-9F62-64A31D509EA3", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-finalizeBookingBtn-55DF1861-783F-47C6-8F52-F061862DD0AB.png"
+                    "path": "images/Layer-finalizeBookingBtn-2762F9D4-4F22-458F-9F62-64A31D509EA3.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -6833,9 +6681,9 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "id": "2D21EE58-EAC9-450A-9AF5-3A3FA72C4C35", 
                         "image": {
                             "frame": {
-                                "height": 148, 
-                                "width": 360, 
-                                "x": 0, 
+                                "height": 339, 
+                                "width": 330, 
+                                "x": 15, 
                                 "y": 412
                             }, 
                             "path": "images/Layer-summary-2D21EE58-EAC9-450A-9AF5-3A3FA72C4C35.png"
@@ -6843,9 +6691,9 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 148, 
-                            "width": 360, 
-                            "x": 0, 
+                            "height": 339, 
+                            "width": 330, 
+                            "x": 15, 
                             "y": 412
                         }, 
                         "maskFrame": null, 
@@ -7130,13 +6978,22 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }
                 ], 
                 "id": "CD36AC1B-5F0F-46FC-BB97-DBB83512056A", 
+                "image": {
+                    "frame": {
+                        "height": 1228, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 77
+                    }, 
+                    "path": "images/Layer-scrollContentCheckout-CD36AC1B-5F0F-46FC-BB97-DBB83512056A.png"
+                }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 1093, 
+                    "height": 1228, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 80
+                    "y": 77
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -7260,7 +7117,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "id": "71BD1C8B-AD97-429F-A681-88D517E287E9", 
                         "image": {
                             "frame": {
-                                "height": 310, 
+                                "height": 297, 
                                 "width": 360, 
                                 "x": 0, 
                                 "y": 24
@@ -7270,7 +7127,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 310, 
+                            "height": 297, 
                             "width": 360, 
                             "x": 0, 
                             "y": 24
@@ -7287,7 +7144,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 310, 
+                    "height": 297, 
                     "width": 360, 
                     "x": 0, 
                     "y": 24
@@ -7311,7 +7168,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                         "height": 9, 
                                         "width": 31, 
                                         "x": 314, 
-                                        "y": 508
+                                        "y": 494
                                     }, 
                                     "path": "images/Layer-NAV-C5C34CE2-2EC0-4925-89AF-372CF071788C.png"
                                 }, 
@@ -7321,7 +7178,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                     "height": 9, 
                                     "width": 31, 
                                     "x": 314, 
-                                    "y": 508
+                                    "y": 494
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -7338,7 +7195,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                         "height": 150, 
                                         "width": 360, 
                                         "x": 0, 
-                                        "y": 382
+                                        "y": 368
                                     }, 
                                     "path": "images/Layer-Bitmap-BEACDBE0-F1D5-493B-A0B6-27B17CF3CADA.png"
                                 }, 
@@ -7348,13 +7205,13 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                     "height": 150, 
                                     "width": 360, 
                                     "x": 0, 
-                                    "y": 382
+                                    "y": 368
                                 }, 
                                 "maskFrame": {
                                     "height": 150, 
                                     "width": 360, 
                                     "x": 0, 
-                                    "y": 382
+                                    "y": 368
                                 }, 
                                 "metadata": {
                                     "opacity": 1
@@ -7369,7 +7226,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "height": 150, 
                                 "width": 360, 
                                 "x": 0, 
-                                "y": 382
+                                "y": 368
                             }, 
                             "path": "images/Layer-hotelSuggestion-F863E11F-D6FB-4A01-A327-A8087E9AEC33.png"
                         }, 
@@ -7379,7 +7236,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                             "height": 150, 
                             "width": 360, 
                             "x": 0, 
-                            "y": 382
+                            "y": 368
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -7396,7 +7253,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "height": 48, 
                                 "width": 360, 
                                 "x": 0, 
-                                "y": 334
+                                "y": 320
                             }, 
                             "path": "images/Layer-subheader-9472B955-F8B4-420E-8057-B0D24AD4582B.png"
                         }, 
@@ -7406,7 +7263,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                             "height": 48, 
                             "width": 360, 
                             "x": 0, 
-                            "y": 334
+                            "y": 320
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -7423,7 +7280,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     "height": 198, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 334
+                    "y": 320
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -7436,49 +7293,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "56CAB911-10A4-4D5C-ABC9-AA7B9B1131FC", 
+                        "id": "617A875A-48D9-4B51-BE47-3330BAE84502", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 79, 
-                                "x": 141, 
-                                "y": 556
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-56CAB911-10A4-4D5C-ABC9-AA7B9B1131FC.png"
+                            "path": "images/Layer-btn-617A875A-48D9-4B51-BE47-3330BAE84502.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 79, 
-                            "x": 141, 
-                            "y": 556
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "CE395DDC-5970-41E1-AA8C-AB60036D591D", 
+                "id": "29CD5C76-A80B-45CF-BC5A-49A0B8830FB3", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-viewMore-CE395DDC-5970-41E1-AA8C-AB60036D591D.png"
+                    "path": "images/Layer-viewMore-29CD5C76-A80B-45CF-BC5A-49A0B8830FB3.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {

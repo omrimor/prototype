@@ -3,638 +3,1043 @@
 
 
 window.__imported__ = window.__imported__ || {};
-window.__imported__["flightBooking-Android-01/layers.json.js"] = [
+window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
     {
         "children": [
             {
-                "children": [], 
-                "id": "5004B2DD-5D70-4BDA-A644-72787859C118", 
-                "image": {
-                    "frame": {
-                        "height": 60, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 532
-                    }, 
-                    "path": "images/Layer-findFlightsBtn-5004B2DD-5D70-4BDA-A644-72787859C118.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 60, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 532
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "findFlightsBtn", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "683A2C0E-882F-4CC5-890B-374D7F742075", 
-                "image": {
-                    "frame": {
-                        "height": 30, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-StatusBarBlack-683A2C0E-882F-4CC5-890B-374D7F742075.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 30, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "StatusBarBlack", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "100B8A70-98AD-4C54-B5DC-A918B5BB358D", 
-                        "image": {
-                            "frame": {
-                                "height": 16, 
-                                "width": 17, 
-                                "x": 19, 
-                                "y": 44
-                            }, 
-                            "path": "images/Layer-back-100B8A70-98AD-4C54-B5DC-A918B5BB358D.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 16, 
-                            "width": 17, 
-                            "x": 19, 
-                            "y": 44
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 0.87
-                        }, 
-                        "name": "back", 
-                        "visible": true
-                    }
-                ], 
-                "id": "CBDE96A2-940B-4D5C-BF24-E5A17B711E84", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-AppBarBackNormal-CBDE96A2-940B-4D5C-BF24-E5A17B711E84.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "AppBarBackNormal", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "1FC1DBBE-A839-4B04-BDF7-7AFACB2D009D", 
-                "image": {
-                    "frame": {
-                        "height": 2, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 80
-                    }, 
-                    "path": "images/Layer-DividerGradient-1FC1DBBE-A839-4B04-BDF7-7AFACB2D009D.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 2, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 80
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "DividerGradient", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "290E2B22-16BA-45B8-8962-CA5BA79E74EA", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 592
-                    }, 
-                    "path": "images/Layer-navbar-290E2B22-16BA-45B8-8962-CA5BA79E74EA.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 592
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "navbar", 
-                "visible": true
-            }, 
-            {
                 "children": [
                     {
                         "children": [
                             {
                                 "children": [], 
-                                "id": "5ED95945-92A9-4E29-9478-5DF413F7FA90", 
+                                "id": "1E5EE178-12B4-430B-987D-7AA214505BE3", 
                                 "image": {
                                     "frame": {
-                                        "height": 9, 
-                                        "width": 21, 
+                                        "height": 48, 
+                                        "width": 328, 
                                         "x": 16, 
-                                        "y": 232
+                                        "y": 534
                                     }, 
-                                    "path": "images/Layer-Page_1-5ED95945-92A9-4E29-9478-5DF413F7FA90.png"
+                                    "path": "images/Layer-btn-1E5EE178-12B4-430B-987D-7AA214505BE3.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 9, 
-                                    "width": 21, 
+                                    "height": 48, 
+                                    "width": 328, 
                                     "x": 16, 
-                                    "y": 232
+                                    "y": 534
                                 }, 
-                                "maskFrame": {
-                                    "height": 9, 
-                                    "width": 21, 
-                                    "x": 16, 
-                                    "y": 232
-                                }, 
+                                "maskFrame": null, 
                                 "metadata": {
                                     "opacity": 1
                                 }, 
-                                "name": "Page1", 
+                                "name": "btn", 
                                 "visible": true
                             }
                         ], 
-                        "id": "217D4665-EBDF-4F23-B427-57DF89697F85", 
+                        "id": "8673EBB6-5FBD-4CBD-A1FC-F5ACEA237E5C", 
                         "image": {
                             "frame": {
-                                "height": 14, 
-                                "width": 21, 
-                                "x": 16, 
-                                "y": 232
+                                "height": 78, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 514
                             }, 
-                            "path": "images/Layer-departure_icon-217D4665-EBDF-4F23-B427-57DF89697F85.png"
+                            "path": "images/Layer-findMyFlights-8673EBB6-5FBD-4CBD-A1FC-F5ACEA237E5C.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 14, 
-                            "width": 21, 
-                            "x": 16, 
-                            "y": 232
+                            "height": 78, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 514
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "departureicon", 
+                        "name": "findMyFlights", 
                         "visible": true
-                    }
-                ], 
-                "id": "8AA56BFC-6CF2-4F69-AFA3-81544F7AB189", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 195
                     }, 
-                    "path": "images/Layer-departure-8AA56BFC-6CF2-4F69-AFA3-81544F7AB189.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 195
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "departure", 
-                "visible": true
-            }, 
-            {
-                "children": [
+                    {
+                        "children": [], 
+                        "id": "5F9EA509-7AD4-42CC-9967-2A06C6E7AFE0", 
+                        "image": {
+                            "frame": {
+                                "height": 30, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "path": "images/Layer-StatusBarBlack-5F9EA509-7AD4-42CC-9967-2A06C6E7AFE0.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 30, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 0
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "StatusBarBlack", 
+                        "visible": true
+                    }, 
                     {
                         "children": [
                             {
                                 "children": [], 
-                                "id": "038D580B-4F72-428B-A57B-979422DFD573", 
+                                "id": "CFBE3E89-4BFC-4E1A-9C7E-868FB209E438", 
                                 "image": {
                                     "frame": {
-                                        "height": 21, 
-                                        "width": 23, 
-                                        "x": 16, 
-                                        "y": 318
+                                        "height": 16, 
+                                        "width": 17, 
+                                        "x": 19, 
+                                        "y": 44
                                     }, 
-                                    "path": "images/Layer-Page_1-038D580B-4F72-428B-A57B-979422DFD573.png"
+                                    "path": "images/Layer-back-CFBE3E89-4BFC-4E1A-9C7E-868FB209E438.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 21, 
-                                    "width": 23, 
-                                    "x": 16, 
-                                    "y": 318
+                                    "height": 16, 
+                                    "width": 17, 
+                                    "x": 19, 
+                                    "y": 44
                                 }, 
-                                "maskFrame": {
-                                    "height": 21, 
-                                    "width": 23, 
-                                    "x": 16, 
-                                    "y": 318
-                                }, 
+                                "maskFrame": null, 
                                 "metadata": {
-                                    "opacity": 1
+                                    "opacity": 0.87
                                 }, 
-                                "name": "Page1", 
+                                "name": "back", 
                                 "visible": true
                             }
                         ], 
-                        "id": "F7BE3441-47D5-4B18-97E8-A66C164A7D43", 
+                        "id": "198FEFBD-081F-422E-AC6F-F51A19590245", 
                         "image": {
                             "frame": {
-                                "height": 21, 
-                                "width": 23, 
-                                "x": 16, 
-                                "y": 318
+                                "height": 92, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 0
                             }, 
-                            "path": "images/Layer-departure_icon_copy-F7BE3441-47D5-4B18-97E8-A66C164A7D43.png"
+                            "path": "images/Layer-AppBarBackNormal-198FEFBD-081F-422E-AC6F-F51A19590245.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 21, 
-                            "width": 23, 
-                            "x": 16, 
-                            "y": 318
+                            "height": 92, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 0
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "departureiconcopy", 
+                        "name": "AppBarBackNormal", 
                         "visible": true
-                    }
-                ], 
-                "id": "6F73F3FC-28E8-482C-8BA4-C8D4CC32B730", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 283
                     }, 
-                    "path": "images/Layer-arrivalClick-6F73F3FC-28E8-482C-8BA4-C8D4CC32B730.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 283
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "arrivalClick", 
-                "visible": true
-            }, 
-            {
-                "children": [
                     {
                         "children": [], 
-                        "id": "D1F100EC-B8BC-410D-8BB7-E50A6EDE238B", 
+                        "id": "56677073-4F27-4630-AB63-35343F9CC0EF", 
                         "image": {
                             "frame": {
-                                "height": 74, 
-                                "width": 1, 
-                                "x": 180, 
-                                "y": 370
+                                "height": 48, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 592
                             }, 
-                            "path": "images/Layer-Line-D1F100EC-B8BC-410D-8BB7-E50A6EDE238B.png"
+                            "path": "images/Layer-navbar-56677073-4F27-4630-AB63-35343F9CC0EF.png"
                         }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 48, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 592
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "navbar", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "3C0C86CF-5710-4546-9DB2-214FFD999538", 
+                        "image": {
+                            "frame": {
+                                "height": 88, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 195
+                            }, 
+                            "path": "images/Layer-departure-3C0C86CF-5710-4546-9DB2-214FFD999538.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 88, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 195
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "departure", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "32DBCBE1-01E5-43FB-8E36-F99E6B0647F3", 
+                        "image": {
+                            "frame": {
+                                "height": 88, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 283
+                            }, 
+                            "path": "images/Layer-arrival-32DBCBE1-01E5-43FB-8E36-F99E6B0647F3.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 88, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 283
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "arrival", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "C2F8F160-9B5D-4F5A-883F-9AAB90C2BC17", 
+                                "image": {
+                                    "frame": {
+                                        "height": 74, 
+                                        "width": 1, 
+                                        "x": 180, 
+                                        "y": 370
+                                    }, 
+                                    "path": "images/Layer-Line-C2F8F160-9B5D-4F5A-883F-9AAB90C2BC17.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 74, 
+                                    "width": 1, 
+                                    "x": 180, 
+                                    "y": 370
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Line", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "5F4235AC-768B-427E-B532-6102E49F4468", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 19, 
+                                                "width": 28, 
+                                                "x": 138, 
+                                                "y": 398
+                                            }, 
+                                            "path": "images/Layer-dateIconDeparture-5F4235AC-768B-427E-B532-6102E49F4468.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 19, 
+                                            "width": 28, 
+                                            "x": 138, 
+                                            "y": 398
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "dateIconDeparture", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "26669B12-4DD3-470D-95FC-807714D5F2A9", 
+                                "image": {
+                                    "frame": {
+                                        "height": 72, 
+                                        "width": 180, 
+                                        "x": 0, 
+                                        "y": 371
+                                    }, 
+                                    "path": "images/Layer-departureDate-26669B12-4DD3-470D-95FC-807714D5F2A9.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 72, 
+                                    "width": 180, 
+                                    "x": 0, 
+                                    "y": 371
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "departureDate", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "D61062AC-8ABE-418A-A8C8-C6A4F6F3200C", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 19, 
+                                                "width": 29, 
+                                                "x": 315, 
+                                                "y": 398
+                                            }, 
+                                            "path": "images/Layer-dateIconReturn-D61062AC-8ABE-418A-A8C8-C6A4F6F3200C.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 19, 
+                                            "width": 29, 
+                                            "x": 315, 
+                                            "y": 398
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "dateIconReturn", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "C418E145-7D3C-4FBC-88ED-93927D985727", 
+                                "image": {
+                                    "frame": {
+                                        "height": 72, 
+                                        "width": 180, 
+                                        "x": 180, 
+                                        "y": 371
+                                    }, 
+                                    "path": "images/Layer-returnDate-C418E145-7D3C-4FBC-88ED-93927D985727.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 72, 
+                                    "width": 180, 
+                                    "x": 180, 
+                                    "y": 371
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "returnDate", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "0D7B0125-7B69-4E24-9802-0232A296A707", 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
                             "height": 74, 
-                            "width": 1, 
-                            "x": 180, 
+                            "width": 360, 
+                            "x": 0, 
                             "y": 370
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Line", 
+                        "name": "datesHomeActive", 
                         "visible": true
                     }, 
                     {
                         "children": [
                             {
                                 "children": [], 
-                                "id": "ECBA631C-607C-46A0-B2F0-91B514D5365F", 
+                                "id": "26BC9BBE-B200-4E87-8644-D40CBEDBDA75", 
                                 "image": {
                                     "frame": {
-                                        "height": 19, 
-                                        "width": 28, 
-                                        "x": 16, 
-                                        "y": 398
+                                        "height": 20, 
+                                        "width": 20, 
+                                        "x": 18, 
+                                        "y": 492
                                     }, 
-                                    "path": "images/Layer-Shape__Rectangle_46__3-ECBA631C-607C-46A0-B2F0-91B514D5365F.png"
+                                    "path": "images/Layer-radioOff-26BC9BBE-B200-4E87-8644-D40CBEDBDA75.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 19, 
-                                    "width": 28, 
-                                    "x": 16, 
-                                    "y": 398
+                                    "height": 20, 
+                                    "width": 20, 
+                                    "x": 18, 
+                                    "y": 492
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
                                     "opacity": 1
                                 }, 
-                                "name": "ShapeRectangle463", 
+                                "name": "radioOff", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "9BB420E9-271A-4AC8-89DB-5457001BA783", 
+                                "image": {
+                                    "frame": {
+                                        "height": 20, 
+                                        "width": 20, 
+                                        "x": 198, 
+                                        "y": 492
+                                    }, 
+                                    "path": "images/Layer-radioOn-9BB420E9-271A-4AC8-89DB-5457001BA783.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 20, 
+                                    "width": 20, 
+                                    "x": 198, 
+                                    "y": 492
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "radioOn", 
                                 "visible": true
                             }
                         ], 
-                        "id": "51B3177B-B452-4DDB-894A-AD2D2F3FA2DA", 
+                        "id": "B1687501-F106-4821-B546-C47BC180A54F", 
                         "image": {
                             "frame": {
-                                "height": 72, 
-                                "width": 180, 
+                                "height": 89, 
+                                "width": 360, 
                                 "x": 0, 
-                                "y": 371
+                                "y": 443
                             }, 
-                            "path": "images/Layer-departureDate-51B3177B-B452-4DDB-894A-AD2D2F3FA2DA.png"
+                            "path": "images/Layer-cabinClass-B1687501-F106-4821-B546-C47BC180A54F.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 72, 
-                            "width": 180, 
+                            "height": 89, 
+                            "width": 360, 
                             "x": 0, 
-                            "y": 371
+                            "y": 443
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "departureDate", 
+                        "name": "cabinClass", 
                         "visible": true
                     }, 
                     {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "98FE3058-644F-4F85-914E-4FFBEEE44242", 
-                                "image": {
-                                    "frame": {
-                                        "height": 19, 
-                                        "width": 29, 
-                                        "x": 193, 
-                                        "y": 398
-                                    }, 
-                                    "path": "images/Layer-Shape__Rectangle_46__3_Copy-98FE3058-644F-4F85-914E-4FFBEEE44242.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 19, 
-                                    "width": 29, 
-                                    "x": 193, 
-                                    "y": 398
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "ShapeRectangle463Copy", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "F3ED6F89-89BC-4617-ADB8-E0891B1F565E", 
+                        "children": [], 
+                        "id": "DAFA6EE6-3CAA-4C2C-9EB9-F8D92EB1C60B", 
                         "image": {
                             "frame": {
-                                "height": 72, 
-                                "width": 180, 
-                                "x": 180, 
-                                "y": 371
+                                "height": 113, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 82
                             }, 
-                            "path": "images/Layer-returnDate-F3ED6F89-89BC-4617-ADB8-E0891B1F565E.png"
+                            "path": "images/Layer-mainImage-DAFA6EE6-3CAA-4C2C-9EB9-F8D92EB1C60B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 72, 
-                            "width": 180, 
-                            "x": 180, 
-                            "y": 371
+                            "height": 113, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 82
                         }, 
-                        "maskFrame": null, 
+                        "maskFrame": {
+                            "height": 113, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 82
+                        }, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "returnDate", 
+                        "name": "mainImage", 
                         "visible": true
                     }
                 ], 
-                "id": "7FF126F2-B82C-4950-863E-7137E420ED71", 
+                "id": "D8003CA9-16FC-4FE8-8230-527D6A9ADCC4", 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 74, 
+                    "height": 640, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 370
+                    "y": 0
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "dates", 
+                "name": "filled", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
-                        "children": [], 
-                        "id": "FCCD6B23-F0D8-45C7-AEAF-B7D9BCDE0B0D", 
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "AAD98CBE-B8FF-423E-A4C9-FE71FE7B06CC", 
+                                "image": {
+                                    "frame": {
+                                        "height": 48, 
+                                        "width": 328, 
+                                        "x": 16, 
+                                        "y": 534
+                                    }, 
+                                    "path": "images/Layer-btn-AAD98CBE-B8FF-423E-A4C9-FE71FE7B06CC.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 48, 
+                                    "width": 328, 
+                                    "x": 16, 
+                                    "y": 534
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "btn", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "D361916E-A8C0-4212-891A-A8E289A76FF4", 
                         "image": {
                             "frame": {
-                                "height": 20, 
-                                "width": 20, 
-                                "x": 18, 
-                                "y": 492
+                                "height": 78, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 514
                             }, 
-                            "path": "images/Layer-radioOff-FCCD6B23-F0D8-45C7-AEAF-B7D9BCDE0B0D.png"
+                            "path": "images/Layer-findFlightsBtn-D361916E-A8C0-4212-891A-A8E289A76FF4.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 20, 
-                            "width": 20, 
-                            "x": 18, 
-                            "y": 492
+                            "height": 78, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 514
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "radioOff", 
+                        "name": "findFlightsBtn", 
                         "visible": true
                     }, 
                     {
                         "children": [], 
-                        "id": "1418F0A6-9BAC-4A39-B460-5D8EC2BC3A90", 
+                        "id": "AC018F6E-4BB4-45E0-89AA-F6706E630DB2", 
                         "image": {
                             "frame": {
-                                "height": 20, 
-                                "width": 20, 
-                                "x": 198, 
-                                "y": 492
+                                "height": 30, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 0
                             }, 
-                            "path": "images/Layer-radioOn-1418F0A6-9BAC-4A39-B460-5D8EC2BC3A90.png"
+                            "path": "images/Layer-StatusBarBlack-AC018F6E-4BB4-45E0-89AA-F6706E630DB2.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 20, 
-                            "width": 20, 
-                            "x": 198, 
-                            "y": 492
+                            "height": 30, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 0
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "radioOn", 
+                        "name": "StatusBarBlack", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "D55760F2-2CE1-473C-AA63-F5C9181AB37D", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 17, 
+                                        "x": 19, 
+                                        "y": 44
+                                    }, 
+                                    "path": "images/Layer-back-D55760F2-2CE1-473C-AA63-F5C9181AB37D.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 17, 
+                                    "x": 19, 
+                                    "y": 44
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 0.87
+                                }, 
+                                "name": "back", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "92E825D0-0C56-46F0-A99F-F5CBEC339C81", 
+                        "image": {
+                            "frame": {
+                                "height": 92, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "path": "images/Layer-AppBarBackNormal-92E825D0-0C56-46F0-A99F-F5CBEC339C81.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 92, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 0
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "AppBarBackNormal", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "CFB6AD45-6790-4B98-AA27-6973198B006B", 
+                        "image": {
+                            "frame": {
+                                "height": 48, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 592
+                            }, 
+                            "path": "images/Layer-navbar-CFB6AD45-6790-4B98-AA27-6973198B006B.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 48, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 592
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "navbar", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "22401411-899E-4827-954F-B18DB0BDEEAB", 
+                        "image": {
+                            "frame": {
+                                "height": 88, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 195
+                            }, 
+                            "path": "images/Layer-departure-22401411-899E-4827-954F-B18DB0BDEEAB.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 88, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 195
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "departure", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "17A473BE-DEC6-49F8-A934-7F8DB59771B6", 
+                        "image": {
+                            "frame": {
+                                "height": 88, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 283
+                            }, 
+                            "path": "images/Layer-arrivalClick-17A473BE-DEC6-49F8-A934-7F8DB59771B6.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 88, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 283
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "arrivalClick", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "86EF8E8D-A63D-439A-9C1E-9780D784DEAB", 
+                                "image": {
+                                    "frame": {
+                                        "height": 74, 
+                                        "width": 1, 
+                                        "x": 180, 
+                                        "y": 370
+                                    }, 
+                                    "path": "images/Layer-Line-86EF8E8D-A63D-439A-9C1E-9780D784DEAB.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 74, 
+                                    "width": 1, 
+                                    "x": 180, 
+                                    "y": 370
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Line", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "FAFDD0C8-4AC6-4CCE-82E5-398B23050003", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 19, 
+                                                "width": 28, 
+                                                "x": 138, 
+                                                "y": 398
+                                            }, 
+                                            "path": "images/Layer-dateIconDeparture-FAFDD0C8-4AC6-4CCE-82E5-398B23050003.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 19, 
+                                            "width": 28, 
+                                            "x": 138, 
+                                            "y": 398
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "dateIconDeparture", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "BCE36241-0E97-48EE-8E39-334EA6085FE9", 
+                                "image": {
+                                    "frame": {
+                                        "height": 72, 
+                                        "width": 180, 
+                                        "x": 0, 
+                                        "y": 371
+                                    }, 
+                                    "path": "images/Layer-departureDate-BCE36241-0E97-48EE-8E39-334EA6085FE9.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 72, 
+                                    "width": 180, 
+                                    "x": 0, 
+                                    "y": 371
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "departureDate", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "405AF437-1FD1-4503-8474-769645669181", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 19, 
+                                                "width": 29, 
+                                                "x": 315, 
+                                                "y": 398
+                                            }, 
+                                            "path": "images/Layer-dateIconReturn-405AF437-1FD1-4503-8474-769645669181.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 19, 
+                                            "width": 29, 
+                                            "x": 315, 
+                                            "y": 398
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "dateIconReturn", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "983EC96A-4F93-4503-A8C2-E9C562B9EE4F", 
+                                "image": {
+                                    "frame": {
+                                        "height": 72, 
+                                        "width": 180, 
+                                        "x": 180, 
+                                        "y": 371
+                                    }, 
+                                    "path": "images/Layer-returnDate-983EC96A-4F93-4503-A8C2-E9C562B9EE4F.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 72, 
+                                    "width": 180, 
+                                    "x": 180, 
+                                    "y": 371
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "returnDate", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "4587FDAD-DC9B-405C-AE1D-3026E3062538", 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 74, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 370
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "dates", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "EDAACE5B-A6A2-479C-8559-8411AA1C5C9A", 
+                                "image": {
+                                    "frame": {
+                                        "height": 20, 
+                                        "width": 20, 
+                                        "x": 18, 
+                                        "y": 492
+                                    }, 
+                                    "path": "images/Layer-radioOff-EDAACE5B-A6A2-479C-8559-8411AA1C5C9A.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 20, 
+                                    "width": 20, 
+                                    "x": 18, 
+                                    "y": 492
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "radioOff", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "A0380CD7-8BD8-4490-8EFC-C9E218479EBE", 
+                                "image": {
+                                    "frame": {
+                                        "height": 20, 
+                                        "width": 20, 
+                                        "x": 198, 
+                                        "y": 492
+                                    }, 
+                                    "path": "images/Layer-radioOn-A0380CD7-8BD8-4490-8EFC-C9E218479EBE.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 20, 
+                                    "width": 20, 
+                                    "x": 198, 
+                                    "y": 492
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "radioOn", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "6FBE7A90-A2C3-4E23-871C-0AAF70B262C8", 
+                        "image": {
+                            "frame": {
+                                "height": 89, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 443
+                            }, 
+                            "path": "images/Layer-cabinClass-6FBE7A90-A2C3-4E23-871C-0AAF70B262C8.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 89, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 443
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "cabinClass", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "4AD7CC16-460A-4210-A1CA-A550B475721C", 
+                        "image": {
+                            "frame": {
+                                "height": 113, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 82
+                            }, 
+                            "path": "images/Layer-mainImage-4AD7CC16-460A-4210-A1CA-A550B475721C.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 113, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 82
+                        }, 
+                        "maskFrame": {
+                            "height": 113, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 82
+                        }, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "mainImage", 
                         "visible": true
                     }
                 ], 
-                "id": "8F567B52-1B3E-49DE-A67B-3CFDE665B978", 
-                "image": {
-                    "frame": {
-                        "height": 89, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 443
-                    }, 
-                    "path": "images/Layer-cabinClass-8F567B52-1B3E-49DE-A67B-3CFDE665B978.png"
-                }, 
+                "id": "ACD4DED1-D762-4364-90B7-87F99310C090", 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 89, 
+                    "height": 640, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 443
+                    "y": 0
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "cabinClass", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "930F1561-D98C-44DF-9DB1-F11546A479A1", 
-                "image": {
-                    "frame": {
-                        "height": 113, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 82
-                    }, 
-                    "path": "images/Layer-mainImage-930F1561-D98C-44DF-9DB1-F11546A479A1.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 113, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 82
-                }, 
-                "maskFrame": {
-                    "height": 113, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 82
-                }, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "mainImage", 
+                "name": "missing", 
                 "visible": true
             }
         ], 
-        "id": "8F580622-1D80-4925-8822-441FD860DCDD", 
+        "id": "219631D4-A7BA-4B2D-8A5D-18B0E6BBE576", 
         "imageType": "png", 
         "kind": "artboard", 
         "layerFrame": {
             "height": 640, 
             "width": 360, 
-            "x": -2683, 
-            "y": 1001
+            "x": -1795, 
+            "y": 172
         }, 
         "maskFrame": null, 
         "metadata": {}, 
-        "name": "homeMissing", 
+        "name": "home", 
         "visible": true
     }, 
     {
         "children": [
             {
                 "children": [], 
-                "id": "4659AC2E-22CF-43DD-BC8D-1FA56BF24D1B", 
+                "id": "68D5E429-C90A-4982-B90C-5534BB955882", 
                 "image": {
                     "frame": {
                         "height": 30, 
@@ -642,7 +1047,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-StatusBarBlack-4659AC2E-22CF-43DD-BC8D-1FA56BF24D1B.png"
+                    "path": "images/Layer-StatusBarBlack-68D5E429-C90A-4982-B90C-5534BB955882.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -661,7 +1066,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
             }, 
             {
                 "children": [], 
-                "id": "7334CA36-CAAF-4E08-BBC0-B121BD256507", 
+                "id": "E72F0922-9990-4722-8A35-50CB82F79D03", 
                 "image": {
                     "frame": {
                         "height": 16, 
@@ -669,7 +1074,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 72, 
                         "y": 46
                     }, 
-                    "path": "images/Layer-placeHolderText-7334CA36-CAAF-4E08-BBC0-B121BD256507.png"
+                    "path": "images/Layer-placeHolderText-E72F0922-9990-4722-8A35-50CB82F79D03.png"
                 }, 
                 "imageType": "png", 
                 "kind": "text", 
@@ -698,7 +1103,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "2D4832E7-EEFF-482A-A4BC-FC197D3F5B56", 
+                        "id": "53DA6194-F578-44FE-8848-9C5C8CD38D27", 
                         "image": {
                             "frame": {
                                 "height": 24, 
@@ -706,7 +1111,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 16, 
                                 "y": 40
                             }, 
-                            "path": "images/Layer-back-2D4832E7-EEFF-482A-A4BC-FC197D3F5B56.png"
+                            "path": "images/Layer-back-53DA6194-F578-44FE-8848-9C5C8CD38D27.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -724,20 +1129,20 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "2B1DEE83-C29F-4038-82DB-4F3A7C64E439", 
+                "id": "4F46071B-B77F-4C8A-8F4D-7CCA61711AC2", 
                 "image": {
                     "frame": {
-                        "height": 88, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-AppBarSearchPlaceHolder-2B1DEE83-C29F-4038-82DB-4F3A7C64E439.png"
+                    "path": "images/Layer-AppBarSearchPlaceHolder-4F46071B-B77F-4C8A-8F4D-7CCA61711AC2.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 88, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -750,172 +1155,10 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "visible": true
             }, 
             {
-                "children": [], 
-                "id": "71B7B7A4-5F23-4E85-9911-BB37AD8CA61E", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 592
-                    }, 
-                    "path": "images/Layer-navbar-71B7B7A4-5F23-4E85-9911-BB37AD8CA61E.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 592
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "navbar", 
-                "visible": true
-            }, 
-            {
                 "children": [
                     {
                         "children": [], 
-                        "id": "625280F7-0129-455A-BBFE-A67C1FC115AE", 
-                        "image": {
-                            "frame": {
-                                "height": 16, 
-                                "width": 19, 
-                                "x": 18, 
-                                "y": 108
-                            }, 
-                            "path": "images/Layer-recentIcon-625280F7-0129-455A-BBFE-A67C1FC115AE.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 16, 
-                            "width": 19, 
-                            "x": 18, 
-                            "y": 108
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "recentIcon", 
-                        "visible": true
-                    }
-                ], 
-                "id": "1AC7D337-1AD2-4A11-B548-9A16D4F30A71", 
-                "image": {
-                    "frame": {
-                        "height": 35, 
-                        "width": 79, 
-                        "x": 18, 
-                        "y": 100
-                    }, 
-                    "path": "images/Layer-recentCellItem-1AC7D337-1AD2-4A11-B548-9A16D4F30A71.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 35, 
-                    "width": 79, 
-                    "x": 18, 
-                    "y": 100
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "recentCellItem", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "99044ED8-53ED-40A7-A89E-D9F768C5ACF5", 
-                "image": {
-                    "frame": {
-                        "height": 276, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 322
-                    }, 
-                    "path": "images/Layer-keyboardLightRecent-99044ED8-53ED-40A7-A89E-D9F768C5ACF5.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 276, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 322
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "keyboardLightRecent", 
-                "visible": true
-            }
-        ], 
-        "id": "EF44A852-6197-43A5-BFB4-978E7D30BBC7", 
-        "image": {
-            "frame": {
-                "height": 640, 
-                "width": 360, 
-                "x": -2288, 
-                "y": 1001
-            }, 
-            "path": "images/Layer-searchRecent-EF44A852-6197-43A5-BFB4-978E7D30BBC7.png"
-        }, 
-        "imageType": "png", 
-        "kind": "artboard", 
-        "layerFrame": {
-            "height": 640, 
-            "width": 360, 
-            "x": -2288, 
-            "y": 1001
-        }, 
-        "maskFrame": null, 
-        "metadata": {}, 
-        "name": "searchRecent", 
-        "visible": false
-    }, 
-    {
-        "children": [
-            {
-                "children": [], 
-                "id": "E906CD39-638E-48F8-A154-92FE711D53FA", 
-                "image": {
-                    "frame": {
-                        "height": 30, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-StatusBarBlack-E906CD39-638E-48F8-A154-92FE711D53FA.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 30, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "StatusBarBlack", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "28910B83-545D-419C-9721-96C423E5126A", 
+                        "id": "E8DD02DC-31DD-4C53-9717-26277661E74D", 
                         "image": {
                             "frame": {
                                 "height": 14, 
@@ -923,7 +1166,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 325, 
                                 "y": 45
                             }, 
-                            "path": "images/Layer-closeX-28910B83-545D-419C-9721-96C423E5126A.png"
+                            "path": "images/Layer-closeX-E8DD02DC-31DD-4C53-9717-26277661E74D.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -942,7 +1185,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "90640C4D-117D-4461-927A-51DE6128D92B", 
+                        "id": "5A18B79D-0D5C-402F-85D9-2E95BC42F093", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -950,7 +1193,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-90640C4D-117D-4461-927A-51DE6128D92B.png"
+                            "path": "images/Layer-back-5A18B79D-0D5C-402F-85D9-2E95BC42F093.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -968,7 +1211,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "71562153-CDF7-4923-BF9B-DD3608724016", 
+                "id": "D2F955AF-4304-4FA6-B155-3F484B95982C", 
                 "image": {
                     "frame": {
                         "height": 88, 
@@ -976,7 +1219,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-AppBarSearchTyping-71562153-CDF7-4923-BF9B-DD3608724016.png"
+                    "path": "images/Layer-AppBarSearchTyping-D2F955AF-4304-4FA6-B155-3F484B95982C.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -995,7 +1238,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
             }, 
             {
                 "children": [], 
-                "id": "D75DC247-32E6-43D2-B870-04625DEFEA19", 
+                "id": "016806C8-8ED0-4E18-9295-9DA437A09314", 
                 "image": {
                     "frame": {
                         "height": 48, 
@@ -1003,7 +1246,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 592
                     }, 
-                    "path": "images/Layer-navbar-D75DC247-32E6-43D2-B870-04625DEFEA19.png"
+                    "path": "images/Layer-navbar-016806C8-8ED0-4E18-9295-9DA437A09314.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -1021,37 +1264,234 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "visible": true
             }, 
             {
-                "children": [], 
-                "id": "CD4E4DBB-BBA0-42DE-8B9D-2D949AC5113B", 
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "01177AFE-8ADE-46FB-B57E-662E28B27C95", 
+                                "image": {
+                                    "frame": {
+                                        "height": 9, 
+                                        "width": 319, 
+                                        "x": 32, 
+                                        "y": 391
+                                    }, 
+                                    "path": "images/Layer-numbers-01177AFE-8ADE-46FB-B57E-662E28B27C95.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 9, 
+                                    "width": 319, 
+                                    "x": 32, 
+                                    "y": 391
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 0.8
+                                }, 
+                                "name": "numbers", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "64CA1A95-904C-4E6D-962C-49F10EC33254", 
+                                "image": {
+                                    "frame": {
+                                        "height": 120, 
+                                        "width": 326, 
+                                        "x": 19, 
+                                        "y": 401
+                                    }, 
+                                    "path": "images/Layer-letters-64CA1A95-904C-4E6D-962C-49F10EC33254.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 120, 
+                                    "width": 326, 
+                                    "x": 19, 
+                                    "y": 401
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "letters", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "1B45C403-33E9-4091-8636-6391E9A6FB37", 
+                                "image": {
+                                    "frame": {
+                                        "height": 42, 
+                                        "width": 40, 
+                                        "x": 311, 
+                                        "y": 544
+                                    }, 
+                                    "path": "images/Layer-return-1B45C403-33E9-4091-8636-6391E9A6FB37.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 42, 
+                                    "width": 40, 
+                                    "x": 311, 
+                                    "y": 544
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "return", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "E12E194F-EB15-47A1-911B-F9545802A549", 
+                        "image": {
+                            "frame": {
+                                "height": 226, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 368
+                            }, 
+                            "path": "images/Layer-main_keyboard-E12E194F-EB15-47A1-911B-F9545802A549.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 226, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 368
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "mainkeyboard", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "28B7325E-01F6-4C2A-A915-6500B43B263C", 
+                        "image": {
+                            "frame": {
+                                "height": 48, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 322
+                            }, 
+                            "path": "images/Layer-suggestions-28B7325E-01F6-4C2A-A915-6500B43B263C.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 48, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 322
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "suggestions", 
+                        "visible": true
+                    }
+                ], 
+                "id": "FD473313-C042-4CA3-BF25-8C95FB3EEAF0", 
                 "image": {
                     "frame": {
-                        "height": 276, 
+                        "height": 274, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 324
+                        "y": 320
                     }, 
-                    "path": "images/Layer-keyboard_light-CD4E4DBB-BBA0-42DE-8B9D-2D949AC5113B.png"
+                    "path": "images/Layer-keyboardLightRecent-FD473313-C042-4CA3-BF25-8C95FB3EEAF0.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 276, 
+                    "height": 274, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 324
+                    "y": 320
                 }, 
-                "maskFrame": null, 
+                "maskFrame": {
+                    "height": 268, 
+                    "width": 360, 
+                    "x": 0, 
+                    "y": 322
+                }, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "keyboardlight", 
+                "name": "keyboardLightRecent", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
                         "children": [], 
-                        "id": "2D231395-FE77-4A4D-9761-381B3FB05B53", 
+                        "id": "FF2911AA-CEA2-4B3F-96CC-A493D8C5BEEA", 
+                        "image": {
+                            "frame": {
+                                "height": 16, 
+                                "width": 19, 
+                                "x": 18, 
+                                "y": 111
+                            }, 
+                            "path": "images/Layer-recentIcon-FF2911AA-CEA2-4B3F-96CC-A493D8C5BEEA.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 16, 
+                            "width": 19, 
+                            "x": 18, 
+                            "y": 111
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "recentIcon", 
+                        "visible": true
+                    }
+                ], 
+                "id": "1B16361D-DB43-4C29-82B3-A4C2DABEBD70", 
+                "image": {
+                    "frame": {
+                        "height": 72, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 83
+                    }, 
+                    "path": "images/Layer-recentCellItem-1B16361D-DB43-4C29-82B3-A4C2DABEBD70.png"
+                }, 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 72, 
+                    "width": 360, 
+                    "x": 0, 
+                    "y": 83
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "recentCellItem", 
+                "visible": true
+            }, 
+            {
+                "children": [
+                    {
+                        "children": [], 
+                        "id": "6FD6C75A-E61C-4527-ADBF-191274E8840B", 
                         "image": {
                             "frame": {
                                 "height": 18, 
@@ -1059,7 +1499,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 21, 
                                 "y": 107
                             }, 
-                            "path": "images/Layer-recentIcon-2D231395-FE77-4A4D-9761-381B3FB05B53.png"
+                            "path": "images/Layer-recentIcon-6FD6C75A-E61C-4527-ADBF-191274E8840B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -1077,7 +1517,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "A602284F-FBED-4505-8B54-169608444769", 
+                "id": "3452B1B4-B1B1-4970-A87E-43FF6590044E", 
                 "image": {
                     "frame": {
                         "height": 72, 
@@ -1085,7 +1525,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 80
                     }, 
-                    "path": "images/Layer-suggestionCellItem01-A602284F-FBED-4505-8B54-169608444769.png"
+                    "path": "images/Layer-sCellItem01-3452B1B4-B1B1-4970-A87E-43FF6590044E.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -1099,22 +1539,22 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "suggestionCellItem01", 
+                "name": "sCellItem01", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
                         "children": [], 
-                        "id": "77B136CA-7D17-4147-A194-ABA78CED2C02", 
+                        "id": "DA14A507-3F6F-4024-9AD6-E50E53CCF5AD", 
                         "image": {
                             "frame": {
                                 "height": 14, 
                                 "width": 16, 
                                 "x": 44, 
-                                "y": 181
+                                "y": 184
                             }, 
-                            "path": "images/Layer-recentIcon-77B136CA-7D17-4147-A194-ABA78CED2C02.png"
+                            "path": "images/Layer-recentIcon-DA14A507-3F6F-4024-9AD6-E50E53CCF5AD.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -1122,7 +1562,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                             "height": 14, 
                             "width": 16, 
                             "x": 44, 
-                            "y": 181
+                            "y": 184
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -1132,15 +1572,15 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "7B20B55C-DC3E-41E1-AB09-3475D4C1848E", 
+                "id": "2120ECB5-3CE8-44E2-BC5C-3924BA1F15BC", 
                 "image": {
                     "frame": {
                         "height": 72, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 152
+                        "y": 155
                     }, 
-                    "path": "images/Layer-suggestionCellItemIndent01-7B20B55C-DC3E-41E1-AB09-3475D4C1848E.png"
+                    "path": "images/Layer-sCellItem02-2120ECB5-3CE8-44E2-BC5C-3924BA1F15BC.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -1148,28 +1588,28 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     "height": 72, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 152
+                    "y": 155
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "suggestionCellItemIndent01", 
+                "name": "sCellItem02", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
                         "children": [], 
-                        "id": "10AABC63-84D1-464F-A9D9-86F8B4498620", 
+                        "id": "29674B9E-7910-4752-8D1A-409C3943AE99", 
                         "image": {
                             "frame": {
                                 "height": 14, 
                                 "width": 16, 
                                 "x": 44, 
-                                "y": 253
+                                "y": 256
                             }, 
-                            "path": "images/Layer-recentIcon-10AABC63-84D1-464F-A9D9-86F8B4498620.png"
+                            "path": "images/Layer-recentIcon-29674B9E-7910-4752-8D1A-409C3943AE99.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -1177,7 +1617,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                             "height": 14, 
                             "width": 16, 
                             "x": 44, 
-                            "y": 253
+                            "y": 256
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -1187,15 +1627,15 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "71805561-AFCF-4DEB-916C-06DD19A16FF7", 
+                "id": "07403C69-B06C-4A3A-B369-D545CBDD6E00", 
                 "image": {
                     "frame": {
                         "height": 34, 
                         "width": 201, 
                         "x": 44, 
-                        "y": 243
+                        "y": 246
                     }, 
-                    "path": "images/Layer-suggestionCellItemIndent02-71805561-AFCF-4DEB-916C-06DD19A16FF7.png"
+                    "path": "images/Layer-sCellItem03-07403C69-B06C-4A3A-B369-D545CBDD6E00.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -1203,28 +1643,28 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     "height": 34, 
                     "width": 201, 
                     "x": 44, 
-                    "y": 243
+                    "y": 246
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "suggestionCellItemIndent02", 
+                "name": "sCellItem03", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
                         "children": [], 
-                        "id": "F6D953AE-A563-40E5-AD4C-B8F87B0D4EE9", 
+                        "id": "31E440C9-CE52-4576-BD67-6B63CAC05284", 
                         "image": {
                             "frame": {
                                 "height": 14, 
                                 "width": 16, 
                                 "x": 20, 
-                                "y": 325
+                                "y": 328
                             }, 
-                            "path": "images/Layer-recentIcon-F6D953AE-A563-40E5-AD4C-B8F87B0D4EE9.png"
+                            "path": "images/Layer-recentIcon-31E440C9-CE52-4576-BD67-6B63CAC05284.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -1232,7 +1672,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                             "height": 14, 
                             "width": 16, 
                             "x": 20, 
-                            "y": 325
+                            "y": 328
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -1242,15 +1682,15 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "CE80A6E7-3DDB-4A18-82A0-2D5E5EDDADEF", 
+                "id": "973F9C78-5EE2-4B08-80CD-DF1839F18FE8", 
                 "image": {
                     "frame": {
                         "height": 34, 
                         "width": 219, 
                         "x": 20, 
-                        "y": 315
+                        "y": 318
                     }, 
-                    "path": "images/Layer-suggestionCellItem02-CE80A6E7-3DDB-4A18-82A0-2D5E5EDDADEF.png"
+                    "path": "images/Layer-sCellItem04-973F9C78-5EE2-4B08-80CD-DF1839F18FE8.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -1258,787 +1698,115 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     "height": 34, 
                     "width": 219, 
                     "x": 20, 
-                    "y": 315
+                    "y": 318
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "suggestionCellItem02", 
+                "name": "sCellItem04", 
                 "visible": true
             }
         ], 
-        "id": "EC5782F1-6AD0-4F52-A557-1CB6B309D7B6", 
+        "id": "94F58AAB-1185-420C-9F2A-C966D190B527", 
         "image": {
             "frame": {
                 "height": 640, 
                 "width": 360, 
-                "x": -1893, 
-                "y": 1001
+                "x": -1400, 
+                "y": 172
             }, 
-            "path": "images/Layer-searchSuggestions-EC5782F1-6AD0-4F52-A557-1CB6B309D7B6.png"
+            "path": "images/Layer-search-94F58AAB-1185-420C-9F2A-C966D190B527.png"
         }, 
         "imageType": "png", 
         "kind": "artboard", 
         "layerFrame": {
             "height": 640, 
             "width": 360, 
-            "x": -1893, 
-            "y": 1001
+            "x": -1400, 
+            "y": 172
         }, 
         "maskFrame": null, 
         "metadata": {}, 
-        "name": "searchSuggestions", 
+        "name": "search", 
         "visible": false
     }, 
     {
         "children": [
             {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "93B10F20-CD77-4881-A51F-5EBA63C4E2D4", 
-                        "image": {
-                            "frame": {
-                                "height": 36, 
-                                "width": 72, 
-                                "x": 208, 
-                                "y": 540
-                            }, 
-                            "path": "images/Layer-decline-93B10F20-CD77-4881-A51F-5EBA63C4E2D4.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 36, 
-                            "width": 72, 
-                            "x": 208, 
-                            "y": 540
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "decline", 
-                        "visible": false
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "E8555A14-4402-44A1-8BDD-1C2EC94947CA", 
-                        "image": {
-                            "frame": {
-                                "height": 12, 
-                                "width": 120, 
-                                "x": 120, 
-                                "y": 556
-                            }, 
-                            "path": "images/Layer-apply-E8555A14-4402-44A1-8BDD-1C2EC94947CA.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 12, 
-                            "width": 120, 
-                            "x": 120, 
-                            "y": 556
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "apply", 
-                        "visible": true
-                    }
-                ], 
-                "id": "454BA9A1-C192-4032-988F-4EB7BC62E3A6", 
-                "image": {
-                    "frame": {
-                        "height": 60, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 532
-                    }, 
-                    "path": "images/Layer-findMyFlights-454BA9A1-C192-4032-988F-4EB7BC62E3A6.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 60, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 532
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "findMyFlights", 
-                "visible": true
-            }, 
-            {
                 "children": [], 
-                "id": "F64B33FB-AB5A-4CC8-AB2C-8E940FFF281B", 
+                "id": "C06AEBEC-DA0E-48D2-8477-1832962C6AF2", 
                 "image": {
                     "frame": {
-                        "height": 30, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
+                        "height": 24, 
+                        "width": 24, 
+                        "x": 16, 
+                        "y": 40
                     }, 
-                    "path": "images/Layer-StatusBarBlack-F64B33FB-AB5A-4CC8-AB2C-8E940FFF281B.png"
+                    "path": "images/Layer-closeX-C06AEBEC-DA0E-48D2-8477-1832962C6AF2.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 30, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
+                    "height": 24, 
+                    "width": 24, 
+                    "x": 16, 
+                    "y": 40
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "StatusBarBlack", 
+                "name": "closeX", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
                         "children": [], 
-                        "id": "130E2DA7-CF92-4E54-BEB6-023C54154535", 
+                        "id": "2A0C2578-79B1-4957-A8FC-D04A6747041F", 
                         "image": {
                             "frame": {
-                                "height": 16, 
-                                "width": 17, 
-                                "x": 19, 
-                                "y": 44
-                            }, 
-                            "path": "images/Layer-back-130E2DA7-CF92-4E54-BEB6-023C54154535.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 16, 
-                            "width": 17, 
-                            "x": 19, 
-                            "y": 44
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 0.87
-                        }, 
-                        "name": "back", 
-                        "visible": true
-                    }
-                ], 
-                "id": "A531E595-F8D4-4837-9986-A81052205927", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-AppBarBackNormal-A531E595-F8D4-4837-9986-A81052205927.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "AppBarBackNormal", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "B398900E-E8FA-488D-A2DF-D15EB21D95B7", 
-                "image": {
-                    "frame": {
-                        "height": 2, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 80
-                    }, 
-                    "path": "images/Layer-DividerGradient-B398900E-E8FA-488D-A2DF-D15EB21D95B7.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 2, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 80
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "DividerGradient", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "60F89C96-1D14-4CE9-9432-A6046951354B", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 592
-                    }, 
-                    "path": "images/Layer-navbar-60F89C96-1D14-4CE9-9432-A6046951354B.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 592
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "navbar", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "AA8F62F1-AC4A-459A-B457-D4DE694A6540", 
-                                "image": {
-                                    "frame": {
-                                        "height": 9, 
-                                        "width": 21, 
-                                        "x": 16, 
-                                        "y": 232
-                                    }, 
-                                    "path": "images/Layer-Page_1-AA8F62F1-AC4A-459A-B457-D4DE694A6540.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 9, 
-                                    "width": 21, 
-                                    "x": 16, 
-                                    "y": 232
-                                }, 
-                                "maskFrame": {
-                                    "height": 9, 
-                                    "width": 21, 
-                                    "x": 16, 
-                                    "y": 232
-                                }, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "Page1", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "88EC6A6F-3F58-4D38-8735-C101262F4131", 
-                        "image": {
-                            "frame": {
-                                "height": 14, 
-                                "width": 21, 
+                                "height": 48, 
+                                "width": 328, 
                                 "x": 16, 
-                                "y": 232
+                                "y": 534
                             }, 
-                            "path": "images/Layer-departure_icon-88EC6A6F-3F58-4D38-8735-C101262F4131.png"
+                            "path": "images/Layer-btn-2A0C2578-79B1-4957-A8FC-D04A6747041F.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 14, 
-                            "width": 21, 
+                            "height": 48, 
+                            "width": 328, 
                             "x": 16, 
-                            "y": 232
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "departureicon", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "C29896C4-6F88-41E2-8169-9318422BCBE2", 
+                "id": "7B2AB128-D18B-4BC8-9186-A475B7FB168D", 
                 "image": {
                     "frame": {
-                        "height": 88, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 195
+                        "y": 514
                     }, 
-                    "path": "images/Layer-departure-C29896C4-6F88-41E2-8169-9318422BCBE2.png"
+                    "path": "images/Layer-doneDates-7B2AB128-D18B-4BC8-9186-A475B7FB168D.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 88, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 195
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "departure", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "3A6FFE53-6426-4FBA-AEE6-2F9A8C514DB2", 
-                                "image": {
-                                    "frame": {
-                                        "height": 21, 
-                                        "width": 23, 
-                                        "x": 16, 
-                                        "y": 318
-                                    }, 
-                                    "path": "images/Layer-Page_1-3A6FFE53-6426-4FBA-AEE6-2F9A8C514DB2.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 21, 
-                                    "width": 23, 
-                                    "x": 16, 
-                                    "y": 318
-                                }, 
-                                "maskFrame": {
-                                    "height": 21, 
-                                    "width": 23, 
-                                    "x": 16, 
-                                    "y": 318
-                                }, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "Page1", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "2B120C0C-F187-4FAD-BEFF-935274B99305", 
-                        "image": {
-                            "frame": {
-                                "height": 21, 
-                                "width": 23, 
-                                "x": 16, 
-                                "y": 318
-                            }, 
-                            "path": "images/Layer-departure_icon_copy-2B120C0C-F187-4FAD-BEFF-935274B99305.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 21, 
-                            "width": 23, 
-                            "x": 16, 
-                            "y": 318
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "departureiconcopy", 
-                        "visible": true
-                    }
-                ], 
-                "id": "C3469941-CAB4-4D8B-82C5-5581978BF602", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 283
-                    }, 
-                    "path": "images/Layer-arrival-C3469941-CAB4-4D8B-82C5-5581978BF602.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 283
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "arrival", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "49B65337-1862-44E0-892D-06A33CDB9168", 
-                                "image": {
-                                    "frame": {
-                                        "height": 19, 
-                                        "width": 28, 
-                                        "x": 16, 
-                                        "y": 398
-                                    }, 
-                                    "path": "images/Layer-Shape__Rectangle_46__3-49B65337-1862-44E0-892D-06A33CDB9168.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 19, 
-                                    "width": 28, 
-                                    "x": 16, 
-                                    "y": 398
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "ShapeRectangle463", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "792A217B-5ED3-4D1D-A192-59FD267DCED7", 
-                        "image": {
-                            "frame": {
-                                "height": 72, 
-                                "width": 180, 
-                                "x": 0, 
-                                "y": 371
-                            }, 
-                            "path": "images/Layer-departureDate-792A217B-5ED3-4D1D-A192-59FD267DCED7.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 72, 
-                            "width": 180, 
-                            "x": 0, 
-                            "y": 371
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "departureDate", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "5A7D2072-40A8-479D-AFEE-BDB41DC78C7F", 
-                                "image": {
-                                    "frame": {
-                                        "height": 19, 
-                                        "width": 29, 
-                                        "x": 193, 
-                                        "y": 398
-                                    }, 
-                                    "path": "images/Layer-Shape__Rectangle_46__3_Copy-5A7D2072-40A8-479D-AFEE-BDB41DC78C7F.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 19, 
-                                    "width": 29, 
-                                    "x": 193, 
-                                    "y": 398
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "ShapeRectangle463Copy", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "F340B6F5-4515-44C6-8235-59C4B5667AEB", 
-                        "image": {
-                            "frame": {
-                                "height": 72, 
-                                "width": 180, 
-                                "x": 180, 
-                                "y": 371
-                            }, 
-                            "path": "images/Layer-returnDate-F340B6F5-4515-44C6-8235-59C4B5667AEB.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 72, 
-                            "width": 180, 
-                            "x": 180, 
-                            "y": 371
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "returnDate", 
-                        "visible": true
-                    }
-                ], 
-                "id": "846D7017-ECC8-432F-AA86-6A70117BE411", 
-                "image": {
-                    "frame": {
-                        "height": 74, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 370
-                    }, 
-                    "path": "images/Layer-datesHomeActive-846D7017-ECC8-432F-AA86-6A70117BE411.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 74, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 370
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "datesHomeActive", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "1BE1F962-B7E0-45DA-BE31-BC72FD7ADE03", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 20, 
-                                "x": 18, 
-                                "y": 492
-                            }, 
-                            "path": "images/Layer-radioOff-1BE1F962-B7E0-45DA-BE31-BC72FD7ADE03.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 20, 
-                            "x": 18, 
-                            "y": 492
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "radioOff", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "0FB6F53C-3017-475D-8DC8-758BF8AE6492", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 20, 
-                                "x": 198, 
-                                "y": 492
-                            }, 
-                            "path": "images/Layer-radioOn-0FB6F53C-3017-475D-8DC8-758BF8AE6492.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 20, 
-                            "x": 198, 
-                            "y": 492
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "radioOn", 
-                        "visible": true
-                    }
-                ], 
-                "id": "DCB483C5-3D00-4378-B670-8340B16C8514", 
-                "image": {
-                    "frame": {
-                        "height": 84, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 443
-                    }, 
-                    "path": "images/Layer-cabinClass-DCB483C5-3D00-4378-B670-8340B16C8514.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 84, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 443
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "cabinClass", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "99EF9EAF-91B5-4AB0-BA20-296B74C92311", 
-                "image": {
-                    "frame": {
-                        "height": 113, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 82
-                    }, 
-                    "path": "images/Layer-mainImage-99EF9EAF-91B5-4AB0-BA20-296B74C92311.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 113, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 82
-                }, 
-                "maskFrame": {
-                    "height": 113, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 82
-                }, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "mainImage", 
-                "visible": true
-            }
-        ], 
-        "id": "C66495B1-D240-4BE3-ABB7-E5DCA76E57F9", 
-        "image": {
-            "frame": {
-                "height": 640, 
-                "width": 360, 
-                "x": -1498, 
-                "y": 1001
-            }, 
-            "path": "images/Layer-homeActive-C66495B1-D240-4BE3-ABB7-E5DCA76E57F9.png"
-        }, 
-        "imageType": "png", 
-        "kind": "artboard", 
-        "layerFrame": {
-            "height": 640, 
-            "width": 360, 
-            "x": -1498, 
-            "y": 1001
-        }, 
-        "maskFrame": null, 
-        "metadata": {}, 
-        "name": "homeActive", 
-        "visible": false
-    }, 
-    {
-        "children": [
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "BE7A7135-36B7-4313-B4F3-11762E7C9027", 
-                        "image": {
-                            "frame": {
-                                "height": 36, 
-                                "width": 72, 
-                                "x": 208, 
-                                "y": 540
-                            }, 
-                            "path": "images/Layer-decline-BE7A7135-36B7-4313-B4F3-11762E7C9027.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 36, 
-                            "width": 72, 
-                            "x": 208, 
-                            "y": 540
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "decline", 
-                        "visible": false
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "A71EF1F1-539A-4BB4-88C2-736F06830FDF", 
-                        "image": {
-                            "frame": {
-                                "height": 12, 
-                                "width": 37, 
-                                "x": 162, 
-                                "y": 556
-                            }, 
-                            "path": "images/Layer-apply-A71EF1F1-539A-4BB4-88C2-736F06830FDF.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 12, 
-                            "width": 37, 
-                            "x": 162, 
-                            "y": 556
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "apply", 
-                        "visible": true
-                    }
-                ], 
-                "id": "4BB1C833-8890-4D04-8445-C4A0742D9562", 
-                "image": {
-                    "frame": {
-                        "height": 60, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 532
-                    }, 
-                    "path": "images/Layer-doneDates-4BB1C833-8890-4D04-8445-C4A0742D9562.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 60, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -2046,425 +1814,25 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 }, 
                 "name": "doneDates", 
                 "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "F1983269-0EFB-4FA1-8509-E2FAAE31A6EB", 
-                "image": {
-                    "frame": {
-                        "height": 30, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-StatusBarBlack-F1983269-0EFB-4FA1-8509-E2FAAE31A6EB.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 30, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "StatusBarBlack", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "D8F113FE-FD54-4A39-92DA-71CEEC8AEE97", 
-                        "image": {
-                            "frame": {
-                                "height": 16, 
-                                "width": 17, 
-                                "x": 19, 
-                                "y": 44
-                            }, 
-                            "path": "images/Layer-back-D8F113FE-FD54-4A39-92DA-71CEEC8AEE97.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 16, 
-                            "width": 17, 
-                            "x": 19, 
-                            "y": 44
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 0.87
-                        }, 
-                        "name": "back", 
-                        "visible": true
-                    }
-                ], 
-                "id": "473042C5-1803-460F-9AB6-2E6B1D599C9A", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-app_bar-473042C5-1803-460F-9AB6-2E6B1D599C9A.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "appbar", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "ED614F48-C783-4FF1-A826-134604957B24", 
-                "image": {
-                    "frame": {
-                        "height": 2, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 80
-                    }, 
-                    "path": "images/Layer-DividerGradient-ED614F48-C783-4FF1-A826-134604957B24.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 2, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 80
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "DividerGradient", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "F023EA5D-6811-4B6C-A37D-6EDCE8D4B436", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 592
-                    }, 
-                    "path": "images/Layer-navbar-F023EA5D-6811-4B6C-A37D-6EDCE8D4B436.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 592
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "navbar", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "216A6915-66E3-4C04-AC18-15DB70DCC7D7", 
-                        "image": {
-                            "frame": {
-                                "height": 48, 
-                                "width": 180, 
-                                "x": 0, 
-                                "y": 80
-                            }, 
-                            "path": "images/Layer-departureTab-216A6915-66E3-4C04-AC18-15DB70DCC7D7.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 48, 
-                            "width": 180, 
-                            "x": 0, 
-                            "y": 80
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "departureTab", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "9EED4E01-C4F2-4145-804F-839DD1262A71", 
-                        "image": {
-                            "frame": {
-                                "height": 57, 
-                                "width": 180, 
-                                "x": 180, 
-                                "y": 80
-                            }, 
-                            "path": "images/Layer-returnTab-9EED4E01-C4F2-4145-804F-839DD1262A71.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 57, 
-                            "width": 180, 
-                            "x": 180, 
-                            "y": 80
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "returnTab", 
-                        "visible": true
-                    }
-                ], 
-                "id": "BD2C186E-E1F9-4DDE-8B39-B2BBE30E5EE2", 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 57, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 80
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "tabs", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "0F595B24-537F-424F-B3D0-687EDE544695", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 157, 
-                        "x": 189, 
-                        "y": 287
-                    }, 
-                    "path": "images/Layer-toolTip-0F595B24-537F-424F-B3D0-687EDE544695.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 157, 
-                    "x": 189, 
-                    "y": 287
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "toolTip", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "10EE5CD1-033D-4442-B688-56CBAA294562", 
-                        "image": {
-                            "frame": {
-                                "height": 210, 
-                                "width": 278, 
-                                "x": 41, 
-                                "y": 234
-                            }, 
-                            "path": "images/Layer-dates-10EE5CD1-033D-4442-B688-56CBAA294562.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 210, 
-                            "width": 278, 
-                            "x": 41, 
-                            "y": 234
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "dates", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "A3A95152-584E-46FE-9541-F9B88FE03C27", 
-                        "image": {
-                            "frame": {
-                                "height": 10, 
-                                "width": 272, 
-                                "x": 44, 
-                                "y": 194
-                            }, 
-                            "path": "images/Layer-weekdays-A3A95152-584E-46FE-9541-F9B88FE03C27.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 10, 
-                            "width": 272, 
-                            "x": 44, 
-                            "y": 194
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "weekdays", 
-                        "visible": true
-                    }
-                ], 
-                "id": "E1E7503E-D9A0-4232-ABDD-DDB98BB3CC42", 
-                "image": {
-                    "frame": {
-                        "height": 284, 
-                        "width": 278, 
-                        "x": 41, 
-                        "y": 160
-                    }, 
-                    "path": "images/Layer-January-E1E7503E-D9A0-4232-ABDD-DDB98BB3CC42.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 284, 
-                    "width": 278, 
-                    "x": 41, 
-                    "y": 160
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "January", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "E945AE7D-B523-4F93-AC99-8E23AAD9AE42", 
-                        "image": {
-                            "frame": {
-                                "height": 88, 
-                                "width": 277, 
-                                "x": 42, 
-                                "y": 552
-                            }, 
-                            "path": "images/Layer-dates-E945AE7D-B523-4F93-AC99-8E23AAD9AE42.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 88, 
-                            "width": 277, 
-                            "x": 42, 
-                            "y": 552
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "dates", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "CE283CB0-F28E-43AF-B94B-7C52D2697761", 
-                        "image": {
-                            "frame": {
-                                "height": 10, 
-                                "width": 272, 
-                                "x": 44, 
-                                "y": 512
-                            }, 
-                            "path": "images/Layer-weekdays-CE283CB0-F28E-43AF-B94B-7C52D2697761.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 10, 
-                            "width": 272, 
-                            "x": 44, 
-                            "y": 512
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "weekdays", 
-                        "visible": true
-                    }
-                ], 
-                "id": "D41FD1D3-76D0-4EA4-A520-8D04A1E486FF", 
-                "image": {
-                    "frame": {
-                        "height": 162, 
-                        "width": 277, 
-                        "x": 42, 
-                        "y": 478
-                    }, 
-                    "path": "images/Layer-February-D41FD1D3-76D0-4EA4-A520-8D04A1E486FF.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 162, 
-                    "width": 277, 
-                    "x": 42, 
-                    "y": 478
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "February", 
-                "visible": true
             }
         ], 
-        "id": "DE818143-22F4-416B-8063-E3DA8DB71224", 
+        "id": "DDE936BD-B896-4F96-9B47-93E1B9E8E123", 
         "image": {
             "frame": {
                 "height": 640, 
                 "width": 360, 
-                "x": -1103, 
-                "y": 1001
+                "x": -997, 
+                "y": 172
             }, 
-            "path": "images/Layer-datePickerPrepopulated-DE818143-22F4-416B-8063-E3DA8DB71224.png"
+            "path": "images/Layer-datePickerPrepopulated-DDE936BD-B896-4F96-9B47-93E1B9E8E123.png"
         }, 
         "imageType": "png", 
         "kind": "artboard", 
         "layerFrame": {
             "height": 640, 
             "width": 360, 
-            "x": -1103, 
-            "y": 1001
+            "x": -997, 
+            "y": 172
         }, 
         "maskFrame": null, 
         "metadata": {}, 
@@ -2475,7 +1843,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
         "children": [
             {
                 "children": [], 
-                "id": "D55504DF-EBE3-4989-BD37-18208E46BE95", 
+                "id": "AC26AAD7-15ED-45D3-BFCD-25524CDBC28B", 
                 "image": {
                     "frame": {
                         "height": 30, 
@@ -2483,7 +1851,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-StatusBarBlack-D55504DF-EBE3-4989-BD37-18208E46BE95.png"
+                    "path": "images/Layer-StatusBarBlack-AC26AAD7-15ED-45D3-BFCD-25524CDBC28B.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -2501,213 +1869,16 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "visible": true
             }, 
             {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "735FAD02-D955-4F88-9BB6-E7053AAD55D9", 
-                        "image": {
-                            "frame": {
-                                "height": 16, 
-                                "width": 17, 
-                                "x": 19, 
-                                "y": 44
-                            }, 
-                            "path": "images/Layer-back-735FAD02-D955-4F88-9BB6-E7053AAD55D9.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 16, 
-                            "width": 17, 
-                            "x": 19, 
-                            "y": 44
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 0.87
-                        }, 
-                        "name": "back", 
-                        "visible": true
-                    }
-                ], 
-                "id": "110466EC-54E9-4241-B092-2A2954F29AC1", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-app_bar-110466EC-54E9-4241-B092-2A2954F29AC1.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "appbar", 
-                "visible": true
-            }, 
-            {
                 "children": [], 
-                "id": "6D85CB3C-8AC6-490A-8E6D-62D2F2D7F676", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 592
-                    }, 
-                    "path": "images/Layer-navbar-6D85CB3C-8AC6-490A-8E6D-62D2F2D7F676.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 592
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "navbar", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "E6F0A749-51DB-43C3-9A02-3ECCA20934A4", 
-                                "image": {
-                                    "frame": {
-                                        "height": 43, 
-                                        "width": 36, 
-                                        "x": 16, 
-                                        "y": 369
-                                    }, 
-                                    "path": "images/Layer-Group_3-E6F0A749-51DB-43C3-9A02-3ECCA20934A4.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 43, 
-                                    "width": 36, 
-                                    "x": 16, 
-                                    "y": 369
-                                }, 
-                                "maskFrame": {
-                                    "height": 43, 
-                                    "width": 36, 
-                                    "x": 16, 
-                                    "y": 369
-                                }, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "Group3", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "34C18F7C-19DD-4CCC-927E-693E7A9CA376", 
-                        "image": {
-                            "frame": {
-                                "height": 43, 
-                                "width": 36, 
-                                "x": 16, 
-                                "y": 369
-                            }, 
-                            "path": "images/Layer-Page_1-34C18F7C-19DD-4CCC-927E-693E7A9CA376.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 43, 
-                            "width": 36, 
-                            "x": 16, 
-                            "y": 369
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "Page1", 
-                        "visible": true
-                    }
-                ], 
-                "id": "772F1C75-11F9-4397-AB77-9A45BE383D65", 
-                "image": {
-                    "frame": {
-                        "height": 79, 
-                        "width": 330, 
-                        "x": 15, 
-                        "y": 351
-                    }, 
-                    "path": "images/Layer-msg-772F1C75-11F9-4397-AB77-9A45BE383D65.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 79, 
-                    "width": 330, 
-                    "x": 15, 
-                    "y": 351
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "msg", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "E2881CBF-21D9-45F0-888C-0CE60678C332", 
-                "image": {
-                    "frame": {
-                        "height": 72, 
-                        "width": 261, 
-                        "x": 51, 
-                        "y": 158
-                    }, 
-                    "path": "images/Layer-planeAnimationPlaceholder-E2881CBF-21D9-45F0-888C-0CE60678C332.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 72, 
-                    "width": 261, 
-                    "x": 51, 
-                    "y": 158
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "planeAnimationPlaceholder", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "7AF37D39-26D8-48A8-B68F-E785B3A3D226", 
+                "id": "A1D68B41-B370-423C-9E16-49B54382863A", 
                 "image": {
                     "frame": {
                         "height": 2, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 80
+                        "y": 81
                     }, 
-                    "path": "images/Layer-DividerProgress-7AF37D39-26D8-48A8-B68F-E785B3A3D226.png"
+                    "path": "images/Layer-DividerGradient-A1D68B41-B370-423C-9E16-49B54382863A.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -2715,239 +1886,20 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     "height": 2, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 80
+                    "y": 81
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "DividerProgress", 
-                "visible": true
-            }
-        ], 
-        "id": "92803E6F-F796-4E68-B633-E4E916505E7F", 
-        "image": {
-            "frame": {
-                "height": 640, 
-                "width": 360, 
-                "x": -708, 
-                "y": 1001
-            }, 
-            "path": "images/Layer-loadingResults-92803E6F-F796-4E68-B633-E4E916505E7F.png"
-        }, 
-        "imageType": "png", 
-        "kind": "artboard", 
-        "layerFrame": {
-            "height": 640, 
-            "width": 360, 
-            "x": -708, 
-            "y": 1001
-        }, 
-        "maskFrame": null, 
-        "metadata": {}, 
-        "name": "loadingResults", 
-        "visible": false
-    }, 
-    {
-        "children": [
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "90BEAFC2-77D1-4012-8456-E0473B39F024", 
-                        "image": {
-                            "frame": {
-                                "height": 36, 
-                                "width": 126, 
-                                "x": 218, 
-                                "y": 542
-                            }, 
-                            "path": "images/Layer-FILTER_Copy-90BEAFC2-77D1-4012-8456-E0473B39F024.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 36, 
-                            "width": 126, 
-                            "x": 218, 
-                            "y": 542
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "FILTERCopy", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [
-                                    {
-                                        "children": [], 
-                                        "id": "C3135524-7B9C-4B05-B227-2CA1D2F9C0EE", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 14, 
-                                                "width": 11, 
-                                                "x": 52, 
-                                                "y": 553
-                                            }, 
-                                            "path": "images/Layer-Page_1_Copy-C3135524-7B9C-4B05-B227-2CA1D2F9C0EE.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 14, 
-                                            "width": 11, 
-                                            "x": 52, 
-                                            "y": 553
-                                        }, 
-                                        "maskFrame": {
-                                            "height": 14, 
-                                            "width": 11, 
-                                            "x": 52, 
-                                            "y": 554
-                                        }, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "Page1Copy", 
-                                        "visible": true
-                                    }, 
-                                    {
-                                        "children": [], 
-                                        "id": "D81BE122-0DB9-43BC-B49C-5B6FD0BE5AE1", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 14, 
-                                                "width": 11, 
-                                                "x": 40, 
-                                                "y": 554
-                                            }, 
-                                            "path": "images/Layer-Page_1-D81BE122-0DB9-43BC-B49C-5B6FD0BE5AE1.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 14, 
-                                            "width": 11, 
-                                            "x": 40, 
-                                            "y": 554
-                                        }, 
-                                        "maskFrame": {
-                                            "height": 14, 
-                                            "width": 11, 
-                                            "x": 40, 
-                                            "y": 554
-                                        }, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "Page1", 
-                                        "visible": true
-                                    }
-                                ], 
-                                "id": "96ADBE0A-4938-45AC-BDE5-06B67958865A", 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 14, 
-                                    "width": 23, 
-                                    "x": 40, 
-                                    "y": 553
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "iconsort", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "F6A89B47-F4A0-4498-ADB1-E450C396F477", 
-                        "image": {
-                            "frame": {
-                                "height": 36, 
-                                "width": 126, 
-                                "x": 16, 
-                                "y": 542
-                            }, 
-                            "path": "images/Layer-SORT_Copy-F6A89B47-F4A0-4498-ADB1-E450C396F477.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 36, 
-                            "width": 126, 
-                            "x": 16, 
-                            "y": 542
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "SORTCopy", 
-                        "visible": true
-                    }
-                ], 
-                "id": "0AC39B42-CA62-4D14-93D6-7AFC35B2577A", 
-                "image": {
-                    "frame": {
-                        "height": 65, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 527
-                    }, 
-                    "path": "images/Layer-filters-0AC39B42-CA62-4D14-93D6-7AFC35B2577A.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 65, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 527
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "filters", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "33867767-0FF8-4A65-96AB-507C24618150", 
-                "image": {
-                    "frame": {
-                        "height": 30, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-StatusBarBlack-33867767-0FF8-4A65-96AB-507C24618150.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 30, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "StatusBarBlack", 
+                "name": "DividerGradient", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
                         "children": [], 
-                        "id": "C7067EB9-DA55-462A-9C10-5BC5E8429BBB", 
+                        "id": "4F7F0113-4F7B-4ABD-B631-AD86D10A2D21", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -2955,7 +1907,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-C7067EB9-DA55-462A-9C10-5BC5E8429BBB.png"
+                            "path": "images/Layer-back-4F7F0113-4F7B-4ABD-B631-AD86D10A2D21.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -2974,22 +1926,49 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "4EF95D51-B073-4260-B98A-0770DC14E74D", 
+                        "id": "1333211F-E6A4-442F-A7AC-1040BAFDB523", 
+                        "image": {
+                            "frame": {
+                                "height": 10, 
+                                "width": 45, 
+                                "x": 297, 
+                                "y": 46
+                            }, 
+                            "path": "images/Layer-refine-1333211F-E6A4-442F-A7AC-1040BAFDB523.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 10, 
+                            "width": 45, 
+                            "x": 297, 
+                            "y": 46
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "refine", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "3D14AE0E-04DC-456D-BBD0-95F323B370FC", 
                         "image": {
                             "frame": {
                                 "height": 19, 
                                 "width": 17, 
-                                "x": 323, 
+                                "x": 258, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-4EF95D51-B073-4260-B98A-0770DC14E74D.png"
+                            "path": "images/Layer-graph-3D14AE0E-04DC-456D-BBD0-95F323B370FC.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
                             "height": 19, 
                             "width": 17, 
-                            "x": 323, 
+                            "x": 258, 
                             "y": 42
                         }, 
                         "maskFrame": null, 
@@ -3000,20 +1979,20 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "9DFC5C38-0A8B-4200-82B9-F6DAB17683A8", 
+                "id": "2CE122C0-7E49-48FF-B21B-6022FFCC7F59", 
                 "image": {
                     "frame": {
-                        "height": 88, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-AppBarBackWithSubheader-9DFC5C38-0A8B-4200-82B9-F6DAB17683A8.png"
+                    "path": "images/Layer-AppBarBackWithSubheaderWithActions-2CE122C0-7E49-48FF-B21B-6022FFCC7F59.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 88, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -3022,12 +2001,12 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "AppBarBackWithSubheader", 
+                "name": "AppBarBackWithSubheaderWithActions", 
                 "visible": true
             }, 
             {
                 "children": [], 
-                "id": "60F05F1E-DEFD-447F-A844-0C762D66387D", 
+                "id": "D9E6F302-5E91-49C8-8848-BA54F575384E", 
                 "image": {
                     "frame": {
                         "height": 48, 
@@ -3035,7 +2014,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 592
                     }, 
-                    "path": "images/Layer-navbar-60F05F1E-DEFD-447F-A844-0C762D66387D.png"
+                    "path": "images/Layer-navbar-D9E6F302-5E91-49C8-8848-BA54F575384E.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -3053,350 +2032,933 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "visible": true
             }, 
             {
-                "children": [], 
-                "id": "8787D2B6-D6F3-469B-9CB6-B0B5CF413AA1", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 80
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "C501CB12-DD44-48A2-92F2-800321490FEC", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 43, 
+                                                "width": 36, 
+                                                "x": 16, 
+                                                "y": 369
+                                            }, 
+                                            "path": "images/Layer-Group_3-C501CB12-DD44-48A2-92F2-800321490FEC.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 43, 
+                                            "width": 36, 
+                                            "x": 16, 
+                                            "y": 369
+                                        }, 
+                                        "maskFrame": {
+                                            "height": 43, 
+                                            "width": 36, 
+                                            "x": 16, 
+                                            "y": 369
+                                        }, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "Group3", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "10525C0E-B605-4177-A12F-A9ED81BEA7CC", 
+                                "image": {
+                                    "frame": {
+                                        "height": 43, 
+                                        "width": 36, 
+                                        "x": 16, 
+                                        "y": 369
+                                    }, 
+                                    "path": "images/Layer-Page_1-10525C0E-B605-4177-A12F-A9ED81BEA7CC.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 43, 
+                                    "width": 36, 
+                                    "x": 16, 
+                                    "y": 369
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Page1", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "FDA0C9D9-E551-4D2F-9826-07D367BFAC50", 
+                        "image": {
+                            "frame": {
+                                "height": 79, 
+                                "width": 330, 
+                                "x": 15, 
+                                "y": 351
+                            }, 
+                            "path": "images/Layer-msg-FDA0C9D9-E551-4D2F-9826-07D367BFAC50.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 79, 
+                            "width": 330, 
+                            "x": 15, 
+                            "y": 351
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "msg", 
+                        "visible": true
                     }, 
-                    "path": "images/Layer-subheader-8787D2B6-D6F3-469B-9CB6-B0B5CF413AA1.png"
-                }, 
+                    {
+                        "children": [], 
+                        "id": "5BD17855-2536-4165-BE7E-B8626A5E1EE4", 
+                        "image": {
+                            "frame": {
+                                "height": 17, 
+                                "width": 145, 
+                                "x": 107, 
+                                "y": 252
+                            }, 
+                            "path": "images/Layer-SearchingFlightTxt-5BD17855-2536-4165-BE7E-B8626A5E1EE4.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "text", 
+                        "layerFrame": {
+                            "height": 17, 
+                            "width": 145, 
+                            "x": 107, 
+                            "y": 252
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "css": [
+                                "/* Searching for flight: */", 
+                                "font-family: Roboto-Medium;", 
+                                "font-size: 16px;", 
+                                "color: #37474F;", 
+                                "line-height: 19px;"
+                            ], 
+                            "string": "Searching for flights"
+                        }, 
+                        "name": "SearchingFlightTxt", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "FE87B8F9-2C80-4C66-AE0C-90140D575769", 
+                        "image": {
+                            "frame": {
+                                "height": 72, 
+                                "width": 261, 
+                                "x": 51, 
+                                "y": 158
+                            }, 
+                            "path": "images/Layer-planeAnimationPlaceholder-FE87B8F9-2C80-4C66-AE0C-90140D575769.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 72, 
+                            "width": 261, 
+                            "x": 51, 
+                            "y": 158
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "planeAnimationPlaceholder", 
+                        "visible": true
+                    }
+                ], 
+                "id": "D403EB96-934B-4193-BAD8-210F0A7FDEBD", 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 80
+                    "height": 272, 
+                    "width": 330, 
+                    "x": 15, 
+                    "y": 158
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "subheader", 
+                "name": "loadingMsg", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
-                        "children": [], 
-                        "id": "7B6CA593-C011-428E-8D7E-C86DD79D57AD", 
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "5C834234-E964-4DE3-BC65-5F5DDCA9C631", 
+                                "image": {
+                                    "frame": {
+                                        "height": 14, 
+                                        "width": 102, 
+                                        "x": 242, 
+                                        "y": 104
+                                    }, 
+                                    "path": "images/Layer-landingTxt-5C834234-E964-4DE3-BC65-5F5DDCA9C631.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 14, 
+                                    "width": 102, 
+                                    "x": 242, 
+                                    "y": 104
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "landingTxt", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "3A122D45-1439-421C-BDEB-F871A8D5AD63", 
+                                "image": {
+                                    "frame": {
+                                        "height": 12, 
+                                        "width": 111, 
+                                        "x": 16, 
+                                        "y": 104
+                                    }, 
+                                    "path": "images/Layer-takeoffTxt-3A122D45-1439-421C-BDEB-F871A8D5AD63.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 12, 
+                                    "width": 111, 
+                                    "x": 16, 
+                                    "y": 104
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "takeoffTxt", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "75F89C0C-ED9D-44A5-84A0-A3C1EE05852F", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 34, 
+                                                "width": 37, 
+                                                "x": 305, 
+                                                "y": 127
+                                            }, 
+                                            "path": "images/Layer-landingKnob-75F89C0C-ED9D-44A5-84A0-A3C1EE05852F.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 34, 
+                                            "width": 37, 
+                                            "x": 305, 
+                                            "y": 127
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "landingKnob", 
+                                        "visible": true
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "id": "66AC26F0-8380-4309-ACA6-837FA7651AD3", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 34, 
+                                                "width": 37, 
+                                                "x": 15, 
+                                                "y": 127
+                                            }, 
+                                            "path": "images/Layer-takeOffKnob-66AC26F0-8380-4309-ACA6-837FA7651AD3.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 34, 
+                                            "width": 37, 
+                                            "x": 15, 
+                                            "y": 127
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "takeOffKnob", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "E1BAE952-2B43-4559-A9DA-D7EBE5A3161D", 
+                                "image": {
+                                    "frame": {
+                                        "height": 34, 
+                                        "width": 329, 
+                                        "x": 15, 
+                                        "y": 127
+                                    }, 
+                                    "path": "images/Layer-slider-E1BAE952-2B43-4559-A9DA-D7EBE5A3161D.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 34, 
+                                    "width": 329, 
+                                    "x": 15, 
+                                    "y": 127
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "slider", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "CFEA5897-8C4A-472F-B419-C2A16AEEDE37", 
                         "image": {
                             "frame": {
-                                "height": 16, 
-                                "width": 16, 
-                                "x": 16, 
-                                "y": 519
+                                "height": 96, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 78
                             }, 
-                            "path": "images/Layer-Bitmap-7B6CA593-C011-428E-8D7E-C86DD79D57AD.png"
+                            "path": "images/Layer-timeFilters-CFEA5897-8C4A-472F-B419-C2A16AEEDE37.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 519
+                            "height": 96, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 78
                         }, 
-                        "maskFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 519
-                        }, 
+                        "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Bitmap", 
+                        "name": "timeFilters", 
                         "visible": true
                     }
                 ], 
-                "id": "335A721C-ECB7-4AFE-9749-6D3AC68568D9", 
-                "image": {
-                    "frame": {
-                        "height": 95, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 506
-                    }, 
-                    "path": "images/Layer-row_copy_4-335A721C-ECB7-4AFE-9749-6D3AC68568D9.png"
-                }, 
+                "id": "D9086E16-9978-4C09-8E08-54AE43023AC2", 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 95, 
+                    "height": 96, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 506
+                    "y": 78
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "rowcopy4", 
+                "name": "results", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
-                        "children": [], 
-                        "id": "BD60B6CA-048F-42A3-8935-0C4666AB4E75", 
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "F361C507-164B-4EF4-A735-64C37C8682FE", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 16, 
+                                        "y": 943
+                                    }, 
+                                    "path": "images/Layer-Bitmap-F361C507-164B-4EF4-A735-64C37C8682FE.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 943
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 943
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "D57A997B-2927-4CAF-B976-D4D650F3A1FE", 
                         "image": {
                             "frame": {
-                                "height": 16, 
-                                "width": 16, 
-                                "x": 16, 
-                                "y": 333
+                                "height": 94, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 927
                             }, 
-                            "path": "images/Layer-Bitmap-BD60B6CA-048F-42A3-8935-0C4666AB4E75.png"
+                            "path": "images/Layer-row9-D57A997B-2927-4CAF-B976-D4D650F3A1FE.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 333
+                            "height": 94, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 927
                         }, 
-                        "maskFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 333
-                        }, 
+                        "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Bitmap", 
+                        "name": "row9", 
                         "visible": true
-                    }
-                ], 
-                "id": "5D34C54F-1F16-4772-AD55-2FB22CBFFCCF", 
-                "image": {
-                    "frame": {
-                        "height": 95, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 317
                     }, 
-                    "path": "images/Layer-row_copy_2-5D34C54F-1F16-4772-AD55-2FB22CBFFCCF.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 95, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 317
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy2", 
-                "visible": true
-            }, 
-            {
-                "children": [
                     {
-                        "children": [], 
-                        "id": "B8CB1399-21EC-47F2-AD71-CE695ECCCB59", 
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "76710DCF-91A4-4D20-BCC7-A52C74413FC0", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 16, 
+                                        "y": 848
+                                    }, 
+                                    "path": "images/Layer-Bitmap-76710DCF-91A4-4D20-BCC7-A52C74413FC0.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 848
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 848
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "C68F29DB-5814-4BAC-87E2-232F73D680AB", 
                         "image": {
                             "frame": {
-                                "height": 16, 
-                                "width": 16, 
-                                "x": 16, 
-                                "y": 238
+                                "height": 95, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 832
                             }, 
-                            "path": "images/Layer-Bitmap-B8CB1399-21EC-47F2-AD71-CE695ECCCB59.png"
+                            "path": "images/Layer-row8-C68F29DB-5814-4BAC-87E2-232F73D680AB.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 238
+                            "height": 95, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 832
                         }, 
-                        "maskFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 238
-                        }, 
+                        "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Bitmap", 
+                        "name": "row8", 
                         "visible": true
-                    }
-                ], 
-                "id": "E2A92424-776B-44BE-9A18-B4CD065FA320", 
-                "image": {
-                    "frame": {
-                        "height": 95, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 222
                     }, 
-                    "path": "images/Layer-row_copy-E2A92424-776B-44BE-9A18-B4CD065FA320.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 95, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 222
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy", 
-                "visible": true
-            }, 
-            {
-                "children": [
                     {
-                        "children": [], 
-                        "id": "749A6154-8364-4058-9F1B-49DAA3532B20", 
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "5BE39FA9-2C25-4BDB-B713-C24E6213E612", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 16, 
+                                        "y": 753
+                                    }, 
+                                    "path": "images/Layer-Bitmap-5BE39FA9-2C25-4BDB-B713-C24E6213E612.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 753
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 753
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "C70233BD-3C7B-42C7-92F8-D600FE1DBB02", 
                         "image": {
                             "frame": {
-                                "height": 16, 
-                                "width": 16, 
-                                "x": 16, 
-                                "y": 428
+                                "height": 95, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 737
                             }, 
-                            "path": "images/Layer-Bitmap-749A6154-8364-4058-9F1B-49DAA3532B20.png"
+                            "path": "images/Layer-row7-C70233BD-3C7B-42C7-92F8-D600FE1DBB02.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 428
+                            "height": 95, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 737
                         }, 
-                        "maskFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 428
-                        }, 
+                        "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Bitmap", 
+                        "name": "row7", 
                         "visible": true
-                    }
-                ], 
-                "id": "6B8B93C5-EB36-443F-8CA7-8AB93E230F5A", 
-                "image": {
-                    "frame": {
-                        "height": 94, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 412
                     }, 
-                    "path": "images/Layer-row_copy_3-6B8B93C5-EB36-443F-8CA7-8AB93E230F5A.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 94, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 412
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy3", 
-                "visible": true
-            }, 
-            {
-                "children": [
                     {
-                        "children": [], 
-                        "id": "EB87D6B1-0921-4599-88AF-7F016A4D7527", 
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "4A3327E6-2451-4CC2-9E13-0A967DF9D04B", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 16, 
+                                        "y": 659
+                                    }, 
+                                    "path": "images/Layer-Bitmap-4A3327E6-2451-4CC2-9E13-0A967DF9D04B.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 659
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 659
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "4E2D7195-F89A-4723-9C28-FC350F7F359F", 
                         "image": {
                             "frame": {
-                                "height": 16, 
-                                "width": 16, 
-                                "x": 16, 
-                                "y": 144
+                                "height": 94, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 643
                             }, 
-                            "path": "images/Layer-Bitmap-EB87D6B1-0921-4599-88AF-7F016A4D7527.png"
+                            "path": "images/Layer-row6-4E2D7195-F89A-4723-9C28-FC350F7F359F.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 144
+                            "height": 94, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 643
                         }, 
-                        "maskFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 144
-                        }, 
+                        "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Bitmap", 
+                        "name": "row6", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "014D829B-0A09-446B-815E-BE32DDE85C99", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 16, 
+                                        "y": 561
+                                    }, 
+                                    "path": "images/Layer-Bitmap-014D829B-0A09-446B-815E-BE32DDE85C99.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 561
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 561
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "7A292894-0B39-46D4-B55C-B31400ECDF9C", 
+                        "image": {
+                            "frame": {
+                                "height": 95, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 548
+                            }, 
+                            "path": "images/Layer-row5-7A292894-0B39-46D4-B55C-B31400ECDF9C.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 95, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 548
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "row5", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "782F4015-A982-4439-90EC-E4B4DC97B22D", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 16, 
+                                        "y": 470
+                                    }, 
+                                    "path": "images/Layer-Bitmap-782F4015-A982-4439-90EC-E4B4DC97B22D.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 470
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 470
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "BFCA38A4-C032-4F18-9CCC-A08C71A40826", 
+                        "image": {
+                            "frame": {
+                                "height": 94, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 454
+                            }, 
+                            "path": "images/Layer-row4-BFCA38A4-C032-4F18-9CCC-A08C71A40826.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 94, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 454
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "row4", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "EC1534DA-43C5-416C-BCF3-4835655769AA", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 16, 
+                                        "y": 375
+                                    }, 
+                                    "path": "images/Layer-Bitmap-EC1534DA-43C5-416C-BCF3-4835655769AA.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 375
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 375
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "BDB51885-B01D-4876-9115-CF7A98637EB5", 
+                        "image": {
+                            "frame": {
+                                "height": 95, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 359
+                            }, 
+                            "path": "images/Layer-row3-BDB51885-B01D-4876-9115-CF7A98637EB5.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 95, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 359
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "row3", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "D2A488C9-6767-4518-9627-C74AC8BE3A67", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 16, 
+                                        "y": 280
+                                    }, 
+                                    "path": "images/Layer-Bitmap-D2A488C9-6767-4518-9627-C74AC8BE3A67.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 280
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 280
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "EAF62334-DE30-4FBA-BEA5-AF559D6C1741", 
+                        "image": {
+                            "frame": {
+                                "height": 95, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 264
+                            }, 
+                            "path": "images/Layer-row2-EAF62334-DE30-4FBA-BEA5-AF559D6C1741.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 95, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 264
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "row2", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "0675B73D-FC50-4224-96E5-C744EC8E017A", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 16, 
+                                        "y": 186
+                                    }, 
+                                    "path": "images/Layer-Bitmap-0675B73D-FC50-4224-96E5-C744EC8E017A.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 186
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 16, 
+                                    "y": 186
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "E870AB5D-FBD8-4AD9-AA9F-9A10A1BEBCC7", 
+                        "image": {
+                            "frame": {
+                                "height": 94, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 170
+                            }, 
+                            "path": "images/Layer-row1-E870AB5D-FBD8-4AD9-AA9F-9A10A1BEBCC7.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 94, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 170
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "row1", 
                         "visible": true
                     }
                 ], 
-                "id": "D0876B2F-B1B8-40F9-A89A-7B6604FB90E8", 
-                "image": {
-                    "frame": {
-                        "height": 94, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 128
-                    }, 
-                    "path": "images/Layer-row-D0876B2F-B1B8-40F9-A89A-7B6604FB90E8.png"
-                }, 
+                "id": "98ADA6AC-AD3C-4419-96C6-2DDF9113FF1C", 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 94, 
+                    "height": 851, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 128
+                    "y": 170
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "row", 
+                "name": "outboundRows", 
                 "visible": true
             }
         ], 
-        "id": "334DAEFD-A064-4090-963C-790DD49A663B", 
+        "id": "D1E21C79-3A1F-4F06-BF8F-36A1274F56DB", 
         "image": {
             "frame": {
-                "height": 640, 
+                "height": 1096, 
                 "width": 360, 
-                "x": -313, 
-                "y": 1001
+                "x": -585, 
+                "y": 172
             }, 
-            "path": "images/Layer-outboundResults-334DAEFD-A064-4090-963C-790DD49A663B.png"
+            "path": "images/Layer-outboundResults-D1E21C79-3A1F-4F06-BF8F-36A1274F56DB.png"
         }, 
         "imageType": "png", 
         "kind": "artboard", 
         "layerFrame": {
-            "height": 640, 
+            "height": 1096, 
             "width": 360, 
-            "x": -313, 
-            "y": 1001
+            "x": -585, 
+            "y": 172
         }, 
         "maskFrame": null, 
         "metadata": {}, 
@@ -3408,282 +2970,8 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
             {
                 "children": [
                     {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "16A6804A-4B7F-49CA-8821-ED1CA5965705", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 404
-                                    }, 
-                                    "path": "images/Layer-radioOff-16A6804A-4B7F-49CA-8821-ED1CA5965705.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 404
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOff", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "F7EAE6E7-2795-4477-A2DD-12530AD7B085", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 131, 
-                                "x": 66, 
-                                "y": 404
-                            }, 
-                            "path": "images/Layer-row_copy_7-F7EAE6E7-2795-4477-A2DD-12530AD7B085.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 131, 
-                            "x": 66, 
-                            "y": 404
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "rowcopy7", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "18A815DF-0C3F-40B1-AA3D-3C979B89D715", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 356
-                                    }, 
-                                    "path": "images/Layer-radioOff-18A815DF-0C3F-40B1-AA3D-3C979B89D715.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 356
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOff", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "C0EFD7BC-E51A-4787-BE0C-284F625C322F", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 156, 
-                                "x": 66, 
-                                "y": 356
-                            }, 
-                            "path": "images/Layer-row_copy_6-C0EFD7BC-E51A-4787-BE0C-284F625C322F.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 156, 
-                            "x": 66, 
-                            "y": 356
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "rowcopy6", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "70E3756A-2D5F-4252-A1C1-1AE78F616EC5", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 308
-                                    }, 
-                                    "path": "images/Layer-radioOff-70E3756A-2D5F-4252-A1C1-1AE78F616EC5.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 308
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOff", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "65387727-D64B-4B48-A622-070EAD09AEE8", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 106, 
-                                "x": 66, 
-                                "y": 308
-                            }, 
-                            "path": "images/Layer-row_copy_5-65387727-D64B-4B48-A622-070EAD09AEE8.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 106, 
-                            "x": 66, 
-                            "y": 308
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "rowcopy5", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "C99384AD-5D31-40A4-9383-2ADEAA24E6D3", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 260
-                                    }, 
-                                    "path": "images/Layer-radioOn-C99384AD-5D31-40A4-9383-2ADEAA24E6D3.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 260
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOn", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "ED7C21B1-3127-4C20-9DEE-B60EEC1A5157", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 113, 
-                                "x": 66, 
-                                "y": 260
-                            }, 
-                            "path": "images/Layer-row-ED7C21B1-3127-4C20-9DEE-B60EEC1A5157.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 113, 
-                            "x": 66, 
-                            "y": 260
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "row", 
-                        "visible": true
-                    }
-                ], 
-                "id": "51F98E8D-38BF-4E9B-9F46-57F3300EFB03", 
-                "image": {
-                    "frame": {
-                        "height": 360, 
-                        "width": 356, 
-                        "x": 2, 
-                        "y": 159
-                    }, 
-                    "path": "images/Layer-dialog-51F98E8D-38BF-4E9B-9F46-57F3300EFB03.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 360, 
-                    "width": 356, 
-                    "x": 2, 
-                    "y": 159
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "dialog", 
-                "visible": true
-            }
-        ], 
-        "id": "480B1921-795C-4479-A7EE-5D3EB28FD24B", 
-        "image": {
-            "frame": {
-                "height": 640, 
-                "width": 360, 
-                "x": 82, 
-                "y": 1001
-            }, 
-            "path": "images/Layer-sortDialog-480B1921-795C-4479-A7EE-5D3EB28FD24B.png"
-        }, 
-        "imageType": "png", 
-        "kind": "artboard", 
-        "layerFrame": {
-            "height": 640, 
-            "width": 360, 
-            "x": 82, 
-            "y": 1001
-        }, 
-        "maskFrame": null, 
-        "metadata": {}, 
-        "name": "sortDialog", 
-        "visible": false
-    }, 
-    {
-        "children": [
-            {
-                "children": [
-                    {
                         "children": [], 
-                        "id": "DC61BC01-5775-47DF-944F-1FA21636A86D", 
+                        "id": "D1CC3522-BC3F-4F37-86E7-1BE45DB3B29F", 
                         "image": {
                             "frame": {
                                 "height": 48, 
@@ -3691,7 +2979,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 0, 
                                 "y": 80
                             }, 
-                            "path": "images/Layer-tabs-DC61BC01-5775-47DF-944F-1FA21636A86D.png"
+                            "path": "images/Layer-tabs-D1CC3522-BC3F-4F37-86E7-1BE45DB3B29F.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -3714,7 +3002,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "ECF0AA2F-A9A5-4215-8DFB-8CF97A13118C", 
+                "id": "8106B1D4-3E43-4719-B04D-AE77D939694E", 
                 "image": {
                     "frame": {
                         "height": 56, 
@@ -3722,7 +3010,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 80
                     }, 
-                    "path": "images/Layer-app_bar-ECF0AA2F-A9A5-4215-8DFB-8CF97A13118C.png"
+                    "path": "images/Layer-tabs-8106B1D4-3E43-4719-B04D-AE77D939694E.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -3736,67 +3024,67 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "appbar", 
+                "name": "tabs", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
                         "children": [], 
-                        "id": "2C3A5989-7D07-409A-8EBB-FECC5CB9C027", 
+                        "id": "CB4DE1A5-4BF1-4B14-BAA8-D623967E069B", 
                         "image": {
                             "frame": {
-                                "height": 10, 
-                                "width": 44, 
-                                "x": 158, 
-                                "y": 902
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-2C3A5989-7D07-409A-8EBB-FECC5CB9C027.png"
+                            "path": "images/Layer-btn-CB4DE1A5-4BF1-4B14-BAA8-D623967E069B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 10, 
-                            "width": 44, 
-                            "x": 158, 
-                            "y": 902
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "CACD9E0E-0F80-43A2-B86C-B9EA9C862F1A", 
+                "id": "A7B76376-9E48-46A0-9345-E00FB49E8C39", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 877
+                        "y": 514
                     }, 
-                    "path": "images/Layer-buttons-CACD9E0E-0F80-43A2-B86C-B9EA9C862F1A.png"
+                    "path": "images/Layer-applyBtn-A7B76376-9E48-46A0-9345-E00FB49E8C39.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 877
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "buttons", 
+                "name": "applyBtn", 
                 "visible": true
             }, 
             {
                 "children": [], 
-                "id": "AB22E77A-3D76-4FDE-B784-C51BAB7CD76F", 
+                "id": "A849FF03-32CE-4864-ACCD-22F37F22FEE7", 
                 "image": {
                     "frame": {
                         "height": 30, 
@@ -3804,7 +3092,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-StatusBarBlack-AB22E77A-3D76-4FDE-B784-C51BAB7CD76F.png"
+                    "path": "images/Layer-StatusBarBlack-A849FF03-32CE-4864-ACCD-22F37F22FEE7.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -3825,22 +3113,22 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "BD030212-072A-4817-8EF1-C7FC58E51926", 
+                        "id": "C1ECEF43-6832-4E34-8891-4E2EEF9EDE27", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 43, 
-                                "x": 299, 
+                                "height": 11, 
+                                "width": 40, 
+                                "x": 300, 
                                 "y": 46
                             }, 
-                            "path": "images/Layer-apply-BD030212-072A-4817-8EF1-C7FC58E51926.png"
+                            "path": "images/Layer-apply-C1ECEF43-6832-4E34-8891-4E2EEF9EDE27.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 43, 
-                            "x": 299, 
+                            "height": 11, 
+                            "width": 40, 
+                            "x": 300, 
                             "y": 46
                         }, 
                         "maskFrame": null, 
@@ -3852,7 +3140,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "BEB62EF7-3B0F-431A-B576-D7EBCB3A2C3B", 
+                        "id": "305F4278-5EFB-4097-A2CD-7BCDFCD9CBE4", 
                         "image": {
                             "frame": {
                                 "height": 14, 
@@ -3860,7 +3148,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 21, 
                                 "y": 45
                             }, 
-                            "path": "images/Layer-closeX-BEB62EF7-3B0F-431A-B576-D7EBCB3A2C3B.png"
+                            "path": "images/Layer-closeX-305F4278-5EFB-4097-A2CD-7BCDFCD9CBE4.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -3878,20 +3166,20 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "F0738F7F-7D8A-4EE8-8FD0-F2DD7C16AF43", 
+                "id": "EAB7E5F9-0605-44E9-8270-C4B97CF03F94", 
                 "image": {
                     "frame": {
-                        "height": 88, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-AppBarBackWithSubheader-F0738F7F-7D8A-4EE8-8FD0-F2DD7C16AF43.png"
+                    "path": "images/Layer-AppBarBackWithSubheader-EAB7E5F9-0605-44E9-8270-C4B97CF03F94.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 88, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -3905,15 +3193,15 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
             }, 
             {
                 "children": [], 
-                "id": "F4DBC25C-9CCE-47F0-87F0-B09A14067E46", 
+                "id": "65A83DCB-6949-4AF0-98DB-F8B057A8D3C9", 
                 "image": {
                     "frame": {
                         "height": 48, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 937
+                        "y": 592
                     }, 
-                    "path": "images/Layer-navbar-F4DBC25C-9CCE-47F0-87F0-B09A14067E46.png"
+                    "path": "images/Layer-navbar-65A83DCB-6949-4AF0-98DB-F8B057A8D3C9.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -3921,7 +3209,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     "height": 48, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 937
+                    "y": 592
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -3933,403 +3221,873 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
             {
                 "children": [
                     {
-                        "children": [], 
-                        "id": "43070E2E-7BCD-4D74-8390-A6401010EF00", 
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "CB73973E-3D59-411B-882F-53234E7AA4C1", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 18, 
+                                                "width": 18, 
+                                                "x": 323, 
+                                                "y": 533
+                                            }, 
+                                            "path": "images/Layer-checkbox_outline-CB73973E-3D59-411B-882F-53234E7AA4C1.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 18, 
+                                            "width": 18, 
+                                            "x": 323, 
+                                            "y": 533
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "checkboxoutline", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "41961C9E-4E7A-44D7-9A59-B7D1CC068480", 
+                                "image": {
+                                    "frame": {
+                                        "height": 56, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 514
+                                    }, 
+                                    "path": "images/Layer-row_copy_4-41961C9E-4E7A-44D7-9A59-B7D1CC068480.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 56, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 514
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy4", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "E2257773-DFDB-4F15-8BAD-335A3ECC544A", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 18, 
+                                                "width": 18, 
+                                                "x": 323, 
+                                                "y": 477
+                                            }, 
+                                            "path": "images/Layer-checkbox_outline-E2257773-DFDB-4F15-8BAD-335A3ECC544A.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 18, 
+                                            "width": 18, 
+                                            "x": 323, 
+                                            "y": 477
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "checkboxoutline", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "B1467064-D1B9-48E9-B09A-9B47C3DD8EAA", 
+                                "image": {
+                                    "frame": {
+                                        "height": 56, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 458
+                                    }, 
+                                    "path": "images/Layer-row_copy_3-B1467064-D1B9-48E9-B09A-9B47C3DD8EAA.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 56, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 458
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy3", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "2F2787DC-0623-4C37-A992-B2E4EAAD6374", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 18, 
+                                                "width": 18, 
+                                                "x": 323, 
+                                                "y": 421
+                                            }, 
+                                            "path": "images/Layer-checkbox_outline-2F2787DC-0623-4C37-A992-B2E4EAAD6374.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 18, 
+                                            "width": 18, 
+                                            "x": 323, 
+                                            "y": 421
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "checkboxoutline", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "F35E9422-F03B-4C8B-9DA6-4685CDB6AF7F", 
+                                "image": {
+                                    "frame": {
+                                        "height": 56, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 402
+                                    }, 
+                                    "path": "images/Layer-row_copy_2-F35E9422-F03B-4C8B-9DA6-4685CDB6AF7F.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 56, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 402
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy2", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "44C881C7-A055-4B90-9315-33BA73CE679D", 
+                                "image": {
+                                    "frame": {
+                                        "height": 53, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 349
+                                    }, 
+                                    "path": "images/Layer-subheader_copy_3-44C881C7-A055-4B90-9315-33BA73CE679D.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 53, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 349
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "subheadercopy3", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "C3A9B37D-F6FD-4670-9596-47A28F2D192A", 
                         "image": {
                             "frame": {
-                                "height": 13, 
-                                "width": 328, 
-                                "x": 16, 
-                                "y": 607
+                                "height": 221, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 349
                             }, 
-                            "path": "images/Layer-slider_regular-43070E2E-7BCD-4D74-8390-A6401010EF00.png"
+                            "path": "images/Layer-byAlliance-C3A9B37D-F6FD-4670-9596-47A28F2D192A.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 13, 
-                            "width": 328, 
-                            "x": 16, 
-                            "y": 607
+                            "height": 221, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 349
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "sliderregular", 
+                        "name": "byAlliance", 
                         "visible": true
-                    }
-                ], 
-                "id": "7FCEEAE1-6230-40E7-8418-3A3EC6D45ED0", 
-                "image": {
-                    "frame": {
-                        "height": 109, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 561
                     }, 
-                    "path": "images/Layer-row_copy_5-7FCEEAE1-6230-40E7-8418-3A3EC6D45ED0.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 109, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 561
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy5", 
-                "visible": true
-            }, 
-            {
-                "children": [
                     {
-                        "children": [], 
-                        "id": "9B960559-6D82-4952-8882-D91DEC489B3D", 
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "EF614899-B8A2-4D19-95CA-C92FBE0A58B4", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 18, 
+                                                "width": 18, 
+                                                "x": 323, 
+                                                "y": 312
+                                            }, 
+                                            "path": "images/Layer-checkbox_outline-EF614899-B8A2-4D19-95CA-C92FBE0A58B4.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 18, 
+                                            "width": 18, 
+                                            "x": 323, 
+                                            "y": 312
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "checkboxoutline", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "97600728-7D85-456C-8BB2-4CBF5E72EBAD", 
+                                "image": {
+                                    "frame": {
+                                        "height": 56, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 293
+                                    }, 
+                                    "path": "images/Layer-row_copy_12-97600728-7D85-456C-8BB2-4CBF5E72EBAD.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 56, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 293
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy12", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "861ABE0C-2397-4AC2-98B3-6F2765D5E26A", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 18, 
+                                                "width": 18, 
+                                                "x": 323, 
+                                                "y": 256
+                                            }, 
+                                            "path": "images/Layer-checkbox_outline-861ABE0C-2397-4AC2-98B3-6F2765D5E26A.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 18, 
+                                            "width": 18, 
+                                            "x": 323, 
+                                            "y": 256
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "checkboxoutline", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "7C0B0B64-A5A1-4179-A25D-BBD7AF9323B3", 
+                                "image": {
+                                    "frame": {
+                                        "height": 56, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 237
+                                    }, 
+                                    "path": "images/Layer-row_copy_11-7C0B0B64-A5A1-4179-A25D-BBD7AF9323B3.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 56, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 237
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy11", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "D18A44E6-C47E-4721-9C29-A00D6F7E9C3A", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 18, 
+                                                "width": 18, 
+                                                "x": 323, 
+                                                "y": 200
+                                            }, 
+                                            "path": "images/Layer-checkbox_outline-D18A44E6-C47E-4721-9C29-A00D6F7E9C3A.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 18, 
+                                            "width": 18, 
+                                            "x": 323, 
+                                            "y": 200
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "checkboxoutline", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "3A661DDC-4F5F-4CD7-BDD6-943E3680024E", 
+                                "image": {
+                                    "frame": {
+                                        "height": 56, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 181
+                                    }, 
+                                    "path": "images/Layer-row_copy_10-3A661DDC-4F5F-4CD7-BDD6-943E3680024E.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 56, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 181
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy10", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "EE6E4A9B-6BF3-4F29-9F66-6E2D78958AA0", 
+                                "image": {
+                                    "frame": {
+                                        "height": 53, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 128
+                                    }, 
+                                    "path": "images/Layer-subheader_copy_5-EE6E4A9B-6BF3-4F29-9F66-6E2D78958AA0.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 53, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 128
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "subheadercopy5", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "09C10FD0-F5F0-4324-82AE-2498B4A0DB30", 
                         "image": {
                             "frame": {
-                                "height": 13, 
-                                "width": 328, 
-                                "x": 16, 
-                                "y": 336
+                                "height": 221, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 128
                             }, 
-                            "path": "images/Layer-slider_regular-9B960559-6D82-4952-8882-D91DEC489B3D.png"
+                            "path": "images/Layer-byStop-09C10FD0-F5F0-4324-82AE-2498B4A0DB30.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 13, 
-                            "width": 328, 
-                            "x": 16, 
-                            "y": 336
+                            "height": 221, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 128
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "sliderregular", 
+                        "name": "byStop", 
                         "visible": true
-                    }
-                ], 
-                "id": "FAEB0937-636F-481A-990A-CFD53E474A55", 
-                "image": {
-                    "frame": {
-                        "height": 109, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 290
                     }, 
-                    "path": "images/Layer-row_copy_3-FAEB0937-636F-481A-990A-CFD53E474A55.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 109, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 290
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy3", 
-                "visible": true
-            }, 
-            {
-                "children": [
                     {
-                        "children": [], 
-                        "id": "4951524A-38C5-4C43-BEC4-17CA42AA5604", 
-                        "image": {
-                            "frame": {
-                                "height": 13, 
-                                "width": 328, 
-                                "x": 16, 
-                                "y": 498
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "3148C245-DF66-4BD5-9CF7-927BDFB09BB4", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 44, 
+                                                "width": 44, 
+                                                "x": 14, 
+                                                "y": 797
+                                            }, 
+                                            "path": "images/Layer-Bitmap-3148C245-DF66-4BD5-9CF7-927BDFB09BB4.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 44, 
+                                            "width": 44, 
+                                            "x": 14, 
+                                            "y": 797
+                                        }, 
+                                        "maskFrame": {
+                                            "height": 44, 
+                                            "width": 44, 
+                                            "x": 14, 
+                                            "y": 797
+                                        }, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "Bitmap", 
+                                        "visible": true
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "id": "F7DAA19A-7B87-4644-8BAC-D825020FD2F7", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 18, 
+                                                "width": 18, 
+                                                "x": 323, 
+                                                "y": 810
+                                            }, 
+                                            "path": "images/Layer-checkbox_outline-F7DAA19A-7B87-4644-8BAC-D825020FD2F7.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 18, 
+                                            "width": 18, 
+                                            "x": 323, 
+                                            "y": 810
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "checkboxoutline", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "5B8E7406-8986-4474-AA2F-D872D9263389", 
+                                "image": {
+                                    "frame": {
+                                        "height": 56, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 791
+                                    }, 
+                                    "path": "images/Layer-row_copy_8-5B8E7406-8986-4474-AA2F-D872D9263389.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 56, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 791
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy8", 
+                                "visible": true
                             }, 
-                            "path": "images/Layer-slider_regular-4951524A-38C5-4C43-BEC4-17CA42AA5604.png"
-                        }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "E509FFDA-B355-4AC6-A212-88A8110DE4A6", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 44, 
+                                                "width": 44, 
+                                                "x": 14, 
+                                                "y": 741
+                                            }, 
+                                            "path": "images/Layer-Bitmap-E509FFDA-B355-4AC6-A212-88A8110DE4A6.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 44, 
+                                            "width": 44, 
+                                            "x": 14, 
+                                            "y": 741
+                                        }, 
+                                        "maskFrame": {
+                                            "height": 44, 
+                                            "width": 44, 
+                                            "x": 14, 
+                                            "y": 741
+                                        }, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "Bitmap", 
+                                        "visible": true
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "id": "1D41A6F5-B563-4CEF-A90D-EC988AD8B33D", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 18, 
+                                                "width": 18, 
+                                                "x": 323, 
+                                                "y": 754
+                                            }, 
+                                            "path": "images/Layer-checkbox_outline-1D41A6F5-B563-4CEF-A90D-EC988AD8B33D.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 18, 
+                                            "width": 18, 
+                                            "x": 323, 
+                                            "y": 754
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "checkboxoutline", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "F3722FED-A19D-4389-B82A-BCEDA549AEFF", 
+                                "image": {
+                                    "frame": {
+                                        "height": 56, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 735
+                                    }, 
+                                    "path": "images/Layer-row_copy_7-F3722FED-A19D-4389-B82A-BCEDA549AEFF.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 56, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 735
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy7", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "6F2F8997-595E-4435-8D9B-6C55AAC6FBCB", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 44, 
+                                                "width": 44, 
+                                                "x": 14, 
+                                                "y": 685
+                                            }, 
+                                            "path": "images/Layer-Bitmap-6F2F8997-595E-4435-8D9B-6C55AAC6FBCB.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 44, 
+                                            "width": 44, 
+                                            "x": 14, 
+                                            "y": 685
+                                        }, 
+                                        "maskFrame": {
+                                            "height": 44, 
+                                            "width": 44, 
+                                            "x": 14, 
+                                            "y": 685
+                                        }, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "Bitmap", 
+                                        "visible": true
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "id": "71CD09E0-D01E-4B10-9111-90AF11E1F213", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 18, 
+                                                "width": 18, 
+                                                "x": 323, 
+                                                "y": 698
+                                            }, 
+                                            "path": "images/Layer-checkbox_outline-71CD09E0-D01E-4B10-9111-90AF11E1F213.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 18, 
+                                            "width": 18, 
+                                            "x": 323, 
+                                            "y": 698
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "checkboxoutline", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "1245AFEE-F8D5-4A47-9297-E14A83876EB6", 
+                                "image": {
+                                    "frame": {
+                                        "height": 56, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 679
+                                    }, 
+                                    "path": "images/Layer-row_copy_6-1245AFEE-F8D5-4A47-9297-E14A83876EB6.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 56, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 679
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy6", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "6B34E2F9-D76F-48D3-A49F-2DD2830BC06A", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 44, 
+                                                "width": 44, 
+                                                "x": 14, 
+                                                "y": 629
+                                            }, 
+                                            "path": "images/Layer-Bitmap-6B34E2F9-D76F-48D3-A49F-2DD2830BC06A.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 44, 
+                                            "width": 44, 
+                                            "x": 14, 
+                                            "y": 629
+                                        }, 
+                                        "maskFrame": {
+                                            "height": 44, 
+                                            "width": 44, 
+                                            "x": 14, 
+                                            "y": 629
+                                        }, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "Bitmap", 
+                                        "visible": true
+                                    }, 
+                                    {
+                                        "children": [], 
+                                        "id": "43C23366-3212-41EE-99F3-DC5C32E86F59", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 18, 
+                                                "width": 18, 
+                                                "x": 323, 
+                                                "y": 642
+                                            }, 
+                                            "path": "images/Layer-checkbox_outline-43C23366-3212-41EE-99F3-DC5C32E86F59.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 18, 
+                                            "width": 18, 
+                                            "x": 323, 
+                                            "y": 642
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "checkboxoutline", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "5B064E12-8E9A-4817-AB3B-4EACD16A0621", 
+                                "image": {
+                                    "frame": {
+                                        "height": 56, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 623
+                                    }, 
+                                    "path": "images/Layer-row_copy_5-5B064E12-8E9A-4817-AB3B-4EACD16A0621.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 56, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 623
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy5", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "BFABD43A-3AEB-417C-B592-1E5EAC075784", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 11, 
+                                                "width": 76, 
+                                                "x": 268, 
+                                                "y": 590
+                                            }, 
+                                            "path": "images/Layer-button-BFABD43A-3AEB-417C-B592-1E5EAC075784.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 11, 
+                                            "width": 76, 
+                                            "x": 268, 
+                                            "y": 590
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "button", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "87FFBCA2-5A69-453E-B0D0-62DF21509373", 
+                                "image": {
+                                    "frame": {
+                                        "height": 53, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 570
+                                    }, 
+                                    "path": "images/Layer-subheader_copy_4-87FFBCA2-5A69-453E-B0D0-62DF21509373.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 53, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 570
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "subheadercopy4", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "6746E146-9B70-4366-A4BA-6F97E77FCB3C", 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 13, 
-                            "width": 328, 
-                            "x": 16, 
-                            "y": 498
+                            "height": 277, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 570
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "sliderregular", 
+                        "name": "byAirline", 
                         "visible": true
                     }
                 ], 
-                "id": "B0F40E0C-1338-43E2-854D-985010D07DDB", 
-                "image": {
-                    "frame": {
-                        "height": 109, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 452
-                    }, 
-                    "path": "images/Layer-row_copy_4-B0F40E0C-1338-43E2-854D-985010D07DDB.png"
-                }, 
+                "id": "77D015BB-3384-47BC-B467-FA117839823C", 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 109, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 452
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy4", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "EE2C8B5A-BC29-4A0D-A1BF-BAEFF1F987AA", 
-                        "image": {
-                            "frame": {
-                                "height": 13, 
-                                "width": 328, 
-                                "x": 16, 
-                                "y": 227
-                            }, 
-                            "path": "images/Layer-slider_regular-EE2C8B5A-BC29-4A0D-A1BF-BAEFF1F987AA.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 13, 
-                            "width": 328, 
-                            "x": 16, 
-                            "y": 227
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "sliderregular", 
-                        "visible": true
-                    }
-                ], 
-                "id": "52F42721-1B42-41E9-97D3-05A13E522AE8", 
-                "image": {
-                    "frame": {
-                        "height": 109, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 181
-                    }, 
-                    "path": "images/Layer-row_copy_2-52F42721-1B42-41E9-97D3-05A13E522AE8.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 109, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 181
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy2", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "3448076B-31C1-4CC5-A011-C6E0F2BEE317", 
-                        "image": {
-                            "frame": {
-                                "height": 13, 
-                                "width": 288, 
-                                "x": 16, 
-                                "y": 847
-                            }, 
-                            "path": "images/Layer-slider_regular-3448076B-31C1-4CC5-A011-C6E0F2BEE317.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 13, 
-                            "width": 288, 
-                            "x": 16, 
-                            "y": 847
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "sliderregular", 
-                        "visible": true
-                    }
-                ], 
-                "id": "D3B2E75D-5FCF-4846-AD0F-A4CBD4EF428B", 
-                "image": {
-                    "frame": {
-                        "height": 77, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 800
-                    }, 
-                    "path": "images/Layer-row_copy-D3B2E75D-5FCF-4846-AD0F-A4CBD4EF428B.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 77, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 800
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "C9D8F617-BAAF-4510-916F-CD83D2045306", 
-                        "image": {
-                            "frame": {
-                                "height": 13, 
-                                "width": 288, 
-                                "x": 16, 
-                                "y": 770
-                            }, 
-                            "path": "images/Layer-slider_regular-C9D8F617-BAAF-4510-916F-CD83D2045306.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 13, 
-                            "width": 288, 
-                            "x": 16, 
-                            "y": 770
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "sliderregular", 
-                        "visible": true
-                    }
-                ], 
-                "id": "9AB6E1C5-EB59-4353-8E3F-13E2249348EA", 
-                "image": {
-                    "frame": {
-                        "height": 77, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 723
-                    }, 
-                    "path": "images/Layer-row-9AB6E1C5-EB59-4353-8E3F-13E2249348EA.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 77, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 723
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "row", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "0A396CA4-38B2-4162-9EF5-DCA9E1E15D70", 
-                "image": {
-                    "frame": {
-                        "height": 53, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 399
-                    }, 
-                    "path": "images/Layer-subheader_copy-0A396CA4-38B2-4162-9EF5-DCA9E1E15D70.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 53, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 399
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "subheadercopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "878995B8-2425-4F5B-BB4F-B25724CA7D5C", 
-                "image": {
-                    "frame": {
-                        "height": 53, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 670
-                    }, 
-                    "path": "images/Layer-subheader_copy_2-878995B8-2425-4F5B-BB4F-B25724CA7D5C.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 53, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 670
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "subheadercopy2", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "84472A76-539E-4CC4-8B99-7C99FF049A0B", 
-                "image": {
-                    "frame": {
-                        "height": 53, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 128
-                    }, 
-                    "path": "images/Layer-subheader-84472A76-539E-4CC4-8B99-7C99FF049A0B.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 53, 
+                    "height": 719, 
                     "width": 360, 
                     "x": 0, 
                     "y": 128
@@ -4338,27 +4096,27 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "subheader", 
+                "name": "scrollContentFilters", 
                 "visible": true
             }
         ], 
-        "id": "37E4DB44-E8AC-4FD3-BC10-7AE472FBBB54", 
+        "id": "A7182432-CFB5-4364-AA69-4E729DD338C9", 
         "image": {
             "frame": {
-                "height": 985, 
+                "height": 911, 
                 "width": 360, 
-                "x": 477, 
-                "y": 1001
+                "x": -174, 
+                "y": 172
             }, 
-            "path": "images/Layer-filterModal-37E4DB44-E8AC-4FD3-BC10-7AE472FBBB54.png"
+            "path": "images/Layer-filterModal-A7182432-CFB5-4364-AA69-4E729DD338C9.png"
         }, 
         "imageType": "png", 
         "kind": "artboard", 
         "layerFrame": {
-            "height": 985, 
+            "height": 911, 
             "width": 360, 
-            "x": 477, 
-            "y": 1001
+            "x": -174, 
+            "y": 172
         }, 
         "maskFrame": null, 
         "metadata": {}, 
@@ -4371,195 +4129,60 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "9915EB31-F0FD-4230-AEF1-CD9DD33EA830", 
+                        "id": "7F8A486E-2124-4A2B-A989-D8DF95FD7EDD", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 169, 
-                                "x": 96, 
-                                "y": 745
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-9915EB31-F0FD-4230-AEF1-CD9DD33EA830.png"
+                            "path": "images/Layer-btn-7F8A486E-2124-4A2B-A989-D8DF95FD7EDD.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 169, 
-                            "x": 96, 
-                            "y": 745
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "EADF09D7-583E-4D65-B347-B7829EDA4AF5", 
+                "id": "3E9C396C-CEDA-44AA-AEDC-DB0C28DE0982", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 721
+                        "y": 514
                     }, 
-                    "path": "images/Layer-buttons-EADF09D7-583E-4D65-B347-B7829EDA4AF5.png"
+                    "path": "images/Layer-selectOutBoundBtn-3E9C396C-CEDA-44AA-AEDC-DB0C28DE0982.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 721
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "buttons", 
+                "name": "selectOutBoundBtn", 
                 "visible": true
             }, 
             {
                 "children": [], 
-                "id": "446274D9-7CC0-442F-AFA2-742F02AE57CA", 
-                "image": {
-                    "frame": {
-                        "height": 18, 
-                        "width": 18, 
-                        "x": 33, 
-                        "y": 339
-                    }, 
-                    "path": "images/Layer-clockIcon-446274D9-7CC0-442F-AFA2-742F02AE57CA.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 18, 
-                    "width": 18, 
-                    "x": 33, 
-                    "y": 339
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "clockIcon", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "A05617E0-64EB-43EC-81F2-A73CFE05FD89", 
-                "image": {
-                    "frame": {
-                        "height": 49, 
-                        "width": 56, 
-                        "x": 16, 
-                        "y": 428
-                    }, 
-                    "path": "images/Layer-durationSummary_Copy-A05617E0-64EB-43EC-81F2-A73CFE05FD89.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 49, 
-                    "width": 56, 
-                    "x": 16, 
-                    "y": 428
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "durationSummaryCopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "4B95800D-38CF-47ED-9354-3B3EAA310E88", 
-                "image": {
-                    "frame": {
-                        "height": 49, 
-                        "width": 56, 
-                        "x": 16, 
-                        "y": 188
-                    }, 
-                    "path": "images/Layer-durationSummary-4B95800D-38CF-47ED-9354-3B3EAA310E88.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 49, 
-                    "width": 56, 
-                    "x": 16, 
-                    "y": 188
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "durationSummary", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "1DAAFE40-EDF5-4486-ACAB-EB05EAB11002", 
-                "image": {
-                    "frame": {
-                        "height": 103, 
-                        "width": 14, 
-                        "x": 37, 
-                        "y": 403
-                    }, 
-                    "path": "images/Layer-arrow_copy-1DAAFE40-EDF5-4486-ACAB-EB05EAB11002.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 103, 
-                    "width": 14, 
-                    "x": 37, 
-                    "y": 403
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "arrowcopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "0047A6EC-7AC7-4AE4-B81D-4A06827EBEA0", 
-                "image": {
-                    "frame": {
-                        "height": 103, 
-                        "width": 14, 
-                        "x": 36, 
-                        "y": 162
-                    }, 
-                    "path": "images/Layer-arrow-0047A6EC-7AC7-4AE4-B81D-4A06827EBEA0.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 103, 
-                    "width": 14, 
-                    "x": 36, 
-                    "y": 162
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "arrow", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "5314DDEF-258F-4E72-BA70-44C85C38FD99", 
+                "id": "2D7E4C17-EDFF-4A4D-A708-E1904743EB37", 
                 "image": {
                     "frame": {
                         "height": 30, 
@@ -4567,7 +4190,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-StatusBarBlack-5314DDEF-258F-4E72-BA70-44C85C38FD99.png"
+                    "path": "images/Layer-StatusBarBlack-2D7E4C17-EDFF-4A4D-A708-E1904743EB37.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -4585,10 +4208,64 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "visible": true
             }, 
             {
+                "children": [], 
+                "id": "DE2BEEE9-F7DF-4C78-AA80-AB73AC439D3D", 
+                "image": {
+                    "frame": {
+                        "height": 40, 
+                        "width": 40, 
+                        "x": 311, 
+                        "y": 32
+                    }, 
+                    "path": "images/Layer-hideGraph-DE2BEEE9-F7DF-4C78-AA80-AB73AC439D3D.png"
+                }, 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 40, 
+                    "width": 40, 
+                    "x": 311, 
+                    "y": 32
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "hideGraph", 
+                "visible": true
+            }, 
+            {
+                "children": [], 
+                "id": "E72F1757-6E5E-4258-B1E0-DC16A036EA8C", 
+                "image": {
+                    "frame": {
+                        "height": 2, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 81
+                    }, 
+                    "path": "images/Layer-DividerGradient-E72F1757-6E5E-4258-B1E0-DC16A036EA8C.png"
+                }, 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 2, 
+                    "width": 360, 
+                    "x": 0, 
+                    "y": 81
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "DividerGradient", 
+                "visible": true
+            }, 
+            {
                 "children": [
                     {
                         "children": [], 
-                        "id": "5784E893-4B4A-443F-807E-409E8BDB5A90", 
+                        "id": "1E98168F-DCDF-4A0E-BBCE-DEC1FDD523B9", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -4596,7 +4273,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-5784E893-4B4A-443F-807E-409E8BDB5A90.png"
+                            "path": "images/Layer-back-1E98168F-DCDF-4A0E-BBCE-DEC1FDD523B9.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -4615,7 +4292,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "BEFA1478-374A-490A-813A-9E88BA133D9F", 
+                        "id": "9633E95A-7FD3-49CC-BD73-4865EDAA92B1", 
                         "image": {
                             "frame": {
                                 "height": 19, 
@@ -4623,7 +4300,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 323, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-BEFA1478-374A-490A-813A-9E88BA133D9F.png"
+                            "path": "images/Layer-graph-9633E95A-7FD3-49CC-BD73-4865EDAA92B1.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -4641,20 +4318,20 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "14320F62-0CD6-404A-BC98-C2417B49ADD7", 
+                "id": "116FDD77-8A9E-42EC-A5E6-B65D26340DAA", 
                 "image": {
                     "frame": {
-                        "height": 88, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-14320F62-0CD6-404A-BC98-C2417B49ADD7.png"
+                    "path": "images/Layer-app_bar-116FDD77-8A9E-42EC-A5E6-B65D26340DAA.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 88, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -4668,15 +4345,15 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
             }, 
             {
                 "children": [], 
-                "id": "592FA0D3-D897-495E-BF84-422AE63D1EA9", 
+                "id": "31759C98-7160-42A2-A9DC-033E87027841", 
                 "image": {
                     "frame": {
                         "height": 48, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 781
+                        "y": 592
                     }, 
-                    "path": "images/Layer-navbar-592FA0D3-D897-495E-BF84-422AE63D1EA9.png"
+                    "path": "images/Layer-navbar-31759C98-7160-42A2-A9DC-033E87027841.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -4684,7 +4361,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     "height": 48, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 781
+                    "y": 592
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -4698,24 +4375,107 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     {
                         "children": [
                             {
-                                "children": [], 
-                                "id": "70C0B751-481F-463B-9F12-8142027435C0", 
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "CE6036C8-0166-46D6-8B66-EA5641CB8895", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 12, 
+                                                "width": 12, 
+                                                "x": 156, 
+                                                "y": 101
+                                            }, 
+                                            "path": "images/Layer-clockIcon-CE6036C8-0166-46D6-8B66-EA5641CB8895.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 12, 
+                                            "width": 12, 
+                                            "x": 156, 
+                                            "y": 101
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "clockIcon", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "AF5D8916-814F-4F0A-9FEC-00BC3E35D0A7", 
                                 "image": {
                                     "frame": {
-                                        "height": 12, 
-                                        "width": 12, 
-                                        "x": 156, 
-                                        "y": 98
+                                        "height": 14, 
+                                        "width": 207, 
+                                        "x": 77, 
+                                        "y": 101
                                     }, 
-                                    "path": "images/Layer-clockIcon-70C0B751-481F-463B-9F12-8142027435C0.png"
+                                    "path": "images/Layer-Group-AF5D8916-814F-4F0A-9FEC-00BC3E35D0A7.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 12, 
-                                    "width": 12, 
-                                    "x": 156, 
-                                    "y": 98
+                                    "height": 14, 
+                                    "width": 207, 
+                                    "x": 77, 
+                                    "y": 101
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Group", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "D38B6851-5D62-4828-8D5A-6258AE8375AB", 
+                        "image": {
+                            "frame": {
+                                "height": 48, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 83
+                            }, 
+                            "path": "images/Layer-subheader-D38B6851-5D62-4828-8D5A-6258AE8375AB.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 48, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 83
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "subheader", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "1FFDF416-6D27-4C9C-9F16-4D22C92186C4", 
+                                "image": {
+                                    "frame": {
+                                        "height": 18, 
+                                        "width": 18, 
+                                        "x": 33, 
+                                        "y": 342
+                                    }, 
+                                    "path": "images/Layer-clockIcon-1FFDF416-6D27-4C9C-9F16-4D22C92186C4.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 18, 
+                                    "width": 18, 
+                                    "x": 33, 
+                                    "y": 342
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -4723,141 +4483,303 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 }, 
                                 "name": "clockIcon", 
                                 "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "CA8C7071-04AF-4215-9844-CF5A50E5C82A", 
+                                "image": {
+                                    "frame": {
+                                        "height": 49, 
+                                        "width": 56, 
+                                        "x": 16, 
+                                        "y": 431
+                                    }, 
+                                    "path": "images/Layer-durationSummary_Copy-CA8C7071-04AF-4215-9844-CF5A50E5C82A.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 49, 
+                                    "width": 56, 
+                                    "x": 16, 
+                                    "y": 431
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "durationSummaryCopy", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "05ABB22F-3A41-4D48-AC93-AEDC83086B8E", 
+                                "image": {
+                                    "frame": {
+                                        "height": 49, 
+                                        "width": 56, 
+                                        "x": 16, 
+                                        "y": 191
+                                    }, 
+                                    "path": "images/Layer-durationSummary-05ABB22F-3A41-4D48-AC93-AEDC83086B8E.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 49, 
+                                    "width": 56, 
+                                    "x": 16, 
+                                    "y": 191
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "durationSummary", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "11AEFA7B-C5DA-4C12-9FB8-7E9FA744BD10", 
+                                "image": {
+                                    "frame": {
+                                        "height": 103, 
+                                        "width": 14, 
+                                        "x": 37, 
+                                        "y": 406
+                                    }, 
+                                    "path": "images/Layer-arrow_copy-11AEFA7B-C5DA-4C12-9FB8-7E9FA744BD10.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 103, 
+                                    "width": 14, 
+                                    "x": 37, 
+                                    "y": 406
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "arrowcopy", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "2618CEAC-4B8B-41B1-B144-FACF76888DE5", 
+                                "image": {
+                                    "frame": {
+                                        "height": 103, 
+                                        "width": 14, 
+                                        "x": 36, 
+                                        "y": 165
+                                    }, 
+                                    "path": "images/Layer-arrow-2618CEAC-4B8B-41B1-B144-FACF76888DE5.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 103, 
+                                    "width": 14, 
+                                    "x": 36, 
+                                    "y": 165
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "arrow", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "22B8FE83-71EF-4899-8D75-DD4662906D4E", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 104, 
+                                        "y": 430
+                                    }, 
+                                    "path": "images/Layer-Bitmap_Copy-22B8FE83-71EF-4899-8D75-DD4662906D4E.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 104, 
+                                    "y": 430
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 104, 
+                                    "y": 430
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "BitmapCopy", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "814B7F4E-3B8C-49D5-A74B-AE9EDFDF0D94", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 103, 
+                                        "y": 190
+                                    }, 
+                                    "path": "images/Layer-Bitmap-814B7F4E-3B8C-49D5-A74B-AE9EDFDF0D94.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 103, 
+                                    "y": 190
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 103, 
+                                    "y": 190
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
                             }
                         ], 
-                        "id": "42AAF804-CD23-4F4D-97FF-10E065C8014B", 
+                        "id": "8D69E4F5-A589-4152-B365-8B9597A7B240", 
                         "image": {
                             "frame": {
-                                "height": 14, 
-                                "width": 207, 
-                                "x": 77, 
-                                "y": 98
+                                "height": 423, 
+                                "width": 330, 
+                                "x": 15, 
+                                "y": 146
                             }, 
-                            "path": "images/Layer-Group-42AAF804-CD23-4F4D-97FF-10E065C8014B.png"
+                            "path": "images/Layer-details-8D69E4F5-A589-4152-B365-8B9597A7B240.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 14, 
-                            "width": 207, 
-                            "x": 77, 
-                            "y": 98
+                            "height": 423, 
+                            "width": 330, 
+                            "x": 15, 
+                            "y": 146
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Group", 
+                        "name": "details", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "0A01C6EC-41AB-4A32-BBA4-22D3A84338AB", 
+                        "image": {
+                            "frame": {
+                                "height": 80, 
+                                "width": 330, 
+                                "x": 15, 
+                                "y": 612
+                            }, 
+                            "path": "images/Layer-summary-0A01C6EC-41AB-4A32-BBA4-22D3A84338AB.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 80, 
+                            "width": 330, 
+                            "x": 15, 
+                            "y": 612
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "summary", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "38B502E5-8C83-4FD6-89AE-6E1D305641BA", 
+                        "image": {
+                            "frame": {
+                                "height": 78, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 700
+                            }, 
+                            "path": "images/Layer-listBg-38B502E5-8C83-4FD6-89AE-6E1D305641BA.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 78, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 700
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "listBg", 
                         "visible": true
                     }
                 ], 
-                "id": "2EE1912E-0B0D-4228-A2E3-FB59A99DDDDE", 
+                "id": "5E0C8257-EB71-400D-8B43-9F8C76ACFFF4", 
                 "image": {
                     "frame": {
-                        "height": 48, 
+                        "height": 695, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 80
+                        "y": 83
                     }, 
-                    "path": "images/Layer-subheader-2EE1912E-0B0D-4228-A2E3-FB59A99DDDDE.png"
+                    "path": "images/Layer-scrollContentOutboundDetails-5E0C8257-EB71-400D-8B43-9F8C76ACFFF4.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 48, 
+                    "height": 695, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 80
+                    "y": 83
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "subheader", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "41DE1B8A-7B8E-4140-826D-CF488F2BA334", 
-                "image": {
-                    "frame": {
-                        "height": 16, 
-                        "width": 16, 
-                        "x": 104, 
-                        "y": 427
-                    }, 
-                    "path": "images/Layer-Bitmap_Copy-41DE1B8A-7B8E-4140-826D-CF488F2BA334.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 104, 
-                    "y": 427
-                }, 
-                "maskFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 104, 
-                    "y": 427
-                }, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "BitmapCopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "EE1FA4A9-17F9-4465-83C8-12D505141084", 
-                "image": {
-                    "frame": {
-                        "height": 16, 
-                        "width": 16, 
-                        "x": 103, 
-                        "y": 187
-                    }, 
-                    "path": "images/Layer-Bitmap-EE1FA4A9-17F9-4465-83C8-12D505141084.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 103, 
-                    "y": 187
-                }, 
-                "maskFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 103, 
-                    "y": 187
-                }, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "Bitmap", 
+                "name": "scrollContentOutboundDetails", 
                 "visible": true
             }
         ], 
-        "id": "B75F07E3-B685-44F9-89D1-79F139ADA81D", 
+        "id": "69E79E8F-65D3-4A29-8793-027BF6D2FA35", 
         "image": {
             "frame": {
-                "height": 829, 
+                "height": 778, 
                 "width": 360, 
-                "x": 872, 
-                "y": 1001
+                "x": 235, 
+                "y": 172
             }, 
-            "path": "images/Layer-outboundDetails-B75F07E3-B685-44F9-89D1-79F139ADA81D.png"
+            "path": "images/Layer-outboundDetails-69E79E8F-65D3-4A29-8793-027BF6D2FA35.png"
         }, 
         "imageType": "png", 
         "kind": "artboard", 
         "layerFrame": {
-            "height": 829, 
+            "height": 778, 
             "width": 360, 
-            "x": 872, 
-            "y": 1001
+            "x": 235, 
+            "y": 172
         }, 
         "maskFrame": null, 
         "metadata": {}, 
@@ -4867,262 +4789,8 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
     {
         "children": [
             {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "8509EA61-656B-4A6B-91B7-EF4A2ACAA12F", 
-                        "image": {
-                            "frame": {
-                                "height": 36, 
-                                "width": 126, 
-                                "x": 218, 
-                                "y": 542
-                            }, 
-                            "path": "images/Layer-FILTER_Copy-8509EA61-656B-4A6B-91B7-EF4A2ACAA12F.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 36, 
-                            "width": 126, 
-                            "x": 218, 
-                            "y": 542
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "FILTERCopy", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [
-                                    {
-                                        "children": [], 
-                                        "id": "A9241BA5-A9DB-4616-BE01-A5453EE8932D", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 14, 
-                                                "width": 11, 
-                                                "x": 52, 
-                                                "y": 553
-                                            }, 
-                                            "path": "images/Layer-Page_1_Copy-A9241BA5-A9DB-4616-BE01-A5453EE8932D.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 14, 
-                                            "width": 11, 
-                                            "x": 52, 
-                                            "y": 553
-                                        }, 
-                                        "maskFrame": {
-                                            "height": 14, 
-                                            "width": 11, 
-                                            "x": 52, 
-                                            "y": 554
-                                        }, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "Page1Copy", 
-                                        "visible": true
-                                    }, 
-                                    {
-                                        "children": [], 
-                                        "id": "25A834A4-D5B0-4751-85BA-7598ABB22851", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 14, 
-                                                "width": 11, 
-                                                "x": 40, 
-                                                "y": 554
-                                            }, 
-                                            "path": "images/Layer-Page_1-25A834A4-D5B0-4751-85BA-7598ABB22851.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 14, 
-                                            "width": 11, 
-                                            "x": 40, 
-                                            "y": 554
-                                        }, 
-                                        "maskFrame": {
-                                            "height": 14, 
-                                            "width": 11, 
-                                            "x": 40, 
-                                            "y": 554
-                                        }, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "Page1", 
-                                        "visible": true
-                                    }
-                                ], 
-                                "id": "4FE81D92-0C34-442D-B4FC-0D9E75F85DDE", 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 14, 
-                                    "width": 23, 
-                                    "x": 40, 
-                                    "y": 553
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "iconsort", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "72CA459A-4185-4E0C-8F1C-60B4A5665A6D", 
-                        "image": {
-                            "frame": {
-                                "height": 36, 
-                                "width": 126, 
-                                "x": 16, 
-                                "y": 542
-                            }, 
-                            "path": "images/Layer-SORT_Copy-72CA459A-4185-4E0C-8F1C-60B4A5665A6D.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 36, 
-                            "width": 126, 
-                            "x": 16, 
-                            "y": 542
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "SORTCopy", 
-                        "visible": true
-                    }
-                ], 
-                "id": "62DF0C22-A600-4CD9-9A9D-C343D2086347", 
-                "image": {
-                    "frame": {
-                        "height": 65, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 527
-                    }, 
-                    "path": "images/Layer-filters-62DF0C22-A600-4CD9-9A9D-C343D2086347.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 65, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 527
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "filters", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "E0BCBBF7-2F35-45BB-BD89-19B10C52C9E3", 
-                                "image": {
-                                    "frame": {
-                                        "height": 17, 
-                                        "width": 16, 
-                                        "x": 16, 
-                                        "y": 122
-                                    }, 
-                                    "path": "images/Layer-Bitmap-E0BCBBF7-2F35-45BB-BD89-19B10C52C9E3.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 17, 
-                                    "width": 16, 
-                                    "x": 16, 
-                                    "y": 122
-                                }, 
-                                "maskFrame": {
-                                    "height": 17, 
-                                    "width": 16, 
-                                    "x": 16, 
-                                    "y": 122
-                                }, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "Bitmap", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "F8C7CB27-074D-4AB1-8459-369F2058DA33", 
-                        "image": {
-                            "frame": {
-                                "height": 73, 
-                                "width": 328, 
-                                "x": 16, 
-                                "y": 122
-                            }, 
-                            "path": "images/Layer-row_copy_4-F8C7CB27-074D-4AB1-8459-369F2058DA33.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 73, 
-                            "width": 328, 
-                            "x": 16, 
-                            "y": 122
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "rowcopy4", 
-                        "visible": true
-                    }
-                ], 
-                "id": "747FD715-36C4-4E94-8B09-CDA1AF5EE824", 
-                "image": {
-                    "frame": {
-                        "height": 93, 
-                        "width": 348, 
-                        "x": 6, 
-                        "y": 113
-                    }, 
-                    "path": "images/Layer-outboundSelected-747FD715-36C4-4E94-8B09-CDA1AF5EE824.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 93, 
-                    "width": 348, 
-                    "x": 6, 
-                    "y": 113
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "outboundSelected", 
-                "visible": true
-            }, 
-            {
                 "children": [], 
-                "id": "475057DB-5154-429F-A39B-23D5CC2B2E41", 
+                "id": "F86BDE81-D41E-4C7B-88C8-9CB953477093", 
                 "image": {
                     "frame": {
                         "height": 30, 
@@ -5130,7 +4798,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-StatusBarBlack-475057DB-5154-429F-A39B-23D5CC2B2E41.png"
+                    "path": "images/Layer-StatusBarBlack-F86BDE81-D41E-4C7B-88C8-9CB953477093.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -5148,10 +4816,37 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "visible": true
             }, 
             {
+                "children": [], 
+                "id": "BEF35085-4054-4443-B797-5DB3F6580458", 
+                "image": {
+                    "frame": {
+                        "height": 2, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 81
+                    }, 
+                    "path": "images/Layer-DividerGradient-BEF35085-4054-4443-B797-5DB3F6580458.png"
+                }, 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 2, 
+                    "width": 360, 
+                    "x": 0, 
+                    "y": 81
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "DividerGradient", 
+                "visible": true
+            }, 
+            {
                 "children": [
                     {
                         "children": [], 
-                        "id": "08F26A5F-1748-4F07-B9D8-5324770575E6", 
+                        "id": "97EE2406-CD5D-43F7-BCB8-ADE22B884E66", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -5159,7 +4854,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-08F26A5F-1748-4F07-B9D8-5324770575E6.png"
+                            "path": "images/Layer-back-97EE2406-CD5D-43F7-BCB8-ADE22B884E66.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -5178,22 +4873,49 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "32F979C2-56DF-4570-A283-EEED80DBF9E2", 
+                        "id": "5250E189-6416-4DE5-BA57-F300A93399C3", 
+                        "image": {
+                            "frame": {
+                                "height": 10, 
+                                "width": 45, 
+                                "x": 297, 
+                                "y": 46
+                            }, 
+                            "path": "images/Layer-refine-5250E189-6416-4DE5-BA57-F300A93399C3.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 10, 
+                            "width": 45, 
+                            "x": 297, 
+                            "y": 46
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "refine", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "921F6B40-1361-474B-96FC-30F0E24F32D2", 
                         "image": {
                             "frame": {
                                 "height": 19, 
                                 "width": 17, 
-                                "x": 323, 
+                                "x": 258, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-32F979C2-56DF-4570-A283-EEED80DBF9E2.png"
+                            "path": "images/Layer-graph-921F6B40-1361-474B-96FC-30F0E24F32D2.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
                             "height": 19, 
                             "width": 17, 
-                            "x": 323, 
+                            "x": 258, 
                             "y": 42
                         }, 
                         "maskFrame": null, 
@@ -5204,20 +4926,20 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "4DC91970-1AAE-42E2-8077-1E80DE855D20", 
+                "id": "A68C6042-5CC3-4434-BEB9-5D21E0CC9203", 
                 "image": {
                     "frame": {
-                        "height": 88, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-4DC91970-1AAE-42E2-8077-1E80DE855D20.png"
+                    "path": "images/Layer-AppBarBackWithSubheaderWithActions-A68C6042-5CC3-4434-BEB9-5D21E0CC9203.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 88, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -5226,12 +4948,12 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "appbar", 
+                "name": "AppBarBackWithSubheaderWithActions", 
                 "visible": true
             }, 
             {
                 "children": [], 
-                "id": "97DC0704-7A05-48B3-A424-27D4E286BFDF", 
+                "id": "513C3829-6BB7-48AF-BAD9-025C6700DBEA", 
                 "image": {
                     "frame": {
                         "height": 48, 
@@ -5239,7 +4961,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 592
                     }, 
-                    "path": "images/Layer-navbar-97DC0704-7A05-48B3-A424-27D4E286BFDF.png"
+                    "path": "images/Layer-navbar-513C3829-6BB7-48AF-BAD9-025C6700DBEA.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -5260,287 +4982,489 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "5C410920-8237-4214-9C01-4C182BBDB400", 
+                        "id": "B09C17E7-32CF-47EC-9B6C-7A0EDBF74B91", 
                         "image": {
                             "frame": {
-                                "height": 16, 
-                                "width": 16, 
-                                "x": 16, 
-                                "y": 569
+                                "height": 14, 
+                                "width": 102, 
+                                "x": 242, 
+                                "y": 105
                             }, 
-                            "path": "images/Layer-Bitmap-5C410920-8237-4214-9C01-4C182BBDB400.png"
+                            "path": "images/Layer-landingTxt-B09C17E7-32CF-47EC-9B6C-7A0EDBF74B91.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 569
+                            "height": 14, 
+                            "width": 102, 
+                            "x": 242, 
+                            "y": 105
                         }, 
-                        "maskFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 569
-                        }, 
+                        "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Bitmap", 
+                        "name": "landingTxt", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "C8A035BD-2A8E-42D9-9D8B-2FF82DADAB7B", 
+                        "image": {
+                            "frame": {
+                                "height": 12, 
+                                "width": 111, 
+                                "x": 16, 
+                                "y": 105
+                            }, 
+                            "path": "images/Layer-takeoffTxt-C8A035BD-2A8E-42D9-9D8B-2FF82DADAB7B.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 12, 
+                            "width": 111, 
+                            "x": 16, 
+                            "y": 105
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "takeoffTxt", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "EBA90199-831C-4A7F-85E8-AF6305391ACD", 
+                                "image": {
+                                    "frame": {
+                                        "height": 34, 
+                                        "width": 37, 
+                                        "x": 305, 
+                                        "y": 128
+                                    }, 
+                                    "path": "images/Layer-landingKnob-EBA90199-831C-4A7F-85E8-AF6305391ACD.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 34, 
+                                    "width": 37, 
+                                    "x": 305, 
+                                    "y": 128
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "landingKnob", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "90D67BA1-AC4F-41E9-B1BF-F99B40432397", 
+                                "image": {
+                                    "frame": {
+                                        "height": 34, 
+                                        "width": 37, 
+                                        "x": 15, 
+                                        "y": 128
+                                    }, 
+                                    "path": "images/Layer-takeOffKnob-90D67BA1-AC4F-41E9-B1BF-F99B40432397.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 34, 
+                                    "width": 37, 
+                                    "x": 15, 
+                                    "y": 128
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "takeOffKnob", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "A1C6665D-093E-45DB-AD0A-218DBF3499C9", 
+                        "image": {
+                            "frame": {
+                                "height": 34, 
+                                "width": 329, 
+                                "x": 15, 
+                                "y": 128
+                            }, 
+                            "path": "images/Layer-knobs-A1C6665D-093E-45DB-AD0A-218DBF3499C9.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 34, 
+                            "width": 329, 
+                            "x": 15, 
+                            "y": 128
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "knobs", 
                         "visible": true
                     }
                 ], 
-                "id": "608A6116-B95D-4A41-A4D3-5511E4FC98C1", 
+                "id": "94D42D37-225F-414B-BD41-274AD28534C2", 
                 "image": {
                     "frame": {
-                        "height": 87, 
+                        "height": 96, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 553
+                        "y": 79
                     }, 
-                    "path": "images/Layer-row_copy_7-608A6116-B95D-4A41-A4D3-5511E4FC98C1.png"
+                    "path": "images/Layer-slider-94D42D37-225F-414B-BD41-274AD28534C2.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 87, 
+                    "height": 96, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 553
+                    "y": 79
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "rowcopy7", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "A078A850-89BA-45DC-9478-8D22905D1BC1", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 206
-                    }, 
-                    "path": "images/Layer-subheader_copy-A078A850-89BA-45DC-9478-8D22905D1BC1.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 206
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "subheadercopy", 
+                "name": "slider", 
                 "visible": true
             }, 
             {
                 "children": [
                     {
-                        "children": [], 
-                        "id": "CBDE4600-2C4F-4313-83C7-55FA9573A29A", 
-                        "image": {
-                            "frame": {
-                                "height": 16, 
-                                "width": 16, 
-                                "x": 16, 
-                                "y": 457
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "8CF98D29-D477-4F92-8F25-3CDD3FBE75AB", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 16, 
+                                                "width": 16, 
+                                                "x": 16, 
+                                                "y": 486
+                                            }, 
+                                            "path": "images/Layer-Bitmap-8CF98D29-D477-4F92-8F25-3CDD3FBE75AB.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 16, 
+                                            "width": 16, 
+                                            "x": 16, 
+                                            "y": 486
+                                        }, 
+                                        "maskFrame": {
+                                            "height": 16, 
+                                            "width": 16, 
+                                            "x": 16, 
+                                            "y": 486
+                                        }, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "Bitmap", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "1F6BF1B5-624A-4949-912B-D05268AB05D6", 
+                                "image": {
+                                    "frame": {
+                                        "height": 95, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 470
+                                    }, 
+                                    "path": "images/Layer-returnRow4-1F6BF1B5-624A-4949-912B-D05268AB05D6.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 95, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 470
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "returnRow4", 
+                                "visible": true
                             }, 
-                            "path": "images/Layer-Bitmap-CBDE4600-2C4F-4313-83C7-55FA9573A29A.png"
-                        }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "AE32D953-2D9B-4EC0-B00B-2A37DA3AF8E6", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 16, 
+                                                "width": 16, 
+                                                "x": 16, 
+                                                "y": 374
+                                            }, 
+                                            "path": "images/Layer-Bitmap-AE32D953-2D9B-4EC0-B00B-2A37DA3AF8E6.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 16, 
+                                            "width": 16, 
+                                            "x": 16, 
+                                            "y": 374
+                                        }, 
+                                        "maskFrame": {
+                                            "height": 16, 
+                                            "width": 16, 
+                                            "x": 16, 
+                                            "y": 374
+                                        }, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "Bitmap", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "EF51EF73-7521-4B5C-9923-0DCC3A04B481", 
+                                "image": {
+                                    "frame": {
+                                        "height": 109, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 361
+                                    }, 
+                                    "path": "images/Layer-returnRow3-EF51EF73-7521-4B5C-9923-0DCC3A04B481.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 109, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 361
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "returnRow3", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "CC9D07F6-DBE3-4EF8-BF1B-82BD188E7D67", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 16, 
+                                                "width": 16, 
+                                                "x": 16, 
+                                                "y": 282
+                                            }, 
+                                            "path": "images/Layer-Bitmap-CC9D07F6-DBE3-4EF8-BF1B-82BD188E7D67.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 16, 
+                                            "width": 16, 
+                                            "x": 16, 
+                                            "y": 282
+                                        }, 
+                                        "maskFrame": {
+                                            "height": 16, 
+                                            "width": 16, 
+                                            "x": 16, 
+                                            "y": 282
+                                        }, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "Bitmap", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "24644004-126E-489C-98F1-DDF43856807E", 
+                                "image": {
+                                    "frame": {
+                                        "height": 95, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 266
+                                    }, 
+                                    "path": "images/Layer-returnRow2-24644004-126E-489C-98F1-DDF43856807E.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 95, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 266
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "returnRow2", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "B792CB9A-27AE-4D7B-9097-DBB4A90F197B", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 16, 
+                                                "width": 16, 
+                                                "x": 16, 
+                                                "y": 187
+                                            }, 
+                                            "path": "images/Layer-Bitmap-B792CB9A-27AE-4D7B-9097-DBB4A90F197B.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 16, 
+                                            "width": 16, 
+                                            "x": 16, 
+                                            "y": 187
+                                        }, 
+                                        "maskFrame": {
+                                            "height": 16, 
+                                            "width": 16, 
+                                            "x": 16, 
+                                            "y": 187
+                                        }, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "Bitmap", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "5719C751-020E-4BEC-9240-4248884D7EB7", 
+                                "image": {
+                                    "frame": {
+                                        "height": 95, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 171
+                                    }, 
+                                    "path": "images/Layer-returnRow1-5719C751-020E-4BEC-9240-4248884D7EB7.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 95, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 171
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "returnRow1", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "79E17417-FD0A-4CA6-B502-B491E194B634", 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 457
+                            "height": 394, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 171
                         }, 
-                        "maskFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 457
-                        }, 
+                        "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Bitmap", 
+                        "name": "returnRows", 
                         "visible": true
-                    }
-                ], 
-                "id": "20B1DB5D-A5DE-4DD5-A54F-6A3A172420A9", 
-                "image": {
-                    "frame": {
-                        "height": 109, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 444
                     }, 
-                    "path": "images/Layer-row_copy_6-20B1DB5D-A5DE-4DD5-A54F-6A3A172420A9.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 109, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 444
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy6", 
-                "visible": true
-            }, 
-            {
-                "children": [
                     {
                         "children": [], 
-                        "id": "DFCA8099-6FE0-4845-9A17-053985A6DE26", 
+                        "id": "B5826C20-7311-4EB1-8973-1FEF9356F70B", 
                         "image": {
                             "frame": {
-                                "height": 16, 
-                                "width": 16, 
-                                "x": 16, 
-                                "y": 365
+                                "height": 83, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 657
                             }, 
-                            "path": "images/Layer-Bitmap-DFCA8099-6FE0-4845-9A17-053985A6DE26.png"
+                            "path": "images/Layer-listBgFiller-B5826C20-7311-4EB1-8973-1FEF9356F70B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 365
+                            "height": 83, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 657
                         }, 
-                        "maskFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 365
-                        }, 
+                        "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Bitmap", 
+                        "name": "listBgFiller", 
                         "visible": true
                     }
                 ], 
-                "id": "D2A3D213-D3F4-4B2D-ACD9-0F4DDE8B0BCB", 
-                "image": {
-                    "frame": {
-                        "height": 95, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 349
-                    }, 
-                    "path": "images/Layer-row_copy_5-D2A3D213-D3F4-4B2D-ACD9-0F4DDE8B0BCB.png"
-                }, 
+                "id": "0C724428-9902-45B0-BE92-066752EEB43B", 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 95, 
+                    "height": 569, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 349
+                    "y": 171
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "rowcopy5", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "EAB14545-562C-474B-A9D5-8A05B5F4CDEA", 
-                        "image": {
-                            "frame": {
-                                "height": 16, 
-                                "width": 16, 
-                                "x": 16, 
-                                "y": 270
-                            }, 
-                            "path": "images/Layer-Bitmap-EAB14545-562C-474B-A9D5-8A05B5F4CDEA.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 270
-                        }, 
-                        "maskFrame": {
-                            "height": 16, 
-                            "width": 16, 
-                            "x": 16, 
-                            "y": 270
-                        }, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "Bitmap", 
-                        "visible": true
-                    }
-                ], 
-                "id": "2DB7E883-662A-4A88-9D44-7DE6EB00F613", 
-                "image": {
-                    "frame": {
-                        "height": 95, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 254
-                    }, 
-                    "path": "images/Layer-row_copy_3-2DB7E883-662A-4A88-9D44-7DE6EB00F613.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 95, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 254
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy3", 
+                "name": "scrollContentReturnResults", 
                 "visible": true
             }
         ], 
-        "id": "CE9D5DB4-A3CC-45AD-B3B7-86639D5EF81A", 
+        "id": "010B86B4-CADC-412D-8A1B-9F9F9BA80865", 
         "image": {
             "frame": {
-                "height": 640, 
+                "height": 741, 
                 "width": 360, 
-                "x": 1267, 
-                "y": 1001
+                "x": 645, 
+                "y": 172
             }, 
-            "path": "images/Layer-returnResults-CE9D5DB4-A3CC-45AD-B3B7-86639D5EF81A.png"
+            "path": "images/Layer-returnResults-010B86B4-CADC-412D-8A1B-9F9F9BA80865.png"
         }, 
         "imageType": "png", 
         "kind": "artboard", 
         "layerFrame": {
-            "height": 640, 
+            "height": 741, 
             "width": 360, 
-            "x": 1267, 
-            "y": 1001
+            "x": 645, 
+            "y": 172
         }, 
         "maskFrame": null, 
         "metadata": {}, 
@@ -5550,198 +5474,8 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
     {
         "children": [
             {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "8FC6B066-1B42-4A15-86DA-21464BEE1A6F", 
-                        "image": {
-                            "frame": {
-                                "height": 12, 
-                                "width": 147, 
-                                "x": 107, 
-                                "y": 793
-                            }, 
-                            "path": "images/Layer-apply-8FC6B066-1B42-4A15-86DA-21464BEE1A6F.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 12, 
-                            "width": 147, 
-                            "x": 107, 
-                            "y": 793
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "apply", 
-                        "visible": true
-                    }
-                ], 
-                "id": "BC6AFAD9-0029-4E61-8B16-92782B1B53BA", 
-                "image": {
-                    "frame": {
-                        "height": 60, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 769
-                    }, 
-                    "path": "images/Layer-buttons-BC6AFAD9-0029-4E61-8B16-92782B1B53BA.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 60, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 769
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "buttons", 
-                "visible": true
-            }, 
-            {
                 "children": [], 
-                "id": "965FEC2B-7BA6-4024-8BAF-51DD7AAA0AC1", 
-                "image": {
-                    "frame": {
-                        "height": 18, 
-                        "width": 18, 
-                        "x": 33, 
-                        "y": 355
-                    }, 
-                    "path": "images/Layer-clockIcon-965FEC2B-7BA6-4024-8BAF-51DD7AAA0AC1.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 18, 
-                    "width": 18, 
-                    "x": 33, 
-                    "y": 355
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "clockIcon", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "E6B0A4BD-3CC0-4EF8-A6A5-CB84BEA1F551", 
-                "image": {
-                    "frame": {
-                        "height": 49, 
-                        "width": 56, 
-                        "x": 16, 
-                        "y": 444
-                    }, 
-                    "path": "images/Layer-durationSummary_Copy-E6B0A4BD-3CC0-4EF8-A6A5-CB84BEA1F551.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 49, 
-                    "width": 56, 
-                    "x": 16, 
-                    "y": 444
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "durationSummaryCopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "28961B7B-069A-4FA6-8CE1-5063226B411E", 
-                "image": {
-                    "frame": {
-                        "height": 49, 
-                        "width": 56, 
-                        "x": 16, 
-                        "y": 188
-                    }, 
-                    "path": "images/Layer-durationSummary-28961B7B-069A-4FA6-8CE1-5063226B411E.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 49, 
-                    "width": 56, 
-                    "x": 16, 
-                    "y": 188
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "durationSummary", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "0B6EB86B-4293-4A2A-8DC4-DD4647A1384F", 
-                "image": {
-                    "frame": {
-                        "height": 103, 
-                        "width": 14, 
-                        "x": 37, 
-                        "y": 418
-                    }, 
-                    "path": "images/Layer-arrow_copy-0B6EB86B-4293-4A2A-8DC4-DD4647A1384F.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 103, 
-                    "width": 14, 
-                    "x": 37, 
-                    "y": 418
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "arrowcopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "ED7D2B7C-0205-4E52-82DC-4149FD618F9E", 
-                "image": {
-                    "frame": {
-                        "height": 119, 
-                        "width": 14, 
-                        "x": 36, 
-                        "y": 163
-                    }, 
-                    "path": "images/Layer-arrow-ED7D2B7C-0205-4E52-82DC-4149FD618F9E.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 119, 
-                    "width": 14, 
-                    "x": 36, 
-                    "y": 163
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "arrow", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "7DB7FE85-BFE0-4C4B-8072-640FEEA1ED46", 
+                "id": "AE676E3C-7AFD-4611-8B45-74A2323D1A5B", 
                 "image": {
                     "frame": {
                         "height": 30, 
@@ -5749,7 +5483,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-StatusBarBlack-7DB7FE85-BFE0-4C4B-8072-640FEEA1ED46.png"
+                    "path": "images/Layer-StatusBarBlack-AE676E3C-7AFD-4611-8B45-74A2323D1A5B.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -5767,10 +5501,64 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "visible": true
             }, 
             {
+                "children": [], 
+                "id": "1AB2CC82-966C-43F4-849F-057FB7BCBE08", 
+                "image": {
+                    "frame": {
+                        "height": 40, 
+                        "width": 40, 
+                        "x": 311, 
+                        "y": 32
+                    }, 
+                    "path": "images/Layer-hideGraph-1AB2CC82-966C-43F4-849F-057FB7BCBE08.png"
+                }, 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 40, 
+                    "width": 40, 
+                    "x": 311, 
+                    "y": 32
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "hideGraph", 
+                "visible": true
+            }, 
+            {
+                "children": [], 
+                "id": "D50DC69E-4F5A-43C9-B8BE-9D336EE74D16", 
+                "image": {
+                    "frame": {
+                        "height": 2, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 81
+                    }, 
+                    "path": "images/Layer-DividerGradient-D50DC69E-4F5A-43C9-B8BE-9D336EE74D16.png"
+                }, 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 2, 
+                    "width": 360, 
+                    "x": 0, 
+                    "y": 81
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "DividerGradient", 
+                "visible": true
+            }, 
+            {
                 "children": [
                     {
                         "children": [], 
-                        "id": "A4EA017E-7D87-4566-8B31-0798563D5BDF", 
+                        "id": "BED08225-313E-4F33-8FBD-D7EF6FAF385B", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -5778,7 +5566,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-A4EA017E-7D87-4566-8B31-0798563D5BDF.png"
+                            "path": "images/Layer-back-BED08225-313E-4F33-8FBD-D7EF6FAF385B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -5797,7 +5585,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "06191689-A2AC-4C7E-AACF-83E3476A19A6", 
+                        "id": "50B5D459-FCC2-4245-8EFA-CFC3718CD32B", 
                         "image": {
                             "frame": {
                                 "height": 19, 
@@ -5805,7 +5593,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 "x": 323, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-06191689-A2AC-4C7E-AACF-83E3476A19A6.png"
+                            "path": "images/Layer-graph-50B5D459-FCC2-4245-8EFA-CFC3718CD32B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -5823,20 +5611,20 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "FAD86F9B-52B4-4FFA-A1EC-DDB39517EAD8", 
+                "id": "D9B465C9-42B2-4CE3-ACD2-11E73EB029B5", 
                 "image": {
                     "frame": {
-                        "height": 88, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-FAD86F9B-52B4-4FFA-A1EC-DDB39517EAD8.png"
+                    "path": "images/Layer-app_bar-D9B465C9-42B2-4CE3-ACD2-11E73EB029B5.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 88, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -5850,15 +5638,15 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
             }, 
             {
                 "children": [], 
-                "id": "C8EF5081-DD4C-4EFC-931C-D1DF4D92AA7E", 
+                "id": "C76F7FF1-86D0-4690-BE1B-E557457A93EC", 
                 "image": {
                     "frame": {
                         "height": 48, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 829
+                        "y": 592
                     }, 
-                    "path": "images/Layer-navbar-C8EF5081-DD4C-4EFC-931C-D1DF4D92AA7E.png"
+                    "path": "images/Layer-navbar-C76F7FF1-86D0-4690-BE1B-E557457A93EC.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -5866,7 +5654,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     "height": 48, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 829
+                    "y": 592
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -5878,26 +5666,164 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
             {
                 "children": [
                     {
+                        "children": [], 
+                        "id": "B18B8ABD-1E0E-494C-BB0B-E6C55098BD73", 
+                        "image": {
+                            "frame": {
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
+                            }, 
+                            "path": "images/Layer-btn-B18B8ABD-1E0E-494C-BB0B-E6C55098BD73.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "btn", 
+                        "visible": true
+                    }
+                ], 
+                "id": "F0532D4B-3D9E-42BC-81B9-0D3E98FEA98F", 
+                "image": {
+                    "frame": {
+                        "height": 78, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 514
+                    }, 
+                    "path": "images/Layer-selectReturnBtn-F0532D4B-3D9E-42BC-81B9-0D3E98FEA98F.png"
+                }, 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 78, 
+                    "width": 360, 
+                    "x": 0, 
+                    "y": 514
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "selectReturnBtn", 
+                "visible": true
+            }, 
+            {
+                "children": [
+                    {
                         "children": [
                             {
-                                "children": [], 
-                                "id": "5F196CA7-3BB5-434D-AB9C-195DBA205FC4", 
+                                "children": [
+                                    {
+                                        "children": [], 
+                                        "id": "53210C3A-1A02-4859-B383-93248F0D4D59", 
+                                        "image": {
+                                            "frame": {
+                                                "height": 12, 
+                                                "width": 12, 
+                                                "x": 156, 
+                                                "y": 101
+                                            }, 
+                                            "path": "images/Layer-clockIcon-53210C3A-1A02-4859-B383-93248F0D4D59.png"
+                                        }, 
+                                        "imageType": "png", 
+                                        "kind": "group", 
+                                        "layerFrame": {
+                                            "height": 12, 
+                                            "width": 12, 
+                                            "x": 156, 
+                                            "y": 101
+                                        }, 
+                                        "maskFrame": null, 
+                                        "metadata": {
+                                            "opacity": 1
+                                        }, 
+                                        "name": "clockIcon", 
+                                        "visible": true
+                                    }
+                                ], 
+                                "id": "31484D3D-A705-4155-900C-88AA13BAD5B4", 
                                 "image": {
                                     "frame": {
-                                        "height": 12, 
-                                        "width": 12, 
-                                        "x": 156, 
-                                        "y": 98
+                                        "height": 14, 
+                                        "width": 203, 
+                                        "x": 81, 
+                                        "y": 101
                                     }, 
-                                    "path": "images/Layer-clockIcon-5F196CA7-3BB5-434D-AB9C-195DBA205FC4.png"
+                                    "path": "images/Layer-Group-31484D3D-A705-4155-900C-88AA13BAD5B4.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 12, 
-                                    "width": 12, 
-                                    "x": 156, 
-                                    "y": 98
+                                    "height": 14, 
+                                    "width": 203, 
+                                    "x": 81, 
+                                    "y": 101
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Group", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "F60C84C6-0298-4FB5-9D6D-F4EED55E67A1", 
+                        "image": {
+                            "frame": {
+                                "height": 48, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 83
+                            }, 
+                            "path": "images/Layer-subheader-F60C84C6-0298-4FB5-9D6D-F4EED55E67A1.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 48, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 83
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "subheader", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "05BD3BAD-338E-409A-8583-708CCE7686B9", 
+                                "image": {
+                                    "frame": {
+                                        "height": 18, 
+                                        "width": 18, 
+                                        "x": 33, 
+                                        "y": 358
+                                    }, 
+                                    "path": "images/Layer-clockIcon-05BD3BAD-338E-409A-8583-708CCE7686B9.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 18, 
+                                    "width": 18, 
+                                    "x": 33, 
+                                    "y": 358
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -5905,141 +5831,303 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                                 }, 
                                 "name": "clockIcon", 
                                 "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "9BAE65F0-559F-45B8-BACD-D0E1F4970C71", 
+                                "image": {
+                                    "frame": {
+                                        "height": 49, 
+                                        "width": 56, 
+                                        "x": 16, 
+                                        "y": 447
+                                    }, 
+                                    "path": "images/Layer-durationSummary_Copy-9BAE65F0-559F-45B8-BACD-D0E1F4970C71.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 49, 
+                                    "width": 56, 
+                                    "x": 16, 
+                                    "y": 447
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "durationSummaryCopy", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "326B9315-B8BF-4DD2-B474-160CD0FA0F08", 
+                                "image": {
+                                    "frame": {
+                                        "height": 49, 
+                                        "width": 56, 
+                                        "x": 16, 
+                                        "y": 191
+                                    }, 
+                                    "path": "images/Layer-durationSummary-326B9315-B8BF-4DD2-B474-160CD0FA0F08.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 49, 
+                                    "width": 56, 
+                                    "x": 16, 
+                                    "y": 191
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "durationSummary", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "D6673146-9875-4158-8408-93B2CE3CEE21", 
+                                "image": {
+                                    "frame": {
+                                        "height": 103, 
+                                        "width": 14, 
+                                        "x": 37, 
+                                        "y": 421
+                                    }, 
+                                    "path": "images/Layer-arrow_copy-D6673146-9875-4158-8408-93B2CE3CEE21.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 103, 
+                                    "width": 14, 
+                                    "x": 37, 
+                                    "y": 421
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "arrowcopy", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "84CB0166-A79F-42CC-B8F4-6DA8601828CE", 
+                                "image": {
+                                    "frame": {
+                                        "height": 119, 
+                                        "width": 14, 
+                                        "x": 36, 
+                                        "y": 166
+                                    }, 
+                                    "path": "images/Layer-arrow-84CB0166-A79F-42CC-B8F4-6DA8601828CE.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 119, 
+                                    "width": 14, 
+                                    "x": 36, 
+                                    "y": 166
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "arrow", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "F28B3209-41D5-4270-99CA-2CF860376E5F", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 104, 
+                                        "y": 446
+                                    }, 
+                                    "path": "images/Layer-Bitmap_Copy-F28B3209-41D5-4270-99CA-2CF860376E5F.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 104, 
+                                    "y": 446
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 104, 
+                                    "y": 446
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "BitmapCopy", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "EC881CDC-2172-4262-A384-E4B3A617331E", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 103, 
+                                        "y": 206
+                                    }, 
+                                    "path": "images/Layer-Bitmap-EC881CDC-2172-4262-A384-E4B3A617331E.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 103, 
+                                    "y": 206
+                                }, 
+                                "maskFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 103, 
+                                    "y": 206
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
                             }
                         ], 
-                        "id": "B533A561-6387-40EF-8697-C436FD5B0B6B", 
+                        "id": "EDA23A56-3702-4F21-A87F-3A589002266E", 
                         "image": {
                             "frame": {
-                                "height": 14, 
-                                "width": 203, 
-                                "x": 81, 
-                                "y": 98
+                                "height": 427, 
+                                "width": 330, 
+                                "x": 15, 
+                                "y": 146
                             }, 
-                            "path": "images/Layer-Group-B533A561-6387-40EF-8697-C436FD5B0B6B.png"
+                            "path": "images/Layer-details-EDA23A56-3702-4F21-A87F-3A589002266E.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 14, 
-                            "width": 203, 
-                            "x": 81, 
-                            "y": 98
+                            "height": 427, 
+                            "width": 330, 
+                            "x": 15, 
+                            "y": 146
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "Group", 
+                        "name": "details", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "4A3F400E-B94E-41E7-BEAB-CF03BEBD2611", 
+                        "image": {
+                            "frame": {
+                                "height": 111, 
+                                "width": 330, 
+                                "x": 15, 
+                                "y": 613
+                            }, 
+                            "path": "images/Layer-summary-4A3F400E-B94E-41E7-BEAB-CF03BEBD2611.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 111, 
+                            "width": 330, 
+                            "x": 15, 
+                            "y": 613
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "summary", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "7C8D79A5-5DBF-4A82-9BBB-57AF95C6D841", 
+                        "image": {
+                            "frame": {
+                                "height": 84, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 728
+                            }, 
+                            "path": "images/Layer-listBg-7C8D79A5-5DBF-4A82-9BBB-57AF95C6D841.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 84, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 728
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "listBg", 
                         "visible": true
                     }
                 ], 
-                "id": "DB93F2A2-A3A0-47D5-98CC-150517D5E6DC", 
+                "id": "D8696196-97F1-4836-9315-59C89B37B7D2", 
                 "image": {
                     "frame": {
-                        "height": 48, 
+                        "height": 794, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 80
+                        "y": 83
                     }, 
-                    "path": "images/Layer-subheader-DB93F2A2-A3A0-47D5-98CC-150517D5E6DC.png"
+                    "path": "images/Layer-scrollContentReturnDetails-D8696196-97F1-4836-9315-59C89B37B7D2.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 48, 
+                    "height": 794, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 80
+                    "y": 83
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "subheader", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "F33E82E0-D7B9-4234-A1CF-7BD3B6632780", 
-                "image": {
-                    "frame": {
-                        "height": 16, 
-                        "width": 16, 
-                        "x": 104, 
-                        "y": 443
-                    }, 
-                    "path": "images/Layer-Bitmap_Copy-F33E82E0-D7B9-4234-A1CF-7BD3B6632780.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 104, 
-                    "y": 443
-                }, 
-                "maskFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 104, 
-                    "y": 443
-                }, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "BitmapCopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "4B6F8A64-A3A4-408F-8EF1-5829351EB147", 
-                "image": {
-                    "frame": {
-                        "height": 16, 
-                        "width": 16, 
-                        "x": 103, 
-                        "y": 203
-                    }, 
-                    "path": "images/Layer-Bitmap-4B6F8A64-A3A4-408F-8EF1-5829351EB147.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 103, 
-                    "y": 203
-                }, 
-                "maskFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 103, 
-                    "y": 203
-                }, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "Bitmap", 
+                "name": "scrollContentReturnDetails", 
                 "visible": true
             }
         ], 
-        "id": "D02599BD-5673-4710-82C3-690B8C689420", 
+        "id": "FC65CD2D-561C-4FCD-AFC6-A6B831A39375", 
         "image": {
             "frame": {
                 "height": 877, 
                 "width": 360, 
-                "x": 1662, 
-                "y": 1001
+                "x": 1059, 
+                "y": 172
             }, 
-            "path": "images/Layer-returnDetails-D02599BD-5673-4710-82C3-690B8C689420.png"
+            "path": "images/Layer-returnDetails-FC65CD2D-561C-4FCD-AFC6-A6B831A39375.png"
         }, 
         "imageType": "png", 
         "kind": "artboard", 
         "layerFrame": {
             "height": 877, 
             "width": 360, 
-            "x": 1662, 
-            "y": 1001
+            "x": 1059, 
+            "y": 172
         }, 
         "maskFrame": null, 
         "metadata": {}, 
@@ -6050,170 +6138,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
         "children": [
             {
                 "children": [], 
-                "id": "CCCA88D5-D3A2-4377-9A25-D89B9E64407A", 
-                "image": {
-                    "frame": {
-                        "height": 42, 
-                        "width": 208, 
-                        "x": 76, 
-                        "y": 1059
-                    }, 
-                    "path": "images/Layer-button-CCCA88D5-D3A2-4377-9A25-D89B9E64407A.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 42, 
-                    "width": 208, 
-                    "x": 76, 
-                    "y": 1059
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "button", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "7B579AC5-F9DE-413D-B2F7-64ED9C1CDD72", 
-                        "image": {
-                            "frame": {
-                                "height": 12, 
-                                "width": 129, 
-                                "x": 116, 
-                                "y": 1221
-                            }, 
-                            "path": "images/Layer-apply-7B579AC5-F9DE-413D-B2F7-64ED9C1CDD72.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 12, 
-                            "width": 129, 
-                            "x": 116, 
-                            "y": 1221
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "apply", 
-                        "visible": true
-                    }
-                ], 
-                "id": "B55033BC-368E-49DC-9890-1DE2BE5DCC12", 
-                "image": {
-                    "frame": {
-                        "height": 60, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 1197
-                    }, 
-                    "path": "images/Layer-buttons-B55033BC-368E-49DC-9890-1DE2BE5DCC12.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 60, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 1197
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "buttons", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "BA4B97E5-26E8-414A-AA46-D3650705C0F4", 
-                "image": {
-                    "frame": {
-                        "height": 12, 
-                        "width": 12, 
-                        "x": 184, 
-                        "y": 360
-                    }, 
-                    "path": "images/Layer-clock_icon_copy-BA4B97E5-26E8-414A-AA46-D3650705C0F4.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 12, 
-                    "width": 12, 
-                    "x": 184, 
-                    "y": 360
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "clockiconcopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "F2E751D4-59BC-4FD4-A0ED-363152A6CC6A", 
-                "image": {
-                    "frame": {
-                        "height": 12, 
-                        "width": 12, 
-                        "x": 184, 
-                        "y": 230
-                    }, 
-                    "path": "images/Layer-clock_icon-F2E751D4-59BC-4FD4-A0ED-363152A6CC6A.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 12, 
-                    "width": 12, 
-                    "x": 184, 
-                    "y": 230
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "clockicon", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "583A2867-9D17-46C1-9F97-4B2208B778C4", 
-                "image": {
-                    "frame": {
-                        "height": 16, 
-                        "width": 16, 
-                        "x": 150, 
-                        "y": 487
-                    }, 
-                    "path": "images/Layer-infoIcon-583A2867-9D17-46C1-9F97-4B2208B778C4.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 150, 
-                    "y": 487
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "infoIcon", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "E42C6638-D15E-4471-BE52-D73B5DB78D91", 
+                "id": "AB2D4BE0-60F4-4C10-9E44-7FCC6C8EFE86", 
                 "image": {
                     "frame": {
                         "height": 30, 
@@ -6221,387 +6146,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-StatusBarBlack-E42C6638-D15E-4471-BE52-D73B5DB78D91.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 30, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "StatusBarBlack", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "D3379118-E3A7-4E54-B9F9-E5AFDA101383", 
-                        "image": {
-                            "frame": {
-                                "height": 16, 
-                                "width": 17, 
-                                "x": 19, 
-                                "y": 44
-                            }, 
-                            "path": "images/Layer-back-D3379118-E3A7-4E54-B9F9-E5AFDA101383.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 16, 
-                            "width": 17, 
-                            "x": 19, 
-                            "y": 44
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 0.87
-                        }, 
-                        "name": "back", 
-                        "visible": true
-                    }
-                ], 
-                "id": "74B69947-EC3C-406F-BB6B-580CCC6CC242", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-app_bar-74B69947-EC3C-406F-BB6B-580CCC6CC242.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "appbar", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "2E4CE741-E8A3-4815-ADEF-5B37279AFE0C", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 1257
-                    }, 
-                    "path": "images/Layer-navbar-2E4CE741-E8A3-4815-ADEF-5B37279AFE0C.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 1257
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "navbar", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "9A789A33-AE81-48CF-A6D0-26B17E8EBCDA", 
-                        "image": {
-                            "frame": {
-                                "height": 19, 
-                                "width": 15, 
-                                "x": 16, 
-                                "y": 868
-                            }, 
-                            "path": "images/Layer-lockIcon-9A789A33-AE81-48CF-A6D0-26B17E8EBCDA.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 19, 
-                            "width": 15, 
-                            "x": 16, 
-                            "y": 868
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "lockIcon", 
-                        "visible": true
-                    }
-                ], 
-                "id": "F56472D2-73FD-40BE-9AA9-713BF255DBCA", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 853
-                    }, 
-                    "path": "images/Layer-subheader_copy_2-F56472D2-73FD-40BE-9AA9-713BF255DBCA.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 853
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "subheadercopy2", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "3BD4F761-9027-48BC-8388-FF5F6BFFD840", 
-                "image": {
-                    "frame": {
-                        "height": 72, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 973
-                    }, 
-                    "path": "images/Layer-row_copy-3BD4F761-9027-48BC-8388-FF5F6BFFD840.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 72, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 973
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "B0797390-7783-4C82-AF9C-F200D5327DEA", 
-                "image": {
-                    "frame": {
-                        "height": 72, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 607
-                    }, 
-                    "path": "images/Layer-row_copy_4-B0797390-7783-4C82-AF9C-F200D5327DEA.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 72, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 607
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy4", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "C0639CAC-06DE-403C-ADEA-D4A26BC3E46D", 
-                "image": {
-                    "frame": {
-                        "height": 72, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 679
-                    }, 
-                    "path": "images/Layer-row_copy_5-C0639CAC-06DE-403C-ADEA-D4A26BC3E46D.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 72, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 679
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "rowcopy5", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "30C98CD0-90F9-46B7-9091-3FAC8EA3E6A3", 
-                "image": {
-                    "frame": {
-                        "height": 72, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 901
-                    }, 
-                    "path": "images/Layer-row-30C98CD0-90F9-46B7-9091-3FAC8EA3E6A3.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 72, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 901
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "row", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "FC74A7A3-41C2-429C-999D-728065969494", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 559
-                    }, 
-                    "path": "images/Layer-subheader_copy-FC74A7A3-41C2-429C-999D-728065969494.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 559
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "subheadercopy", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "5719F378-F532-44FD-A32B-F6331A9CE3B9", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 28, 
-                                "x": 16, 
-                                "y": 94
-                            }, 
-                            "path": "images/Layer-flight_SummaryIcon-5719F378-F532-44FD-A32B-F6331A9CE3B9.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 28, 
-                            "x": 16, 
-                            "y": 94
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "flightSummaryIcon", 
-                        "visible": true
-                    }
-                ], 
-                "id": "E5DB29E4-43EA-4531-9121-35C216D9DB09", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 80
-                    }, 
-                    "path": "images/Layer-subheader-E5DB29E4-43EA-4531-9121-35C216D9DB09.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 80
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "subheader", 
-                "visible": true
-            }
-        ], 
-        "id": "B192DE07-63A5-4BEB-A097-FAE94CFA8493", 
-        "image": {
-            "frame": {
-                "height": 1305, 
-                "width": 360, 
-                "x": 2057, 
-                "y": 1001
-            }, 
-            "path": "images/Layer-checkout-B192DE07-63A5-4BEB-A097-FAE94CFA8493.png"
-        }, 
-        "imageType": "png", 
-        "kind": "artboard", 
-        "layerFrame": {
-            "height": 1305, 
-            "width": 360, 
-            "x": 2057, 
-            "y": 1001
-        }, 
-        "maskFrame": null, 
-        "metadata": {}, 
-        "name": "checkout", 
-        "visible": false
-    }, 
-    {
-        "children": [
-            {
-                "children": [], 
-                "id": "BD02CEFF-9AED-4E55-A631-67426A397457", 
-                "image": {
-                    "frame": {
-                        "height": 30, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-StatusBarBlack-BD02CEFF-9AED-4E55-A631-67426A397457.png"
+                    "path": "images/Layer-StatusBarBlack-AB2D4BE0-60F4-4C10-9E44-7FCC6C8EFE86.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -6620,615 +6165,15 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
             }, 
             {
                 "children": [], 
-                "id": "861D11F0-23CB-4D2C-8C35-A1EDFC063F02", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 592
-                    }, 
-                    "path": "images/Layer-navbar-861D11F0-23CB-4D2C-8C35-A1EDFC063F02.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 592
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "navbar", 
-                "visible": true
-            }
-        ], 
-        "id": "72FAC482-604A-4957-8A3C-A5D98AD5525D", 
-        "image": {
-            "frame": {
-                "height": 640, 
-                "width": 360, 
-                "x": 2452, 
-                "y": 1001
-            }, 
-            "path": "images/Layer-processingBooking-72FAC482-604A-4957-8A3C-A5D98AD5525D.png"
-        }, 
-        "imageType": "png", 
-        "kind": "artboard", 
-        "layerFrame": {
-            "height": 640, 
-            "width": 360, 
-            "x": 2452, 
-            "y": 1001
-        }, 
-        "maskFrame": null, 
-        "metadata": {}, 
-        "name": "processingBooking", 
-        "visible": false
-    }, 
-    {
-        "children": [
-            {
-                "children": [], 
-                "id": "BF86D50E-60D3-4F28-AD03-1B1E5067E137", 
-                "image": {
-                    "frame": {
-                        "height": 42, 
-                        "width": 149, 
-                        "x": 106, 
-                        "y": 220
-                    }, 
-                    "path": "images/Layer-button-BF86D50E-60D3-4F28-AD03-1B1E5067E137.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 42, 
-                    "width": 149, 
-                    "x": 106, 
-                    "y": 220
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "button", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "25C52FAA-27CD-4049-879F-80D53D2BBD63", 
-                        "image": {
-                            "frame": {
-                                "height": 12, 
-                                "width": 79, 
-                                "x": 141, 
-                                "y": 556
-                            }, 
-                            "path": "images/Layer-apply-25C52FAA-27CD-4049-879F-80D53D2BBD63.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 12, 
-                            "width": 79, 
-                            "x": 141, 
-                            "y": 556
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "apply", 
-                        "visible": true
-                    }
-                ], 
-                "id": "04550591-05FF-4FE3-822C-5C03799F3AA8", 
-                "image": {
-                    "frame": {
-                        "height": 60, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 532
-                    }, 
-                    "path": "images/Layer-buttons-04550591-05FF-4FE3-822C-5C03799F3AA8.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 60, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 532
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "buttons", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "94ABCB2D-EB1E-48CF-B647-EE615AD7DFD3", 
-                        "image": {
-                            "frame": {
-                                "height": 9, 
-                                "width": 31, 
-                                "x": 314, 
-                                "y": 508
-                            }, 
-                            "path": "images/Layer-NAV-94ABCB2D-EB1E-48CF-B647-EE615AD7DFD3.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 9, 
-                            "width": 31, 
-                            "x": 314, 
-                            "y": 508
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "NAV", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "E6D8BAC0-7D57-4930-B3E0-3A8FBC6C12D5", 
-                        "image": {
-                            "frame": {
-                                "height": 150, 
-                                "width": 360, 
-                                "x": 0, 
-                                "y": 382
-                            }, 
-                            "path": "images/Layer-Bitmap-E6D8BAC0-7D57-4930-B3E0-3A8FBC6C12D5.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 150, 
-                            "width": 360, 
-                            "x": 0, 
-                            "y": 382
-                        }, 
-                        "maskFrame": {
-                            "height": 150, 
-                            "width": 360, 
-                            "x": 0, 
-                            "y": 382
-                        }, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "Bitmap", 
-                        "visible": true
-                    }
-                ], 
-                "id": "23947BB8-25A5-4B15-B577-1F011F4803C2", 
-                "image": {
-                    "frame": {
-                        "height": 150, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 382
-                    }, 
-                    "path": "images/Layer-hotelSuggestion-23947BB8-25A5-4B15-B577-1F011F4803C2.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 150, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 382
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "hotelSuggestion", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "D295CA79-1B96-467D-8390-F3E3F3180DF0", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 329
-                    }, 
-                    "path": "images/Layer-subheader-D295CA79-1B96-467D-8390-F3E3F3180DF0.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 329
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "subheader", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "17861331-637B-427E-A42F-5C67D4D46A85", 
-                "image": {
-                    "frame": {
-                        "height": 25, 
-                        "width": 146, 
-                        "x": 107, 
-                        "y": 105
-                    }, 
-                    "path": "images/Layer-Group-17861331-637B-427E-A42F-5C67D4D46A85.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 25, 
-                    "width": 146, 
-                    "x": 107, 
-                    "y": 105
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "Group", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "175D5028-AB5B-4694-85ED-13EBD48E5B11", 
-                "image": {
-                    "frame": {
-                        "height": 30, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-StatusBarBlack-175D5028-AB5B-4694-85ED-13EBD48E5B11.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 30, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "StatusBarBlack", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "5EC7866E-AFAD-4838-A66B-BC960FF57108", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 592
-                    }, 
-                    "path": "images/Layer-navbar-5EC7866E-AFAD-4838-A66B-BC960FF57108.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 592
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "navbar", 
-                "visible": true
-            }
-        ], 
-        "id": "0239170B-FDE5-4F89-BA45-7DCABC9FD905", 
-        "image": {
-            "frame": {
-                "height": 640, 
-                "width": 360, 
-                "x": 2847, 
-                "y": 1001
-            }, 
-            "path": "images/Layer-confirmation-0239170B-FDE5-4F89-BA45-7DCABC9FD905.png"
-        }, 
-        "imageType": "png", 
-        "kind": "artboard", 
-        "layerFrame": {
-            "height": 640, 
-            "width": 360, 
-            "x": 2847, 
-            "y": 1001
-        }, 
-        "maskFrame": null, 
-        "metadata": {}, 
-        "name": "confirmation", 
-        "visible": false
-    }, 
-    {
-        "children": [
-            {
-                "children": [], 
-                "id": "F783B42C-443F-45BB-8753-D752D7AB57EE", 
-                "image": {
-                    "frame": {
-                        "height": 30, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-StatusBarBlack-F783B42C-443F-45BB-8753-D752D7AB57EE.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 30, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "StatusBarBlack", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "3066DD4F-C1A4-4192-B1D5-F0F33BD2F441", 
-                        "image": {
-                            "frame": {
-                                "height": 24, 
-                                "width": 24, 
-                                "x": 16, 
-                                "y": 40
-                            }, 
-                            "path": "images/Layer-back-3066DD4F-C1A4-4192-B1D5-F0F33BD2F441.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 24, 
-                            "width": 24, 
-                            "x": 16, 
-                            "y": 40
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 0.87
-                        }, 
-                        "name": "back", 
-                        "visible": true
-                    }
-                ], 
-                "id": "93B97EDC-8BF0-42E0-8E43-31B06E884F0F", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-AppBarSearchPlaceHolder-93B97EDC-8BF0-42E0-8E43-31B06E884F0F.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "AppBarSearchPlaceHolder", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "46246122-2066-4FEA-BC12-20D6657F6260", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 592
-                    }, 
-                    "path": "images/Layer-navbar-46246122-2066-4FEA-BC12-20D6657F6260.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 592
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "navbar", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "215C236E-B92F-4E1C-8B9B-74B056AA0FDE", 
-                "image": {
-                    "frame": {
-                        "height": 276, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 324
-                    }, 
-                    "path": "images/Layer-keyboard_light-215C236E-B92F-4E1C-8B9B-74B056AA0FDE.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 276, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 324
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "keyboardlight", 
-                "visible": true
-            }
-        ], 
-        "id": "0B75B611-F295-4F04-990D-3D118D103ED6", 
-        "image": {
-            "frame": {
-                "height": 640, 
-                "width": 360, 
-                "x": -2288, 
-                "y": 258
-            }, 
-            "path": "images/Layer-searchScreenEmpty-0B75B611-F295-4F04-990D-3D118D103ED6.png"
-        }, 
-        "imageType": "png", 
-        "kind": "artboard", 
-        "layerFrame": {
-            "height": 640, 
-            "width": 360, 
-            "x": -2288, 
-            "y": 258
-        }, 
-        "maskFrame": null, 
-        "metadata": {}, 
-        "name": "searchScreenEmpty", 
-        "visible": false
-    }, 
-    {
-        "children": [
-            {
-                "children": [], 
-                "id": "8B0B0C24-5A67-405E-93A8-757979B94539", 
-                "image": {
-                    "frame": {
-                        "height": 30, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-StatusBarBlack-8B0B0C24-5A67-405E-93A8-757979B94539.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 30, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "StatusBarBlack", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "F3F6D0B5-47D1-4799-8C64-8A93F8D19FEC", 
-                        "image": {
-                            "frame": {
-                                "height": 16, 
-                                "width": 17, 
-                                "x": 19, 
-                                "y": 44
-                            }, 
-                            "path": "images/Layer-back-F3F6D0B5-47D1-4799-8C64-8A93F8D19FEC.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 16, 
-                            "width": 17, 
-                            "x": 19, 
-                            "y": 44
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 0.87
-                        }, 
-                        "name": "back", 
-                        "visible": true
-                    }
-                ], 
-                "id": "8CC46C1A-7EC4-4533-8917-B0232ADD76B9", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-app_bar-8CC46C1A-7EC4-4533-8917-B0232ADD76B9.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "appbar", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "929D572B-6DD8-4A3F-A528-5C74A5C1D697", 
+                "id": "4AFBE638-520F-4C3F-A6B8-DDC445F874B4", 
                 "image": {
                     "frame": {
                         "height": 2, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 80
+                        "y": 81
                     }, 
-                    "path": "images/Layer-DividerGradient-929D572B-6DD8-4A3F-A528-5C74A5C1D697.png"
+                    "path": "images/Layer-DividerGradient-4AFBE638-520F-4C3F-A6B8-DDC445F874B4.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -7236,7 +6181,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                     "height": 2, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 80
+                    "y": 81
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -7246,8 +6191,63 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "visible": true
             }, 
             {
+                "children": [
+                    {
+                        "children": [], 
+                        "id": "17AE251B-B106-4318-861E-4E85A6D2CED5", 
+                        "image": {
+                            "frame": {
+                                "height": 16, 
+                                "width": 17, 
+                                "x": 19, 
+                                "y": 44
+                            }, 
+                            "path": "images/Layer-back-17AE251B-B106-4318-861E-4E85A6D2CED5.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 16, 
+                            "width": 17, 
+                            "x": 19, 
+                            "y": 44
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 0.87
+                        }, 
+                        "name": "back", 
+                        "visible": true
+                    }
+                ], 
+                "id": "DFFB5B05-142C-4E5B-B009-C73A71F892BE", 
+                "image": {
+                    "frame": {
+                        "height": 92, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 0
+                    }, 
+                    "path": "images/Layer-app_bar-DFFB5B05-142C-4E5B-B009-C73A71F892BE.png"
+                }, 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 92, 
+                    "width": 360, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "appbar", 
+                "visible": true
+            }, 
+            {
                 "children": [], 
-                "id": "0CEE94A2-EE28-4391-86D8-DB02ACD7CBB3", 
+                "id": "F018BF59-81D9-446B-BE19-1CBF7F4658F3", 
                 "image": {
                     "frame": {
                         "height": 48, 
@@ -7255,7 +6255,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 592
                     }, 
-                    "path": "images/Layer-navbar-0CEE94A2-EE28-4391-86D8-DB02ACD7CBB3.png"
+                    "path": "images/Layer-navbar-F018BF59-81D9-446B-BE19-1CBF7F4658F3.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -7276,21 +6276,104 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "877DA63D-BAFE-4DE4-BF76-AD7471048A2E", 
+                        "id": "89C46D60-32BD-43AB-9A63-EE0C0A5AC6E4", 
                         "image": {
                             "frame": {
-                                "height": 57, 
-                                "width": 180, 
-                                "x": 0, 
-                                "y": 80
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-departureTab-877DA63D-BAFE-4DE4-BF76-AD7471048A2E.png"
+                            "path": "images/Layer-btn-89C46D60-32BD-43AB-9A63-EE0C0A5AC6E4.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 57, 
-                            "width": 180, 
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "btn", 
+                        "visible": true
+                    }
+                ], 
+                "id": "2762F9D4-4F22-458F-9F62-64A31D509EA3", 
+                "image": {
+                    "frame": {
+                        "height": 78, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 514
+                    }, 
+                    "path": "images/Layer-finalizeBookingBtn-2762F9D4-4F22-458F-9F62-64A31D509EA3.png"
+                }, 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 78, 
+                    "width": 360, 
+                    "x": 0, 
+                    "y": 514
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "finalizeBookingBtn", 
+                "visible": true
+            }, 
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "A63FFDAB-C5F2-4ED0-B23F-F06FE9A144AB", 
+                                "image": {
+                                    "frame": {
+                                        "height": 20, 
+                                        "width": 28, 
+                                        "x": 16, 
+                                        "y": 94
+                                    }, 
+                                    "path": "images/Layer-flight_SummaryIcon-A63FFDAB-C5F2-4ED0-B23F-F06FE9A144AB.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 20, 
+                                    "width": 28, 
+                                    "x": 16, 
+                                    "y": 94
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "flightSummaryIcon", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "71DAEB76-2214-41D1-8B9B-70D6A09D7885", 
+                        "image": {
+                            "frame": {
+                                "height": 48, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 80
+                            }, 
+                            "path": "images/Layer-subheader-71DAEB76-2214-41D1-8B9B-70D6A09D7885.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 48, 
+                            "width": 360, 
                             "x": 0, 
                             "y": 80
                         }, 
@@ -7298,257 +6381,467 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "departureTab", 
+                        "name": "subheader", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "6011F17A-2072-4AC8-854C-4CC7C67E106E", 
+                                "image": {
+                                    "frame": {
+                                        "height": 12, 
+                                        "width": 12, 
+                                        "x": 184, 
+                                        "y": 360
+                                    }, 
+                                    "path": "images/Layer-clock_icon_copy-6011F17A-2072-4AC8-854C-4CC7C67E106E.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 12, 
+                                    "width": 12, 
+                                    "x": 184, 
+                                    "y": 360
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "clockiconcopy", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "BAD44577-D51A-438D-879C-074ABD4670EB", 
+                                "image": {
+                                    "frame": {
+                                        "height": 12, 
+                                        "width": 12, 
+                                        "x": 184, 
+                                        "y": 230
+                                    }, 
+                                    "path": "images/Layer-clock_icon-BAD44577-D51A-438D-879C-074ABD4670EB.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 12, 
+                                    "width": 12, 
+                                    "x": 184, 
+                                    "y": 230
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "clockicon", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "4E54CBA8-045A-4668-93F3-9379F581587D", 
+                        "image": {
+                            "frame": {
+                                "height": 263, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 128
+                            }, 
+                            "path": "images/Layer-details-4E54CBA8-045A-4668-93F3-9379F581587D.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 263, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 128
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "details", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "BCB540F9-500E-463A-9E55-6F17715FCEFB", 
+                                "image": {
+                                    "frame": {
+                                        "height": 16, 
+                                        "width": 16, 
+                                        "x": 150, 
+                                        "y": 487
+                                    }, 
+                                    "path": "images/Layer-infoIcon-BCB540F9-500E-463A-9E55-6F17715FCEFB.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 16, 
+                                    "width": 16, 
+                                    "x": 150, 
+                                    "y": 487
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "infoIcon", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "2D21EE58-EAC9-450A-9AF5-3A3FA72C4C35", 
+                        "image": {
+                            "frame": {
+                                "height": 339, 
+                                "width": 330, 
+                                "x": 15, 
+                                "y": 412
+                            }, 
+                            "path": "images/Layer-summary-2D21EE58-EAC9-450A-9AF5-3A3FA72C4C35.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 339, 
+                            "width": 330, 
+                            "x": 15, 
+                            "y": 412
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "summary", 
                         "visible": true
                     }, 
                     {
                         "children": [], 
-                        "id": "2A5679CB-FA92-4BD3-9407-7BD2180864CA", 
+                        "id": "46F5BB29-3D84-4296-A185-7D6923E15EFB", 
                         "image": {
                             "frame": {
                                 "height": 48, 
-                                "width": 180, 
-                                "x": 180, 
-                                "y": 80
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 559
                             }, 
-                            "path": "images/Layer-returnTab-2A5679CB-FA92-4BD3-9407-7BD2180864CA.png"
+                            "path": "images/Layer-subheader-46F5BB29-3D84-4296-A185-7D6923E15EFB.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
                             "height": 48, 
-                            "width": 180, 
-                            "x": 180, 
-                            "y": 80
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 559
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "returnTab", 
+                        "name": "subheader", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "06565C6F-3174-46C3-BA2A-0A85D97757C8", 
+                                "image": {
+                                    "frame": {
+                                        "height": 72, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 607
+                                    }, 
+                                    "path": "images/Layer-row_copy_4-06565C6F-3174-46C3-BA2A-0A85D97757C8.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 72, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 607
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy4", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "350C2A63-5E9B-49C5-8A75-A55448A5D2AC", 
+                                "image": {
+                                    "frame": {
+                                        "height": 72, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 679
+                                    }, 
+                                    "path": "images/Layer-row_copy_5-350C2A63-5E9B-49C5-8A75-A55448A5D2AC.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 72, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 679
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy5", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "98827F41-EF01-4305-A198-9DAB53213D59", 
+                        "image": {
+                            "frame": {
+                                "height": 231, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 607
+                            }, 
+                            "path": "images/Layer-guestDetails-98827F41-EF01-4305-A198-9DAB53213D59.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 231, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 607
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "guestDetails", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "8B9E6FA4-C435-4214-BCB0-D575BA447AA1", 
+                                "image": {
+                                    "frame": {
+                                        "height": 19, 
+                                        "width": 15, 
+                                        "x": 16, 
+                                        "y": 868
+                                    }, 
+                                    "path": "images/Layer-lockIcon-8B9E6FA4-C435-4214-BCB0-D575BA447AA1.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 19, 
+                                    "width": 15, 
+                                    "x": 16, 
+                                    "y": 868
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "lockIcon", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "CF5926BD-16CB-4CCC-AAF3-3226813A2C6D", 
+                        "image": {
+                            "frame": {
+                                "height": 48, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 853
+                            }, 
+                            "path": "images/Layer-subheader-CF5926BD-16CB-4CCC-AAF3-3226813A2C6D.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 48, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 853
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "subheader", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "0C27203A-3EE4-4175-8650-EC38FB06CB1C", 
+                                "image": {
+                                    "frame": {
+                                        "height": 72, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 973
+                                    }, 
+                                    "path": "images/Layer-row_copy-0C27203A-3EE4-4175-8650-EC38FB06CB1C.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 72, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 973
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "rowcopy", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "DCE54AEA-7B26-4C0E-A3CC-2E813BA171A2", 
+                                "image": {
+                                    "frame": {
+                                        "height": 72, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 901
+                                    }, 
+                                    "path": "images/Layer-row-DCE54AEA-7B26-4C0E-A3CC-2E813BA171A2.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 72, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 901
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "row", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "8F933DBC-58D8-444F-9F46-4023B430DC0E", 
+                        "image": {
+                            "frame": {
+                                "height": 196, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 901
+                            }, 
+                            "path": "images/Layer-payment-8F933DBC-58D8-444F-9F46-4023B430DC0E.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 196, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 901
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "payment", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "4E2D8FBF-AC07-4AA8-BEBA-BDE9BE1C5B1E", 
+                        "image": {
+                            "frame": {
+                                "height": 72, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 1101
+                            }, 
+                            "path": "images/Layer-listBgFiller-4E2D8FBF-AC07-4AA8-BEBA-BDE9BE1C5B1E.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 72, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 1101
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "listBgFiller", 
                         "visible": true
                     }
                 ], 
-                "id": "ABDEE646-896B-42F1-B069-55740398C865", 
+                "id": "CD36AC1B-5F0F-46FC-BB97-DBB83512056A", 
+                "image": {
+                    "frame": {
+                        "height": 1228, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 77
+                    }, 
+                    "path": "images/Layer-scrollContentCheckout-CD36AC1B-5F0F-46FC-BB97-DBB83512056A.png"
+                }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 57, 
+                    "height": 1228, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 80
+                    "y": 77
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "tabs", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "370F5559-663B-4A44-98F5-B90A0DF72FFE", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 95, 
-                        "x": 88, 
-                        "y": 287
-                    }, 
-                    "path": "images/Layer-toolTip-370F5559-663B-4A44-98F5-B90A0DF72FFE.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 95, 
-                    "x": 88, 
-                    "y": 287
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "toolTip", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "448FD0A3-D346-4395-AFFB-326DAA660BBB", 
-                        "image": {
-                            "frame": {
-                                "height": 210, 
-                                "width": 278, 
-                                "x": 41, 
-                                "y": 234
-                            }, 
-                            "path": "images/Layer-dates-448FD0A3-D346-4395-AFFB-326DAA660BBB.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 210, 
-                            "width": 278, 
-                            "x": 41, 
-                            "y": 234
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "dates", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "000D6801-7F3B-4BC9-846F-D3D786DCFF7A", 
-                        "image": {
-                            "frame": {
-                                "height": 10, 
-                                "width": 272, 
-                                "x": 44, 
-                                "y": 194
-                            }, 
-                            "path": "images/Layer-weekdays-000D6801-7F3B-4BC9-846F-D3D786DCFF7A.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 10, 
-                            "width": 272, 
-                            "x": 44, 
-                            "y": 194
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "weekdays", 
-                        "visible": true
-                    }
-                ], 
-                "id": "92D51FA1-37AC-4C87-B5BF-BBE810456AEC", 
-                "image": {
-                    "frame": {
-                        "height": 284, 
-                        "width": 278, 
-                        "x": 41, 
-                        "y": 160
-                    }, 
-                    "path": "images/Layer-January-92D51FA1-37AC-4C87-B5BF-BBE810456AEC.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 284, 
-                    "width": 278, 
-                    "x": 41, 
-                    "y": 160
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "January", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "4F2774AE-3AD1-465C-ACF0-A18F6CE06C93", 
-                        "image": {
-                            "frame": {
-                                "height": 88, 
-                                "width": 277, 
-                                "x": 42, 
-                                "y": 552
-                            }, 
-                            "path": "images/Layer-dates-4F2774AE-3AD1-465C-ACF0-A18F6CE06C93.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 88, 
-                            "width": 277, 
-                            "x": 42, 
-                            "y": 552
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "dates", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "CAD398B9-D422-416F-A22A-AB6518756AF7", 
-                        "image": {
-                            "frame": {
-                                "height": 10, 
-                                "width": 272, 
-                                "x": 44, 
-                                "y": 512
-                            }, 
-                            "path": "images/Layer-weekdays-CAD398B9-D422-416F-A22A-AB6518756AF7.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 10, 
-                            "width": 272, 
-                            "x": 44, 
-                            "y": 512
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "weekdays", 
-                        "visible": true
-                    }
-                ], 
-                "id": "D8DAC306-FA3A-4C8D-86CA-2D7111312477", 
-                "image": {
-                    "frame": {
-                        "height": 162, 
-                        "width": 277, 
-                        "x": 42, 
-                        "y": 478
-                    }, 
-                    "path": "images/Layer-February-D8DAC306-FA3A-4C8D-86CA-2D7111312477.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 162, 
-                    "width": 277, 
-                    "x": 42, 
-                    "y": 478
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "February", 
+                "name": "scrollContentCheckout", 
                 "visible": true
             }
         ], 
-        "id": "03230A6C-4DFB-4AB6-9BE0-24E8BFFF3ADF", 
+        "id": "2DF8D354-CE7A-4DD0-A5C1-7E344CD5D7DA", 
+        "image": {
+            "frame": {
+                "height": 1305, 
+                "width": 360, 
+                "x": 1468, 
+                "y": 172
+            }, 
+            "path": "images/Layer-checkout-2DF8D354-CE7A-4DD0-A5C1-7E344CD5D7DA.png"
+        }, 
         "imageType": "png", 
         "kind": "artboard", 
         "layerFrame": {
-            "height": 640, 
+            "height": 1305, 
             "width": 360, 
-            "x": -1103, 
-            "y": 1781
+            "x": 1468, 
+            "y": 172
         }, 
         "maskFrame": null, 
         "metadata": {}, 
-        "name": "datePickerdepartureDate", 
+        "name": "checkout", 
         "visible": false
     }, 
     {
@@ -7556,115 +6849,383 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
             {
                 "children": [
                     {
-                        "children": [], 
-                        "id": "165FBFD6-CAF1-48DD-ACBA-D1F050309048", 
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "ED0D9A32-CE80-44D0-A1DE-D4CB98BD3085", 
+                                "image": {
+                                    "frame": {
+                                        "height": 42, 
+                                        "width": 149, 
+                                        "x": 106, 
+                                        "y": 220
+                                    }, 
+                                    "path": "images/Layer-button-ED0D9A32-CE80-44D0-A1DE-D4CB98BD3085.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 42, 
+                                    "width": 149, 
+                                    "x": 106, 
+                                    "y": 220
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "button", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "1C9785EB-94E9-4A20-BF65-A8CB160B45F4", 
+                                "image": {
+                                    "frame": {
+                                        "height": 25, 
+                                        "width": 146, 
+                                        "x": 107, 
+                                        "y": 105
+                                    }, 
+                                    "path": "images/Layer-Group-1C9785EB-94E9-4A20-BF65-A8CB160B45F4.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 25, 
+                                    "width": 146, 
+                                    "x": 107, 
+                                    "y": 105
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Group", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "F7145B19-6724-4D02-A98C-BBB84CD4293E", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 169, 
-                                "x": 96, 
-                                "y": 556
+                                "height": 157, 
+                                "width": 281, 
+                                "x": 39, 
+                                "y": 105
                             }, 
-                            "path": "images/Layer-apply-165FBFD6-CAF1-48DD-ACBA-D1F050309048.png"
+                            "path": "images/Layer-confirmationMsgContent-F7145B19-6724-4D02-A98C-BBB84CD4293E.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 169, 
-                            "x": 96, 
-                            "y": 556
+                            "height": 157, 
+                            "width": 281, 
+                            "x": 39, 
+                            "y": 105
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "confirmationMsgContent", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "71BD1C8B-AD97-429F-A681-88D517E287E9", 
+                        "image": {
+                            "frame": {
+                                "height": 297, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 24
+                            }, 
+                            "path": "images/Layer-confirmationMsgBg-71BD1C8B-AD97-429F-A681-88D517E287E9.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 297, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 24
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "confirmationMsgBg", 
                         "visible": true
                     }
                 ], 
-                "id": "48EC2DCA-00F2-4A79-AB0A-D7C52E5DB9F0", 
-                "image": {
-                    "frame": {
-                        "height": 60, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 532
-                    }, 
-                    "path": "images/Layer-buttons-48EC2DCA-00F2-4A79-AB0A-D7C52E5DB9F0.png"
-                }, 
+                "id": "BBB626C3-21C9-4AA9-835E-FA2390D00538", 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 297, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 24
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "buttons", 
+                "name": "confirmationMsg", 
                 "visible": true
             }, 
             {
-                "children": [], 
-                "id": "AB9B3946-DF61-4FB7-A5D2-BD62325858C2", 
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "C5C34CE2-2EC0-4925-89AF-372CF071788C", 
+                                "image": {
+                                    "frame": {
+                                        "height": 9, 
+                                        "width": 31, 
+                                        "x": 314, 
+                                        "y": 494
+                                    }, 
+                                    "path": "images/Layer-NAV-C5C34CE2-2EC0-4925-89AF-372CF071788C.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 9, 
+                                    "width": 31, 
+                                    "x": 314, 
+                                    "y": 494
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "NAV", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "BEACDBE0-F1D5-493B-A0B6-27B17CF3CADA", 
+                                "image": {
+                                    "frame": {
+                                        "height": 150, 
+                                        "width": 360, 
+                                        "x": 0, 
+                                        "y": 368
+                                    }, 
+                                    "path": "images/Layer-Bitmap-BEACDBE0-F1D5-493B-A0B6-27B17CF3CADA.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 150, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 368
+                                }, 
+                                "maskFrame": {
+                                    "height": 150, 
+                                    "width": 360, 
+                                    "x": 0, 
+                                    "y": 368
+                                }, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "Bitmap", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "F863E11F-D6FB-4A01-A327-A8087E9AEC33", 
+                        "image": {
+                            "frame": {
+                                "height": 150, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 368
+                            }, 
+                            "path": "images/Layer-hotelSuggestion-F863E11F-D6FB-4A01-A327-A8087E9AEC33.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 150, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 368
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "hotelSuggestion", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "9472B955-F8B4-420E-8057-B0D24AD4582B", 
+                        "image": {
+                            "frame": {
+                                "height": 48, 
+                                "width": 360, 
+                                "x": 0, 
+                                "y": 320
+                            }, 
+                            "path": "images/Layer-subheader-9472B955-F8B4-420E-8057-B0D24AD4582B.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 48, 
+                            "width": 360, 
+                            "x": 0, 
+                            "y": 320
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "subheader", 
+                        "visible": true
+                    }
+                ], 
+                "id": "43BBB850-D2A8-47E4-AFEC-C110A98E168C", 
+                "imageType": "png", 
+                "kind": "group", 
+                "layerFrame": {
+                    "height": 198, 
+                    "width": 360, 
+                    "x": 0, 
+                    "y": 320
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "opacity": 1
+                }, 
+                "name": "hotelSuggestion", 
+                "visible": true
+            }, 
+            {
+                "children": [
+                    {
+                        "children": [], 
+                        "id": "617A875A-48D9-4B51-BE47-3330BAE84502", 
+                        "image": {
+                            "frame": {
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
+                            }, 
+                            "path": "images/Layer-btn-617A875A-48D9-4B51-BE47-3330BAE84502.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "btn", 
+                        "visible": true
+                    }
+                ], 
+                "id": "29CD5C76-A80B-45CF-BC5A-49A0B8830FB3", 
                 "image": {
                     "frame": {
-                        "height": 49, 
-                        "width": 56, 
-                        "x": 16, 
-                        "y": 188
+                        "height": 78, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 514
                     }, 
-                    "path": "images/Layer-durationSummary-AB9B3946-DF61-4FB7-A5D2-BD62325858C2.png"
+                    "path": "images/Layer-viewMore-29CD5C76-A80B-45CF-BC5A-49A0B8830FB3.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 49, 
-                    "width": 56, 
-                    "x": 16, 
-                    "y": 188
+                    "height": 78, 
+                    "width": 360, 
+                    "x": 0, 
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "durationSummary", 
+                "name": "viewMore", 
                 "visible": true
             }, 
             {
                 "children": [], 
-                "id": "026D7085-B689-4FDD-9A57-7A08B602EEA1", 
+                "id": "10EAD68B-A268-49A3-A7BC-170FCAEE6B35", 
                 "image": {
                     "frame": {
-                        "height": 103, 
-                        "width": 14, 
-                        "x": 36, 
-                        "y": 162
+                        "height": 35, 
+                        "width": 232, 
+                        "x": 64, 
+                        "y": 314
                     }, 
-                    "path": "images/Layer-arrow-026D7085-B689-4FDD-9A57-7A08B602EEA1.png"
+                    "path": "images/Layer-processMsg-10EAD68B-A268-49A3-A7BC-170FCAEE6B35.png"
+                }, 
+                "imageType": "png", 
+                "kind": "text", 
+                "layerFrame": {
+                    "height": 35, 
+                    "width": 232, 
+                    "x": 64, 
+                    "y": 314
+                }, 
+                "maskFrame": null, 
+                "metadata": {
+                    "css": [
+                        "/* Your booking is bein: */", 
+                        "font-family: Roboto-Medium;", 
+                        "font-size: 16px;", 
+                        "color: #37474F;", 
+                        "line-height: 19px;"
+                    ], 
+                    "string": "Your booking is being processed\nin our system"
+                }, 
+                "name": "processMsg", 
+                "visible": true
+            }, 
+            {
+                "children": [], 
+                "id": "8CDF5094-7226-4B31-BBA6-51C676639B00", 
+                "image": {
+                    "frame": {
+                        "height": 79, 
+                        "width": 269, 
+                        "x": 46, 
+                        "y": 182
+                    }, 
+                    "path": "images/Layer-processPlane-8CDF5094-7226-4B31-BBA6-51C676639B00.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 103, 
-                    "width": 14, 
-                    "x": 36, 
-                    "y": 162
+                    "height": 79, 
+                    "width": 269, 
+                    "x": 46, 
+                    "y": 182
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "arrow", 
-                "visible": true
+                "name": "processPlane", 
+                "visible": false
             }, 
             {
                 "children": [], 
-                "id": "B029684F-59C4-4973-ADA6-2A56217CCA59", 
+                "id": "F11583DC-08F8-469B-A2EA-6EE63F3AE4E9", 
                 "image": {
                     "frame": {
                         "height": 30, 
@@ -7672,7 +7233,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-StatusBarBlack-B029684F-59C4-4973-ADA6-2A56217CCA59.png"
+                    "path": "images/Layer-StatusBarBlack-F11583DC-08F8-469B-A2EA-6EE63F3AE4E9.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -7690,90 +7251,8 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 "visible": true
             }, 
             {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "B900C42C-254C-4973-8D89-B5023E25F33E", 
-                        "image": {
-                            "frame": {
-                                "height": 16, 
-                                "width": 17, 
-                                "x": 19, 
-                                "y": 44
-                            }, 
-                            "path": "images/Layer-back-B900C42C-254C-4973-8D89-B5023E25F33E.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 16, 
-                            "width": 17, 
-                            "x": 19, 
-                            "y": 44
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 0.87
-                        }, 
-                        "name": "back", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "33DDDD87-664A-4E45-8980-1EC3A0248F42", 
-                        "image": {
-                            "frame": {
-                                "height": 19, 
-                                "width": 17, 
-                                "x": 323, 
-                                "y": 42
-                            }, 
-                            "path": "images/Layer-graph-33DDDD87-664A-4E45-8980-1EC3A0248F42.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 19, 
-                            "width": 17, 
-                            "x": 323, 
-                            "y": 42
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "graph", 
-                        "visible": true
-                    }
-                ], 
-                "id": "F0B63FC3-0EC6-4762-A13B-F2674FEBA633", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-app_bar-F0B63FC3-0EC6-4762-A13B-F2674FEBA633.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "appbar", 
-                "visible": true
-            }, 
-            {
                 "children": [], 
-                "id": "A4E78545-1059-4E7B-87CD-9B1EDCE936FE", 
+                "id": "77B17156-067A-47FF-8886-705832E91042", 
                 "image": {
                     "frame": {
                         "height": 48, 
@@ -7781,7 +7260,7 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                         "x": 0, 
                         "y": 592
                     }, 
-                    "path": "images/Layer-navbar-A4E78545-1059-4E7B-87CD-9B1EDCE936FE.png"
+                    "path": "images/Layer-navbar-77B17156-067A-47FF-8886-705832E91042.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -7797,670 +7276,29 @@ window.__imported__["flightBooking-Android-01/layers.json.js"] = [
                 }, 
                 "name": "navbar", 
                 "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "C571B6AD-B1AC-42CC-A3B8-7D20E90E3A3D", 
-                                "image": {
-                                    "frame": {
-                                        "height": 12, 
-                                        "width": 12, 
-                                        "x": 156, 
-                                        "y": 98
-                                    }, 
-                                    "path": "images/Layer-clockIcon-C571B6AD-B1AC-42CC-A3B8-7D20E90E3A3D.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 12, 
-                                    "width": 12, 
-                                    "x": 156, 
-                                    "y": 98
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "clockIcon", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "259FCC69-E02E-4B07-89F8-21C716868D4A", 
-                        "image": {
-                            "frame": {
-                                "height": 14, 
-                                "width": 207, 
-                                "x": 77, 
-                                "y": 98
-                            }, 
-                            "path": "images/Layer-Group-259FCC69-E02E-4B07-89F8-21C716868D4A.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 14, 
-                            "width": 207, 
-                            "x": 77, 
-                            "y": 98
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "Group", 
-                        "visible": true
-                    }
-                ], 
-                "id": "DA6D5D82-B0C7-4B27-8A34-C894D701A395", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 80
-                    }, 
-                    "path": "images/Layer-subheader-DA6D5D82-B0C7-4B27-8A34-C894D701A395.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 80
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "subheader", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "E4532B11-3678-4BFF-BB9C-F7540C9B018C", 
-                "image": {
-                    "frame": {
-                        "height": 16, 
-                        "width": 16, 
-                        "x": 103, 
-                        "y": 187
-                    }, 
-                    "path": "images/Layer-Bitmap-E4532B11-3678-4BFF-BB9C-F7540C9B018C.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 103, 
-                    "y": 187
-                }, 
-                "maskFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 103, 
-                    "y": 187
-                }, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "Bitmap", 
-                "visible": true
             }
         ], 
-        "id": "7BCD7266-6C89-4BC2-B86A-1461BF036D7B", 
+        "id": "29BE317E-5AF0-4F99-8D41-FD6C3EBF0E76", 
         "image": {
             "frame": {
                 "height": 640, 
                 "width": 360, 
-                "x": 872, 
-                "y": 1986
+                "x": 1883, 
+                "y": 172
             }, 
-            "path": "images/Layer-outboundDetailsnoLayover-7BCD7266-6C89-4BC2-B86A-1461BF036D7B.png"
+            "path": "images/Layer-confirmation-29BE317E-5AF0-4F99-8D41-FD6C3EBF0E76.png"
         }, 
         "imageType": "png", 
         "kind": "artboard", 
         "layerFrame": {
             "height": 640, 
             "width": 360, 
-            "x": 872, 
-            "y": 1986
+            "x": 1883, 
+            "y": 172
         }, 
         "maskFrame": null, 
         "metadata": {}, 
-        "name": "outboundDetailsnoLayover", 
-        "visible": false
-    }, 
-    {
-        "children": [
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "40BD7870-0671-40EF-BB59-374A2BC1291B", 
-                        "image": {
-                            "frame": {
-                                "height": 12, 
-                                "width": 147, 
-                                "x": 107, 
-                                "y": 868
-                            }, 
-                            "path": "images/Layer-apply-40BD7870-0671-40EF-BB59-374A2BC1291B.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 12, 
-                            "width": 147, 
-                            "x": 107, 
-                            "y": 868
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "apply", 
-                        "visible": true
-                    }
-                ], 
-                "id": "4ADDD0AD-99FE-4677-A545-2C73A3110249", 
-                "image": {
-                    "frame": {
-                        "height": 60, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 844
-                    }, 
-                    "path": "images/Layer-buttons-4ADDD0AD-99FE-4677-A545-2C73A3110249.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 60, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 844
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "buttons", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "38613408-EAE6-47D7-AA52-5A04418EC8B8", 
-                "image": {
-                    "frame": {
-                        "height": 16, 
-                        "width": 16, 
-                        "x": 150, 
-                        "y": 708
-                    }, 
-                    "path": "images/Layer-infoIcon-38613408-EAE6-47D7-AA52-5A04418EC8B8.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 150, 
-                    "y": 708
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "infoIcon", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "CD873A74-6E19-4F25-A273-E162CCE87E94", 
-                "image": {
-                    "frame": {
-                        "height": 18, 
-                        "width": 18, 
-                        "x": 33, 
-                        "y": 355
-                    }, 
-                    "path": "images/Layer-clockIcon-CD873A74-6E19-4F25-A273-E162CCE87E94.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 18, 
-                    "width": 18, 
-                    "x": 33, 
-                    "y": 355
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "clockIcon", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "4C47CCFD-BE42-4791-958D-156D792A19F7", 
-                "image": {
-                    "frame": {
-                        "height": 49, 
-                        "width": 56, 
-                        "x": 16, 
-                        "y": 444
-                    }, 
-                    "path": "images/Layer-durationSummary_Copy-4C47CCFD-BE42-4791-958D-156D792A19F7.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 49, 
-                    "width": 56, 
-                    "x": 16, 
-                    "y": 444
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "durationSummaryCopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "2BEB4A22-E88A-4E63-A48D-43A743654A99", 
-                "image": {
-                    "frame": {
-                        "height": 49, 
-                        "width": 56, 
-                        "x": 16, 
-                        "y": 188
-                    }, 
-                    "path": "images/Layer-durationSummary-2BEB4A22-E88A-4E63-A48D-43A743654A99.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 49, 
-                    "width": 56, 
-                    "x": 16, 
-                    "y": 188
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "durationSummary", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "7E9DBA00-13E0-4879-9688-10738012CDD0", 
-                "image": {
-                    "frame": {
-                        "height": 103, 
-                        "width": 14, 
-                        "x": 37, 
-                        "y": 418
-                    }, 
-                    "path": "images/Layer-arrow_copy-7E9DBA00-13E0-4879-9688-10738012CDD0.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 103, 
-                    "width": 14, 
-                    "x": 37, 
-                    "y": 418
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "arrowcopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "9DA32B34-18B6-478D-AA56-D028779E6600", 
-                "image": {
-                    "frame": {
-                        "height": 119, 
-                        "width": 14, 
-                        "x": 36, 
-                        "y": 163
-                    }, 
-                    "path": "images/Layer-arrow-9DA32B34-18B6-478D-AA56-D028779E6600.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 119, 
-                    "width": 14, 
-                    "x": 36, 
-                    "y": 163
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "arrow", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "0EEB7D95-B94E-42D3-8E90-1AE811FA0646", 
-                "image": {
-                    "frame": {
-                        "height": 30, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-StatusBarBlack-0EEB7D95-B94E-42D3-8E90-1AE811FA0646.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 30, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "StatusBarBlack", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [], 
-                        "id": "0D777FA1-2551-4B99-8A00-7F2AE2A716E5", 
-                        "image": {
-                            "frame": {
-                                "height": 16, 
-                                "width": 17, 
-                                "x": 19, 
-                                "y": 44
-                            }, 
-                            "path": "images/Layer-back-0D777FA1-2551-4B99-8A00-7F2AE2A716E5.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 16, 
-                            "width": 17, 
-                            "x": 19, 
-                            "y": 44
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 0.87
-                        }, 
-                        "name": "back", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "B79D658E-625B-48FE-AB33-1B2BAAA7A57E", 
-                        "image": {
-                            "frame": {
-                                "height": 19, 
-                                "width": 17, 
-                                "x": 323, 
-                                "y": 42
-                            }, 
-                            "path": "images/Layer-graph-B79D658E-625B-48FE-AB33-1B2BAAA7A57E.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 19, 
-                            "width": 17, 
-                            "x": 323, 
-                            "y": 42
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "graph", 
-                        "visible": true
-                    }
-                ], 
-                "id": "AAA5CBC8-1D19-4E8B-8568-A27A0E57412D", 
-                "image": {
-                    "frame": {
-                        "height": 88, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
-                    }, 
-                    "path": "images/Layer-app_bar-AAA5CBC8-1D19-4E8B-8568-A27A0E57412D.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 88, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "appbar", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "4933E53E-5262-4924-A942-533381A30A87", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 904
-                    }, 
-                    "path": "images/Layer-navbar-4933E53E-5262-4924-A942-533381A30A87.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 904
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "navbar", 
-                "visible": true
-            }, 
-            {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "D35172AD-8516-4558-9829-8761881F291C", 
-                                "image": {
-                                    "frame": {
-                                        "height": 12, 
-                                        "width": 12, 
-                                        "x": 156, 
-                                        "y": 98
-                                    }, 
-                                    "path": "images/Layer-clockIcon-D35172AD-8516-4558-9829-8761881F291C.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 12, 
-                                    "width": 12, 
-                                    "x": 156, 
-                                    "y": 98
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "clockIcon", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "4138C1A8-BAAA-4100-823C-C1EC41A259A0", 
-                        "image": {
-                            "frame": {
-                                "height": 14, 
-                                "width": 203, 
-                                "x": 81, 
-                                "y": 98
-                            }, 
-                            "path": "images/Layer-Group-4138C1A8-BAAA-4100-823C-C1EC41A259A0.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 14, 
-                            "width": 203, 
-                            "x": 81, 
-                            "y": 98
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "Group", 
-                        "visible": true
-                    }
-                ], 
-                "id": "2771081F-E7C0-4EFC-A7EF-B1CC22EF10ED", 
-                "image": {
-                    "frame": {
-                        "height": 48, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 80
-                    }, 
-                    "path": "images/Layer-subheader-2771081F-E7C0-4EFC-A7EF-B1CC22EF10ED.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 48, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 80
-                }, 
-                "maskFrame": null, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "subheader", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "70919745-922B-4C97-A27B-6EA1E9FD0C44", 
-                "image": {
-                    "frame": {
-                        "height": 16, 
-                        "width": 16, 
-                        "x": 104, 
-                        "y": 443
-                    }, 
-                    "path": "images/Layer-Bitmap_Copy-70919745-922B-4C97-A27B-6EA1E9FD0C44.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 104, 
-                    "y": 443
-                }, 
-                "maskFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 104, 
-                    "y": 443
-                }, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "BitmapCopy", 
-                "visible": true
-            }, 
-            {
-                "children": [], 
-                "id": "B6BAE7CC-FA95-4A5A-BF3C-6BC81A5D070E", 
-                "image": {
-                    "frame": {
-                        "height": 16, 
-                        "width": 16, 
-                        "x": 103, 
-                        "y": 203
-                    }, 
-                    "path": "images/Layer-Bitmap-B6BAE7CC-FA95-4A5A-BF3C-6BC81A5D070E.png"
-                }, 
-                "imageType": "png", 
-                "kind": "group", 
-                "layerFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 103, 
-                    "y": 203
-                }, 
-                "maskFrame": {
-                    "height": 16, 
-                    "width": 16, 
-                    "x": 103, 
-                    "y": 203
-                }, 
-                "metadata": {
-                    "opacity": 1
-                }, 
-                "name": "Bitmap", 
-                "visible": true
-            }
-        ], 
-        "id": "A52B9E7B-D0CA-475C-8954-A7481E1CDBF7", 
-        "image": {
-            "frame": {
-                "height": 952, 
-                "width": 360, 
-                "x": 1662, 
-                "y": 1986
-            }, 
-            "path": "images/Layer-returnDetailsdetailsOpen-A52B9E7B-D0CA-475C-8954-A7481E1CDBF7.png"
-        }, 
-        "imageType": "png", 
-        "kind": "artboard", 
-        "layerFrame": {
-            "height": 952, 
-            "width": 360, 
-            "x": 1662, 
-            "y": 1986
-        }, 
-        "maskFrame": null, 
-        "metadata": {}, 
-        "name": "returnDetailsdetailsOpen", 
+        "name": "confirmation", 
         "visible": false
     }
 ]
@@ -15787,76 +14625,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "children": [
                             {
                                 "children": [], 
-                                "id": "6314BFDA-6325-49E7-834B-B79FED224129", 
+                                "id": "1E5EE178-12B4-430B-987D-7AA214505BE3", 
                                 "image": {
                                     "frame": {
-                                        "height": 36, 
-                                        "width": 72, 
-                                        "x": 208, 
-                                        "y": 540
+                                        "height": 48, 
+                                        "width": 328, 
+                                        "x": 16, 
+                                        "y": 534
                                     }, 
-                                    "path": "images/Layer-decline-6314BFDA-6325-49E7-834B-B79FED224129.png"
+                                    "path": "images/Layer-btn-1E5EE178-12B4-430B-987D-7AA214505BE3.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 36, 
-                                    "width": 72, 
-                                    "x": 208, 
-                                    "y": 540
+                                    "height": 48, 
+                                    "width": 328, 
+                                    "x": 16, 
+                                    "y": 534
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
                                     "opacity": 1
                                 }, 
-                                "name": "decline", 
-                                "visible": false
-                            }, 
-                            {
-                                "children": [], 
-                                "id": "A81A8543-562B-47DD-B692-61DC108E0F02", 
-                                "image": {
-                                    "frame": {
-                                        "height": 12, 
-                                        "width": 121, 
-                                        "x": 119, 
-                                        "y": 556
-                                    }, 
-                                    "path": "images/Layer-apply-A81A8543-562B-47DD-B692-61DC108E0F02.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 12, 
-                                    "width": 121, 
-                                    "x": 119, 
-                                    "y": 556
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "apply", 
+                                "name": "btn", 
                                 "visible": true
                             }
                         ], 
-                        "id": "3A9BA5A0-B4A1-4325-8884-2B981D431C25", 
+                        "id": "8673EBB6-5FBD-4CBD-A1FC-F5ACEA237E5C", 
                         "image": {
                             "frame": {
-                                "height": 60, 
+                                "height": 78, 
                                 "width": 360, 
                                 "x": 0, 
-                                "y": 532
+                                "y": 514
                             }, 
-                            "path": "images/Layer-findMyFlights-3A9BA5A0-B4A1-4325-8884-2B981D431C25.png"
+                            "path": "images/Layer-findMyFlights-8673EBB6-5FBD-4CBD-A1FC-F5ACEA237E5C.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 60, 
+                            "height": 78, 
                             "width": 360, 
                             "x": 0, 
-                            "y": 532
+                            "y": 514
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -15893,37 +14704,10 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }, 
                     {
-                        "children": [], 
-                        "id": "F0C1C280-E64A-441A-8BB4-2A75C4CD1781", 
-                        "image": {
-                            "frame": {
-                                "height": 2, 
-                                "width": 360, 
-                                "x": 0, 
-                                "y": 81
-                            }, 
-                            "path": "images/Layer-DividerGradient-F0C1C280-E64A-441A-8BB4-2A75C4CD1781.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 2, 
-                            "width": 360, 
-                            "x": 0, 
-                            "y": 81
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "DividerGradient", 
-                        "visible": true
-                    }, 
-                    {
                         "children": [
                             {
                                 "children": [], 
-                                "id": "9CC2809E-CBED-4EC5-8DDD-F94C693F125B", 
+                                "id": "CFBE3E89-4BFC-4E1A-9C7E-868FB209E438", 
                                 "image": {
                                     "frame": {
                                         "height": 16, 
@@ -15931,7 +14715,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                         "x": 19, 
                                         "y": 44
                                     }, 
-                                    "path": "images/Layer-back-9CC2809E-CBED-4EC5-8DDD-F94C693F125B.png"
+                                    "path": "images/Layer-back-CFBE3E89-4BFC-4E1A-9C7E-868FB209E438.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
@@ -15949,20 +14733,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "visible": true
                             }
                         ], 
-                        "id": "990E88ED-1C68-4ADC-A8C2-813E4F3260CF", 
+                        "id": "198FEFBD-081F-422E-AC6F-F51A19590245", 
                         "image": {
                             "frame": {
-                                "height": 91, 
+                                "height": 92, 
                                 "width": 360, 
                                 "x": 0, 
                                 "y": 0
                             }, 
-                            "path": "images/Layer-AppBarBackNormal-990E88ED-1C68-4ADC-A8C2-813E4F3260CF.png"
+                            "path": "images/Layer-AppBarBackNormal-198FEFBD-081F-422E-AC6F-F51A19590245.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 91, 
+                            "height": 92, 
                             "width": 360, 
                             "x": 0, 
                             "y": 0
@@ -16345,24 +15129,52 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
             {
                 "children": [
                     {
-                        "children": [], 
-                        "id": "1D0A322E-35BF-4399-8D69-90C4EFEB5E2B", 
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "AAD98CBE-B8FF-423E-A4C9-FE71FE7B06CC", 
+                                "image": {
+                                    "frame": {
+                                        "height": 48, 
+                                        "width": 328, 
+                                        "x": 16, 
+                                        "y": 534
+                                    }, 
+                                    "path": "images/Layer-btn-AAD98CBE-B8FF-423E-A4C9-FE71FE7B06CC.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 48, 
+                                    "width": 328, 
+                                    "x": 16, 
+                                    "y": 534
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "btn", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "D361916E-A8C0-4212-891A-A8E289A76FF4", 
                         "image": {
                             "frame": {
-                                "height": 60, 
+                                "height": 78, 
                                 "width": 360, 
                                 "x": 0, 
-                                "y": 532
+                                "y": 514
                             }, 
-                            "path": "images/Layer-findFlightsBtn-1D0A322E-35BF-4399-8D69-90C4EFEB5E2B.png"
+                            "path": "images/Layer-findFlightsBtn-D361916E-A8C0-4212-891A-A8E289A76FF4.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 60, 
+                            "height": 78, 
                             "width": 360, 
                             "x": 0, 
-                            "y": 532
+                            "y": 514
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -16399,37 +15211,10 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }, 
                     {
-                        "children": [], 
-                        "id": "B6D6F28F-5E58-4E42-B1C5-BC28F0FA7507", 
-                        "image": {
-                            "frame": {
-                                "height": 2, 
-                                "width": 360, 
-                                "x": 0, 
-                                "y": 81
-                            }, 
-                            "path": "images/Layer-DividerGradient-B6D6F28F-5E58-4E42-B1C5-BC28F0FA7507.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 2, 
-                            "width": 360, 
-                            "x": 0, 
-                            "y": 81
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "DividerGradient", 
-                        "visible": true
-                    }, 
-                    {
                         "children": [
                             {
                                 "children": [], 
-                                "id": "AA992785-E028-49FA-A256-574EEE4D3C25", 
+                                "id": "D55760F2-2CE1-473C-AA63-F5C9181AB37D", 
                                 "image": {
                                     "frame": {
                                         "height": 16, 
@@ -16437,7 +15222,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                         "x": 19, 
                                         "y": 44
                                     }, 
-                                    "path": "images/Layer-back-AA992785-E028-49FA-A256-574EEE4D3C25.png"
+                                    "path": "images/Layer-back-D55760F2-2CE1-473C-AA63-F5C9181AB37D.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
@@ -16455,20 +15240,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "visible": true
                             }
                         ], 
-                        "id": "C8B2209F-EEAC-4696-9DBF-D5CBCA3A7FEA", 
+                        "id": "92E825D0-0C56-46F0-A99F-F5CBEC339C81", 
                         "image": {
                             "frame": {
-                                "height": 91, 
+                                "height": 92, 
                                 "width": 360, 
                                 "x": 0, 
                                 "y": 0
                             }, 
-                            "path": "images/Layer-AppBarBackNormal-C8B2209F-EEAC-4696-9DBF-D5CBCA3A7FEA.png"
+                            "path": "images/Layer-AppBarBackNormal-92E825D0-0C56-46F0-A99F-F5CBEC339C81.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 91, 
+                            "height": 92, 
                             "width": 360, 
                             "x": 0, 
                             "y": 0
@@ -16960,7 +15745,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "id": "4F46071B-B77F-4C8A-8F4D-7CCA61711AC2", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
@@ -16970,7 +15755,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -17592,76 +16377,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "F87B1CFF-7D18-4D17-9650-76C6A6374A9F", 
+                        "id": "2A0C2578-79B1-4957-A8FC-D04A6747041F", 
                         "image": {
                             "frame": {
-                                "height": 36, 
-                                "width": 72, 
-                                "x": 208, 
-                                "y": 540
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-decline-F87B1CFF-7D18-4D17-9650-76C6A6374A9F.png"
+                            "path": "images/Layer-btn-2A0C2578-79B1-4957-A8FC-D04A6747041F.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 36, 
-                            "width": 72, 
-                            "x": 208, 
-                            "y": 540
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "decline", 
-                        "visible": false
-                    }, 
-                    {
-                        "children": [], 
-                        "id": "2C6316DB-5ADC-4C69-88B9-DA816A0E5AFE", 
-                        "image": {
-                            "frame": {
-                                "height": 12, 
-                                "width": 38, 
-                                "x": 161, 
-                                "y": 556
-                            }, 
-                            "path": "images/Layer-apply-2C6316DB-5ADC-4C69-88B9-DA816A0E5AFE.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 12, 
-                            "width": 38, 
-                            "x": 161, 
-                            "y": 556
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "50820669-1530-4021-B33D-06FB2AB9BAB9", 
+                "id": "7B2AB128-D18B-4BC8-9186-A475B7FB168D", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-doneDates-50820669-1530-4021-B33D-06FB2AB9BAB9.png"
+                    "path": "images/Layer-doneDates-7B2AB128-D18B-4BC8-9186-A475B7FB168D.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -17697,278 +16455,57 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
     {
         "children": [
             {
-                "children": [
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "3BF26803-21AF-4C76-B470-151AA7FA6997", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 404
-                                    }, 
-                                    "path": "images/Layer-radioOff-3BF26803-21AF-4C76-B470-151AA7FA6997.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 404
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOff", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "D6DAACEF-5253-4623-985A-57BBC15BDF4F", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 113, 
-                                "x": 66, 
-                                "y": 404
-                            }, 
-                            "path": "images/Layer-row_copy_7-D6DAACEF-5253-4623-985A-57BBC15BDF4F.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 113, 
-                            "x": 66, 
-                            "y": 404
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "rowcopy7", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "2B255757-02FD-45D5-A5B0-225ED7C6F727", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 356
-                                    }, 
-                                    "path": "images/Layer-radioOff-2B255757-02FD-45D5-A5B0-225ED7C6F727.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 356
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOff", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "04209F1E-51AF-49C3-A942-297ECB22EDC3", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 106, 
-                                "x": 66, 
-                                "y": 356
-                            }, 
-                            "path": "images/Layer-row_copy_6-04209F1E-51AF-49C3-A942-297ECB22EDC3.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 106, 
-                            "x": 66, 
-                            "y": 356
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "rowcopy6", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "19B392BC-6BD1-4CD6-8C5F-A1E32905D542", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 308
-                                    }, 
-                                    "path": "images/Layer-radioOff-19B392BC-6BD1-4CD6-8C5F-A1E32905D542.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 308
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOff", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "20D68840-E3B0-487A-803E-F7F17E482818", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 131, 
-                                "x": 66, 
-                                "y": 308
-                            }, 
-                            "path": "images/Layer-row_copy_5-20D68840-E3B0-487A-803E-F7F17E482818.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 131, 
-                            "x": 66, 
-                            "y": 308
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "rowcopy5", 
-                        "visible": true
-                    }, 
-                    {
-                        "children": [
-                            {
-                                "children": [], 
-                                "id": "840EED37-6B46-4020-9B39-824608E4D22F", 
-                                "image": {
-                                    "frame": {
-                                        "height": 20, 
-                                        "width": 20, 
-                                        "x": 66, 
-                                        "y": 260
-                                    }, 
-                                    "path": "images/Layer-radioOn-840EED37-6B46-4020-9B39-824608E4D22F.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 20, 
-                                    "width": 20, 
-                                    "x": 66, 
-                                    "y": 260
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "radioOn", 
-                                "visible": true
-                            }
-                        ], 
-                        "id": "1684E5F4-557B-4C03-860E-67C48C1C6937", 
-                        "image": {
-                            "frame": {
-                                "height": 20, 
-                                "width": 156, 
-                                "x": 66, 
-                                "y": 260
-                            }, 
-                            "path": "images/Layer-row-1684E5F4-557B-4C03-860E-67C48C1C6937.png"
-                        }, 
-                        "imageType": "png", 
-                        "kind": "group", 
-                        "layerFrame": {
-                            "height": 20, 
-                            "width": 156, 
-                            "x": 66, 
-                            "y": 260
-                        }, 
-                        "maskFrame": null, 
-                        "metadata": {
-                            "opacity": 1
-                        }, 
-                        "name": "row", 
-                        "visible": true
-                    }
-                ], 
-                "id": "FA0B4786-CF27-4118-9901-BC086A3E939F", 
+                "children": [], 
+                "id": "33EDD09A-74C2-44BE-A682-B56715D7D8B4", 
                 "image": {
                     "frame": {
-                        "height": 360, 
-                        "width": 356, 
-                        "x": 2, 
-                        "y": 159
+                        "height": 50, 
+                        "width": 100, 
+                        "x": 244, 
+                        "y": 73
                     }, 
-                    "path": "images/Layer-dialog-FA0B4786-CF27-4118-9901-BC086A3E939F.png"
+                    "path": "images/Layer-toolTipRight-33EDD09A-74C2-44BE-A682-B56715D7D8B4.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 360, 
-                    "width": 356, 
-                    "x": 2, 
-                    "y": 159
+                    "height": 50, 
+                    "width": 100, 
+                    "x": 244, 
+                    "y": 73
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "dialog", 
+                "name": "toolTipRight", 
                 "visible": true
             }, 
             {
                 "children": [], 
-                "id": "83232ACB-B624-4BEF-913D-9D0E6A977BD6", 
+                "id": "6E2A697C-F3E4-4B81-92F1-330B18C23D46", 
                 "image": {
                     "frame": {
-                        "height": 640, 
-                        "width": 360, 
-                        "x": 0, 
-                        "y": 0
+                        "height": 50, 
+                        "width": 100, 
+                        "x": 16, 
+                        "y": 73
                     }, 
-                    "path": "images/Layer-scrim-83232ACB-B624-4BEF-913D-9D0E6A977BD6.png"
+                    "path": "images/Layer-toolTipLeft-6E2A697C-F3E4-4B81-92F1-330B18C23D46.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 640, 
-                    "width": 360, 
-                    "x": 0, 
-                    "y": 0
+                    "height": 50, 
+                    "width": 100, 
+                    "x": 16, 
+                    "y": 73
                 }, 
                 "maskFrame": null, 
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "scrim", 
+                "name": "toolTipLeft", 
                 "visible": true
             }, 
             {
@@ -18029,7 +16566,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "A65FFE5C-41AB-4B72-830B-B5017D27D788", 
+                        "id": "4F7F0113-4F7B-4ABD-B631-AD86D10A2D21", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -18037,7 +16574,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-A65FFE5C-41AB-4B72-830B-B5017D27D788.png"
+                            "path": "images/Layer-back-4F7F0113-4F7B-4ABD-B631-AD86D10A2D21.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -18056,7 +16593,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "AD041852-11E9-405F-A9AF-6F7FB7CB2FFD", 
+                        "id": "1333211F-E6A4-442F-A7AC-1040BAFDB523", 
                         "image": {
                             "frame": {
                                 "height": 10, 
@@ -18064,7 +16601,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 297, 
                                 "y": 46
                             }, 
-                            "path": "images/Layer-refine-AD041852-11E9-405F-A9AF-6F7FB7CB2FFD.png"
+                            "path": "images/Layer-refine-1333211F-E6A4-442F-A7AC-1040BAFDB523.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -18083,7 +16620,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "7F280AAA-F624-4FFD-A742-82B7C9366D0F", 
+                        "id": "3D14AE0E-04DC-456D-BBD0-95F323B370FC", 
                         "image": {
                             "frame": {
                                 "height": 19, 
@@ -18091,7 +16628,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 258, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-7F280AAA-F624-4FFD-A742-82B7C9366D0F.png"
+                            "path": "images/Layer-graph-3D14AE0E-04DC-456D-BBD0-95F323B370FC.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -18109,20 +16646,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "09DCC206-4FFB-487A-AA7E-7EC3ECC1A4EE", 
+                "id": "2CE122C0-7E49-48FF-B21B-6022FFCC7F59", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-AppBarBackWithSubheader-09DCC206-4FFB-487A-AA7E-7EC3ECC1A4EE.png"
+                    "path": "images/Layer-AppBarBackWithSubheaderWithActions-2CE122C0-7E49-48FF-B21B-6022FFCC7F59.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -18131,7 +16668,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "AppBarBackWithSubheader", 
+                "name": "AppBarBackWithSubheaderWithActions", 
                 "visible": true
             }, 
             {
@@ -18332,145 +16869,267 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
             {
                 "children": [
                     {
+                        "children": [], 
+                        "id": "A9DC23EF-09AB-4FC5-BEEA-66517C2CC640", 
+                        "image": {
+                            "frame": {
+                                "height": 21, 
+                                "width": 8, 
+                                "x": 176, 
+                                "y": 134
+                            }, 
+                            "path": "images/Layer-divider-A9DC23EF-09AB-4FC5-BEEA-66517C2CC640.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 21, 
+                            "width": 8, 
+                            "x": 176, 
+                            "y": 134
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "divider", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "5C834234-E964-4DE3-BC65-5F5DDCA9C631", 
+                        "image": {
+                            "frame": {
+                                "height": 14, 
+                                "width": 67, 
+                                "x": 227, 
+                                "y": 105
+                            }, 
+                            "path": "images/Layer-landingTxt-5C834234-E964-4DE3-BC65-5F5DDCA9C631.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "text", 
+                        "layerFrame": {
+                            "height": 14, 
+                            "width": 67, 
+                            "x": 227, 
+                            "y": 105
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "css": [
+                                "/* Landing by: */", 
+                                "font-family: Roboto-Regular;", 
+                                "font-size: 14px;", 
+                                "color: #2F4850;", 
+                                "line-height: 16px;"
+                            ], 
+                            "string": "Landing by"
+                        }, 
+                        "name": "landingTxt", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "3A122D45-1439-421C-BDEB-F871A8D5AD63", 
+                        "image": {
+                            "frame": {
+                                "height": 12, 
+                                "width": 84, 
+                                "x": 16, 
+                                "y": 105
+                            }, 
+                            "path": "images/Layer-takeoffTxt-3A122D45-1439-421C-BDEB-F871A8D5AD63.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "text", 
+                        "layerFrame": {
+                            "height": 12, 
+                            "width": 84, 
+                            "x": 16, 
+                            "y": 105
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "css": [
+                                "/* Take-off from: */", 
+                                "font-family: Roboto-Regular;", 
+                                "font-size: 14px;", 
+                                "color: #2F4850;", 
+                                "line-height: 16px;"
+                            ], 
+                            "string": "Take-off from"
+                        }, 
+                        "name": "takeoffTxt", 
+                        "visible": true
+                    }, 
+                    {
                         "children": [
                             {
                                 "children": [], 
-                                "id": "5C834234-E964-4DE3-BC65-5F5DDCA9C631", 
+                                "id": "0E3A97A7-8A8B-4149-923F-BC602B9D132C", 
                                 "image": {
                                     "frame": {
-                                        "height": 14, 
-                                        "width": 102, 
-                                        "x": 242, 
-                                        "y": 104
+                                        "height": 13, 
+                                        "width": 22, 
+                                        "x": 314, 
+                                        "y": 138
                                     }, 
-                                    "path": "images/Layer-landingTxt-5C834234-E964-4DE3-BC65-5F5DDCA9C631.png"
+                                    "path": "images/Layer-landingIcon-0E3A97A7-8A8B-4149-923F-BC602B9D132C.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 14, 
-                                    "width": 102, 
-                                    "x": 242, 
-                                    "y": 104
+                                    "height": 13, 
+                                    "width": 22, 
+                                    "x": 314, 
+                                    "y": 138
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
                                     "opacity": 1
                                 }, 
-                                "name": "landingTxt", 
+                                "name": "landingIcon", 
                                 "visible": true
                             }, 
                             {
                                 "children": [], 
-                                "id": "3A122D45-1439-421C-BDEB-F871A8D5AD63", 
+                                "id": "2A49E143-ECC9-42D3-8953-557C4DAB0CB2", 
                                 "image": {
                                     "frame": {
-                                        "height": 12, 
-                                        "width": 111, 
-                                        "x": 16, 
-                                        "y": 104
+                                        "height": 30, 
+                                        "width": 30, 
+                                        "x": 309, 
+                                        "y": 130
                                     }, 
-                                    "path": "images/Layer-takeoffTxt-3A122D45-1439-421C-BDEB-F871A8D5AD63.png"
+                                    "path": "images/Layer-landingInnerShadow-2A49E143-ECC9-42D3-8953-557C4DAB0CB2.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 12, 
-                                    "width": 111, 
-                                    "x": 16, 
-                                    "y": 104
+                                    "height": 30, 
+                                    "width": 30, 
+                                    "x": 309, 
+                                    "y": 130
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
                                     "opacity": 1
                                 }, 
-                                "name": "takeoffTxt", 
-                                "visible": true
-                            }, 
-                            {
-                                "children": [
-                                    {
-                                        "children": [], 
-                                        "id": "75F89C0C-ED9D-44A5-84A0-A3C1EE05852F", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 34, 
-                                                "width": 37, 
-                                                "x": 305, 
-                                                "y": 127
-                                            }, 
-                                            "path": "images/Layer-landingKnob-75F89C0C-ED9D-44A5-84A0-A3C1EE05852F.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 34, 
-                                            "width": 37, 
-                                            "x": 305, 
-                                            "y": 127
-                                        }, 
-                                        "maskFrame": null, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "landingKnob", 
-                                        "visible": true
-                                    }, 
-                                    {
-                                        "children": [], 
-                                        "id": "66AC26F0-8380-4309-ACA6-837FA7651AD3", 
-                                        "image": {
-                                            "frame": {
-                                                "height": 34, 
-                                                "width": 37, 
-                                                "x": 15, 
-                                                "y": 127
-                                            }, 
-                                            "path": "images/Layer-takeOffKnob-66AC26F0-8380-4309-ACA6-837FA7651AD3.png"
-                                        }, 
-                                        "imageType": "png", 
-                                        "kind": "group", 
-                                        "layerFrame": {
-                                            "height": 34, 
-                                            "width": 37, 
-                                            "x": 15, 
-                                            "y": 127
-                                        }, 
-                                        "maskFrame": null, 
-                                        "metadata": {
-                                            "opacity": 1
-                                        }, 
-                                        "name": "takeOffKnob", 
-                                        "visible": true
-                                    }
-                                ], 
-                                "id": "E1BAE952-2B43-4559-A9DA-D7EBE5A3161D", 
-                                "image": {
-                                    "frame": {
-                                        "height": 34, 
-                                        "width": 329, 
-                                        "x": 15, 
-                                        "y": 127
-                                    }, 
-                                    "path": "images/Layer-slider-E1BAE952-2B43-4559-A9DA-D7EBE5A3161D.png"
-                                }, 
-                                "imageType": "png", 
-                                "kind": "group", 
-                                "layerFrame": {
-                                    "height": 34, 
-                                    "width": 329, 
-                                    "x": 15, 
-                                    "y": 127
-                                }, 
-                                "maskFrame": null, 
-                                "metadata": {
-                                    "opacity": 1
-                                }, 
-                                "name": "slider", 
+                                "name": "landingInnerShadow", 
                                 "visible": true
                             }
                         ], 
-                        "id": "CFEA5897-8C4A-472F-B419-C2A16AEEDE37", 
+                        "id": "75F89C0C-ED9D-44A5-84A0-A3C1EE05852F", 
+                        "image": {
+                            "frame": {
+                                "height": 30, 
+                                "width": 30, 
+                                "x": 309, 
+                                "y": 130
+                            }, 
+                            "path": "images/Layer-landingKnob-75F89C0C-ED9D-44A5-84A0-A3C1EE05852F.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 30, 
+                            "width": 30, 
+                            "x": 309, 
+                            "y": 130
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "landingKnob", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "id": "548297AB-0827-4273-8503-E19B237FAEE5", 
+                                "image": {
+                                    "frame": {
+                                        "height": 11, 
+                                        "width": 24, 
+                                        "x": 23, 
+                                        "y": 139
+                                    }, 
+                                    "path": "images/Layer-takeoffIcon-548297AB-0827-4273-8503-E19B237FAEE5.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 11, 
+                                    "width": 24, 
+                                    "x": 23, 
+                                    "y": 139
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "takeoffIcon", 
+                                "visible": true
+                            }, 
+                            {
+                                "children": [], 
+                                "id": "3E01BA16-B494-4777-A34B-812FBC67A7AA", 
+                                "image": {
+                                    "frame": {
+                                        "height": 30, 
+                                        "width": 30, 
+                                        "x": 19, 
+                                        "y": 130
+                                    }, 
+                                    "path": "images/Layer-takeoffInnerShadow-3E01BA16-B494-4777-A34B-812FBC67A7AA.png"
+                                }, 
+                                "imageType": "png", 
+                                "kind": "group", 
+                                "layerFrame": {
+                                    "height": 30, 
+                                    "width": 30, 
+                                    "x": 19, 
+                                    "y": 130
+                                }, 
+                                "maskFrame": null, 
+                                "metadata": {
+                                    "opacity": 1
+                                }, 
+                                "name": "takeoffInnerShadow", 
+                                "visible": true
+                            }
+                        ], 
+                        "id": "66AC26F0-8380-4309-ACA6-837FA7651AD3", 
+                        "image": {
+                            "frame": {
+                                "height": 30, 
+                                "width": 30, 
+                                "x": 19, 
+                                "y": 130
+                            }, 
+                            "path": "images/Layer-takeOffKnob-66AC26F0-8380-4309-ACA6-837FA7651AD3.png"
+                        }, 
+                        "imageType": "png", 
+                        "kind": "group", 
+                        "layerFrame": {
+                            "height": 30, 
+                            "width": 30, 
+                            "x": 19, 
+                            "y": 130
+                        }, 
+                        "maskFrame": null, 
+                        "metadata": {
+                            "opacity": 1
+                        }, 
+                        "name": "takeOffKnob", 
+                        "visible": true
+                    }, 
+                    {
+                        "children": [], 
+                        "id": "C14261C7-0FF3-4BE0-9AE2-5225E79BDD59", 
                         "image": {
                             "frame": {
                                 "height": 96, 
@@ -18478,7 +17137,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 0, 
                                 "y": 78
                             }, 
-                            "path": "images/Layer-timeFilters-CFEA5897-8C4A-472F-B419-C2A16AEEDE37.png"
+                            "path": "images/Layer-sliderBG-C14261C7-0FF3-4BE0-9AE2-5225E79BDD59.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -18492,11 +17151,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "timeFilters", 
+                        "name": "sliderBG", 
                         "visible": true
                     }
                 ], 
-                "id": "D9086E16-9978-4C09-8E08-54AE43023AC2", 
+                "id": "CFEA5897-8C4A-472F-B419-C2A16AEEDE37", 
+                "image": {
+                    "frame": {
+                        "height": 96, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 78
+                    }, 
+                    "path": "images/Layer-slider-CFEA5897-8C4A-472F-B419-C2A16AEEDE37.png"
+                }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
@@ -18509,7 +17177,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "results", 
+                "name": "slider", 
                 "visible": true
             }, 
             {
@@ -19161,49 +17829,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "4ABD1E57-C65A-4018-BFB6-4CDD3C4D38AB", 
+                        "id": "CB4DE1A5-4BF1-4B14-BAA8-D623967E069B", 
                         "image": {
                             "frame": {
-                                "height": 10, 
-                                "width": 45, 
-                                "x": 157, 
-                                "y": 557
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-4ABD1E57-C65A-4018-BFB6-4CDD3C4D38AB.png"
+                            "path": "images/Layer-btn-CB4DE1A5-4BF1-4B14-BAA8-D623967E069B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 10, 
-                            "width": 45, 
-                            "x": 157, 
-                            "y": 557
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "D51C1369-EE60-4E7D-82A3-3ABF44937CCC", 
+                "id": "A7B76376-9E48-46A0-9345-E00FB49E8C39", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-applyBtn-D51C1369-EE60-4E7D-82A3-3ABF44937CCC.png"
+                    "path": "images/Layer-applyBtn-A7B76376-9E48-46A0-9345-E00FB49E8C39.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -19243,22 +17911,22 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "DF5DDEF3-3A27-42DD-829F-EDADDCB0D037", 
+                        "id": "C1ECEF43-6832-4E34-8891-4E2EEF9EDE27", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 43, 
-                                "x": 299, 
+                                "height": 11, 
+                                "width": 40, 
+                                "x": 300, 
                                 "y": 46
                             }, 
-                            "path": "images/Layer-apply-DF5DDEF3-3A27-42DD-829F-EDADDCB0D037.png"
+                            "path": "images/Layer-apply-C1ECEF43-6832-4E34-8891-4E2EEF9EDE27.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 43, 
-                            "x": 299, 
+                            "height": 11, 
+                            "width": 40, 
+                            "x": 300, 
                             "y": 46
                         }, 
                         "maskFrame": null, 
@@ -19270,7 +17938,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "59280343-C013-4243-8C0D-B25E2157DED9", 
+                        "id": "305F4278-5EFB-4097-A2CD-7BCDFCD9CBE4", 
                         "image": {
                             "frame": {
                                 "height": 14, 
@@ -19278,7 +17946,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 21, 
                                 "y": 45
                             }, 
-                            "path": "images/Layer-closeX-59280343-C013-4243-8C0D-B25E2157DED9.png"
+                            "path": "images/Layer-closeX-305F4278-5EFB-4097-A2CD-7BCDFCD9CBE4.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -19296,20 +17964,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "19247B76-17C0-4562-A69D-F239F53BEE36", 
+                "id": "EAB7E5F9-0605-44E9-8270-C4B97CF03F94", 
                 "image": {
                     "frame": {
-                        "height": 88, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-AppBarBackWithSubheader-19247B76-17C0-4562-A69D-F239F53BEE36.png"
+                    "path": "images/Layer-AppBarBackWithSubheader-EAB7E5F9-0605-44E9-8270-C4B97CF03F94.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 88, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -20259,49 +18927,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "13AA7D15-C8F1-44C0-A053-80365F3ADBF4", 
+                        "id": "7F8A486E-2124-4A2B-A989-D8DF95FD7EDD", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 171, 
-                                "x": 95, 
-                                "y": 556
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-13AA7D15-C8F1-44C0-A053-80365F3ADBF4.png"
+                            "path": "images/Layer-btn-7F8A486E-2124-4A2B-A989-D8DF95FD7EDD.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 171, 
-                            "x": 95, 
-                            "y": 556
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "E5242E5F-61F2-480B-8026-FEC17D3FC1A2", 
+                "id": "3E9C396C-CEDA-44AA-AEDC-DB0C28DE0982", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-selectOutBoundBtn-E5242E5F-61F2-480B-8026-FEC17D3FC1A2.png"
+                    "path": "images/Layer-selectOutBoundBtn-3E9C396C-CEDA-44AA-AEDC-DB0C28DE0982.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -20395,7 +19063,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "10712555-88C3-4C1E-9771-60045F484D1F", 
+                        "id": "1E98168F-DCDF-4A0E-BBCE-DEC1FDD523B9", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -20403,7 +19071,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-10712555-88C3-4C1E-9771-60045F484D1F.png"
+                            "path": "images/Layer-back-1E98168F-DCDF-4A0E-BBCE-DEC1FDD523B9.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -20422,7 +19090,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "DC6E0127-0141-4778-9E0D-CFE489B0BDC2", 
+                        "id": "9633E95A-7FD3-49CC-BD73-4865EDAA92B1", 
                         "image": {
                             "frame": {
                                 "height": 19, 
@@ -20430,7 +19098,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 323, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-DC6E0127-0141-4778-9E0D-CFE489B0BDC2.png"
+                            "path": "images/Layer-graph-9633E95A-7FD3-49CC-BD73-4865EDAA92B1.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -20448,20 +19116,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "EF4C69D8-A42B-4AD2-B7C7-9987902E3C70", 
+                "id": "116FDD77-8A9E-42EC-A5E6-B65D26340DAA", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-EF4C69D8-A42B-4AD2-B7C7-9987902E3C70.png"
+                    "path": "images/Layer-app_bar-116FDD77-8A9E-42EC-A5E6-B65D26340DAA.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -20790,20 +19458,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "id": "8D69E4F5-A589-4152-B365-8B9597A7B240", 
                         "image": {
                             "frame": {
-                                "height": 457, 
-                                "width": 360, 
-                                "x": 0, 
-                                "y": 131
+                                "height": 423, 
+                                "width": 330, 
+                                "x": 15, 
+                                "y": 146
                             }, 
                             "path": "images/Layer-details-8D69E4F5-A589-4152-B365-8B9597A7B240.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 457, 
-                            "width": 360, 
-                            "x": 0, 
-                            "y": 131
+                            "height": 423, 
+                            "width": 330, 
+                            "x": 15, 
+                            "y": 146
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -20868,6 +19536,15 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }
                 ], 
                 "id": "5E0C8257-EB71-400D-8B43-9F8C76ACFFF4", 
+                "image": {
+                    "frame": {
+                        "height": 695, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 83
+                    }, 
+                    "path": "images/Layer-scrollContentOutboundDetails-5E0C8257-EB71-400D-8B43-9F8C76ACFFF4.png"
+                }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
@@ -20967,7 +19644,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "5386614B-9CDC-416A-9EDA-AAF95A528E14", 
+                        "id": "97EE2406-CD5D-43F7-BCB8-ADE22B884E66", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -20975,7 +19652,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-5386614B-9CDC-416A-9EDA-AAF95A528E14.png"
+                            "path": "images/Layer-back-97EE2406-CD5D-43F7-BCB8-ADE22B884E66.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -20994,7 +19671,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "8BD71483-3D10-43D1-8294-A505AC5263E6", 
+                        "id": "5250E189-6416-4DE5-BA57-F300A93399C3", 
                         "image": {
                             "frame": {
                                 "height": 10, 
@@ -21002,7 +19679,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 297, 
                                 "y": 46
                             }, 
-                            "path": "images/Layer-apply-8BD71483-3D10-43D1-8294-A505AC5263E6.png"
+                            "path": "images/Layer-refine-5250E189-6416-4DE5-BA57-F300A93399C3.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -21016,12 +19693,12 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "refine", 
                         "visible": true
                     }, 
                     {
                         "children": [], 
-                        "id": "68A85791-C626-4BA0-979F-D5582084DD67", 
+                        "id": "921F6B40-1361-474B-96FC-30F0E24F32D2", 
                         "image": {
                             "frame": {
                                 "height": 19, 
@@ -21029,7 +19706,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 258, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-68A85791-C626-4BA0-979F-D5582084DD67.png"
+                            "path": "images/Layer-graph-921F6B40-1361-474B-96FC-30F0E24F32D2.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -21047,20 +19724,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "E65E0BA2-CE6D-42AB-A0AD-5A3A8DFB66F5", 
+                "id": "A68C6042-5CC3-4434-BEB9-5D21E0CC9203", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-E65E0BA2-CE6D-42AB-A0AD-5A3A8DFB66F5.png"
+                    "path": "images/Layer-AppBarBackWithSubheaderWithActions-A68C6042-5CC3-4434-BEB9-5D21E0CC9203.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -21069,7 +19746,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "appbar", 
+                "name": "AppBarBackWithSubheaderWithActions", 
                 "visible": true
             }, 
             {
@@ -21246,7 +19923,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "x": 0, 
                         "y": 79
                     }, 
-                    "path": "images/Layer-slider-94D42D37-225F-414B-BD41-274AD28534C2.png"
+                    "path": "images/Layer-sliderReturn-94D42D37-225F-414B-BD41-274AD28534C2.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
@@ -21260,7 +19937,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "metadata": {
                     "opacity": 1
                 }, 
-                "name": "slider", 
+                "name": "sliderReturn", 
                 "visible": true
             }, 
             {
@@ -21679,7 +20356,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "D2A38080-18E9-4594-B3D2-F42C6390BB89", 
+                        "id": "BED08225-313E-4F33-8FBD-D7EF6FAF385B", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -21687,7 +20364,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-D2A38080-18E9-4594-B3D2-F42C6390BB89.png"
+                            "path": "images/Layer-back-BED08225-313E-4F33-8FBD-D7EF6FAF385B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -21706,7 +20383,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }, 
                     {
                         "children": [], 
-                        "id": "69535A08-0721-4041-923A-432457F31233", 
+                        "id": "50B5D459-FCC2-4245-8EFA-CFC3718CD32B", 
                         "image": {
                             "frame": {
                                 "height": 19, 
@@ -21714,7 +20391,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 323, 
                                 "y": 42
                             }, 
-                            "path": "images/Layer-graph-69535A08-0721-4041-923A-432457F31233.png"
+                            "path": "images/Layer-graph-50B5D459-FCC2-4245-8EFA-CFC3718CD32B.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -21732,20 +20409,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "B107F9E9-6F92-46A7-B612-11244B13CAEF", 
+                "id": "D9B465C9-42B2-4CE3-ACD2-11E73EB029B5", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-B107F9E9-6F92-46A7-B612-11244B13CAEF.png"
+                    "path": "images/Layer-app_bar-D9B465C9-42B2-4CE3-ACD2-11E73EB029B5.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -21788,49 +20465,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "AB29372C-EB60-4F33-A68E-E368105A1E25", 
+                        "id": "B18B8ABD-1E0E-494C-BB0B-E6C55098BD73", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 149, 
-                                "x": 106, 
-                                "y": 556
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-AB29372C-EB60-4F33-A68E-E368105A1E25.png"
+                            "path": "images/Layer-btn-B18B8ABD-1E0E-494C-BB0B-E6C55098BD73.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 149, 
-                            "x": 106, 
-                            "y": 556
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "FCEEAD7D-4926-4B9E-9194-07EA9425F2CD", 
+                "id": "F0532D4B-3D9E-42BC-81B9-0D3E98FEA98F", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-selectReturnBtn-FCEEAD7D-4926-4B9E-9194-07EA9425F2CD.png"
+                    "path": "images/Layer-selectReturnBtn-F0532D4B-3D9E-42BC-81B9-0D3E98FEA98F.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -22129,20 +20806,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "id": "EDA23A56-3702-4F21-A87F-3A589002266E", 
                         "image": {
                             "frame": {
-                                "height": 458, 
-                                "width": 360, 
-                                "x": 0, 
-                                "y": 131
+                                "height": 427, 
+                                "width": 330, 
+                                "x": 15, 
+                                "y": 146
                             }, 
                             "path": "images/Layer-details-EDA23A56-3702-4F21-A87F-3A589002266E.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 458, 
-                            "width": 360, 
-                            "x": 0, 
-                            "y": 131
+                            "height": 427, 
+                            "width": 330, 
+                            "x": 15, 
+                            "y": 146
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -22207,10 +20884,19 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }
                 ], 
                 "id": "D8696196-97F1-4836-9315-59C89B37B7D2", 
+                "image": {
+                    "frame": {
+                        "height": 794, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 83
+                    }, 
+                    "path": "images/Layer-scrollContentReturnDetails-D8696196-97F1-4836-9315-59C89B37B7D2.png"
+                }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 729, 
+                    "height": 794, 
                     "width": 360, 
                     "x": 0, 
                     "y": 83
@@ -22306,7 +20992,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "67BC92C3-74AD-4CA0-9D16-3EB79B6099AA", 
+                        "id": "17AE251B-B106-4318-861E-4E85A6D2CED5", 
                         "image": {
                             "frame": {
                                 "height": 16, 
@@ -22314,7 +21000,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "x": 19, 
                                 "y": 44
                             }, 
-                            "path": "images/Layer-back-67BC92C3-74AD-4CA0-9D16-3EB79B6099AA.png"
+                            "path": "images/Layer-back-17AE251B-B106-4318-861E-4E85A6D2CED5.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
@@ -22332,20 +21018,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "visible": true
                     }
                 ], 
-                "id": "DD2CBC81-6001-4169-A166-FB84149999E0", 
+                "id": "DFFB5B05-142C-4E5B-B009-C73A71F892BE", 
                 "image": {
                     "frame": {
-                        "height": 91, 
+                        "height": 92, 
                         "width": 360, 
                         "x": 0, 
                         "y": 0
                     }, 
-                    "path": "images/Layer-app_bar-DD2CBC81-6001-4169-A166-FB84149999E0.png"
+                    "path": "images/Layer-app_bar-DFFB5B05-142C-4E5B-B009-C73A71F892BE.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 91, 
+                    "height": 92, 
                     "width": 360, 
                     "x": 0, 
                     "y": 0
@@ -22388,49 +21074,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "B6071BE9-C5C9-49FD-9201-ECC78E174776", 
+                        "id": "89C46D60-32BD-43AB-9A63-EE0C0A5AC6E4", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 131, 
-                                "x": 115, 
-                                "y": 556
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-B6071BE9-C5C9-49FD-9201-ECC78E174776.png"
+                            "path": "images/Layer-btn-89C46D60-32BD-43AB-9A63-EE0C0A5AC6E4.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 131, 
-                            "x": 115, 
-                            "y": 556
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "55DF1861-783F-47C6-8F52-F061862DD0AB", 
+                "id": "2762F9D4-4F22-458F-9F62-64A31D509EA3", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-finalizeBookingBtn-55DF1861-783F-47C6-8F52-F061862DD0AB.png"
+                    "path": "images/Layer-finalizeBookingBtn-2762F9D4-4F22-458F-9F62-64A31D509EA3.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -22611,9 +21297,9 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "id": "2D21EE58-EAC9-450A-9AF5-3A3FA72C4C35", 
                         "image": {
                             "frame": {
-                                "height": 148, 
-                                "width": 360, 
-                                "x": 0, 
+                                "height": 339, 
+                                "width": 330, 
+                                "x": 15, 
                                 "y": 412
                             }, 
                             "path": "images/Layer-summary-2D21EE58-EAC9-450A-9AF5-3A3FA72C4C35.png"
@@ -22621,9 +21307,9 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 148, 
-                            "width": 360, 
-                            "x": 0, 
+                            "height": 339, 
+                            "width": 330, 
+                            "x": 15, 
                             "y": 412
                         }, 
                         "maskFrame": null, 
@@ -22908,13 +21594,22 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     }
                 ], 
                 "id": "CD36AC1B-5F0F-46FC-BB97-DBB83512056A", 
+                "image": {
+                    "frame": {
+                        "height": 1228, 
+                        "width": 360, 
+                        "x": 0, 
+                        "y": 77
+                    }, 
+                    "path": "images/Layer-scrollContentCheckout-CD36AC1B-5F0F-46FC-BB97-DBB83512056A.png"
+                }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 1093, 
+                    "height": 1228, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 80
+                    "y": 77
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -23038,7 +21733,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "id": "71BD1C8B-AD97-429F-A681-88D517E287E9", 
                         "image": {
                             "frame": {
-                                "height": 310, 
+                                "height": 297, 
                                 "width": 360, 
                                 "x": 0, 
                                 "y": 24
@@ -23048,7 +21743,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 310, 
+                            "height": 297, 
                             "width": 360, 
                             "x": 0, 
                             "y": 24
@@ -23065,7 +21760,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 310, 
+                    "height": 297, 
                     "width": 360, 
                     "x": 0, 
                     "y": 24
@@ -23089,7 +21784,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                         "height": 9, 
                                         "width": 31, 
                                         "x": 314, 
-                                        "y": 508
+                                        "y": 494
                                     }, 
                                     "path": "images/Layer-NAV-C5C34CE2-2EC0-4925-89AF-372CF071788C.png"
                                 }, 
@@ -23099,7 +21794,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                     "height": 9, 
                                     "width": 31, 
                                     "x": 314, 
-                                    "y": 508
+                                    "y": 494
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -23116,7 +21811,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                         "height": 150, 
                                         "width": 360, 
                                         "x": 0, 
-                                        "y": 382
+                                        "y": 368
                                     }, 
                                     "path": "images/Layer-Bitmap-BEACDBE0-F1D5-493B-A0B6-27B17CF3CADA.png"
                                 }, 
@@ -23126,13 +21821,13 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                     "height": 150, 
                                     "width": 360, 
                                     "x": 0, 
-                                    "y": 382
+                                    "y": 368
                                 }, 
                                 "maskFrame": {
                                     "height": 150, 
                                     "width": 360, 
                                     "x": 0, 
-                                    "y": 382
+                                    "y": 368
                                 }, 
                                 "metadata": {
                                     "opacity": 1
@@ -23147,7 +21842,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "height": 150, 
                                 "width": 360, 
                                 "x": 0, 
-                                "y": 382
+                                "y": 368
                             }, 
                             "path": "images/Layer-hotelSuggestion-F863E11F-D6FB-4A01-A327-A8087E9AEC33.png"
                         }, 
@@ -23157,7 +21852,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                             "height": 150, 
                             "width": 360, 
                             "x": 0, 
-                            "y": 382
+                            "y": 368
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -23174,7 +21869,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "height": 48, 
                                 "width": 360, 
                                 "x": 0, 
-                                "y": 334
+                                "y": 320
                             }, 
                             "path": "images/Layer-subheader-9472B955-F8B4-420E-8057-B0D24AD4582B.png"
                         }, 
@@ -23184,7 +21879,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                             "height": 48, 
                             "width": 360, 
                             "x": 0, 
-                            "y": 334
+                            "y": 320
                         }, 
                         "maskFrame": null, 
                         "metadata": {
@@ -23201,7 +21896,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                     "height": 198, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 334
+                    "y": 320
                 }, 
                 "maskFrame": null, 
                 "metadata": {
@@ -23214,49 +21909,49 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "56CAB911-10A4-4D5C-ABC9-AA7B9B1131FC", 
+                        "id": "617A875A-48D9-4B51-BE47-3330BAE84502", 
                         "image": {
                             "frame": {
-                                "height": 12, 
-                                "width": 79, 
-                                "x": 141, 
-                                "y": 556
+                                "height": 48, 
+                                "width": 328, 
+                                "x": 16, 
+                                "y": 534
                             }, 
-                            "path": "images/Layer-apply-56CAB911-10A4-4D5C-ABC9-AA7B9B1131FC.png"
+                            "path": "images/Layer-btn-617A875A-48D9-4B51-BE47-3330BAE84502.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
-                            "height": 12, 
-                            "width": 79, 
-                            "x": 141, 
-                            "y": 556
+                            "height": 48, 
+                            "width": 328, 
+                            "x": 16, 
+                            "y": 534
                         }, 
                         "maskFrame": null, 
                         "metadata": {
                             "opacity": 1
                         }, 
-                        "name": "apply", 
+                        "name": "btn", 
                         "visible": true
                     }
                 ], 
-                "id": "CE395DDC-5970-41E1-AA8C-AB60036D591D", 
+                "id": "29CD5C76-A80B-45CF-BC5A-49A0B8830FB3", 
                 "image": {
                     "frame": {
-                        "height": 60, 
+                        "height": 78, 
                         "width": 360, 
                         "x": 0, 
-                        "y": 532
+                        "y": 514
                     }, 
-                    "path": "images/Layer-viewMore-CE395DDC-5970-41E1-AA8C-AB60036D591D.png"
+                    "path": "images/Layer-viewMore-29CD5C76-A80B-45CF-BC5A-49A0B8830FB3.png"
                 }, 
                 "imageType": "png", 
                 "kind": "group", 
                 "layerFrame": {
-                    "height": 60, 
+                    "height": 78, 
                     "width": 360, 
                     "x": 0, 
-                    "y": 532
+                    "y": 514
                 }, 
                 "maskFrame": null, 
                 "metadata": {

@@ -1,3 +1,6 @@
+# Import file "flightBooking-Android-01" (sizes and positions are scaled 1:3)
+sketch = Framer.Importer.load("imported/flightBooking-Android-01@3x")
+
 
 # Import file "flightBooking-Android-01" (sizes and positions are scaled 1:3)
 $ = Framer.Importer.load("imported/flightBooking-Android-prototype@3x")
@@ -201,6 +204,250 @@ searchModal = ->
 		
 ####################################################################################
 
+createTimeFilters = () ->
+
+	# define control container
+	controls = new Layer
+		width: slider.width
+		height: slider.height
+		y: slider.y
+		backgroundColor: "transparent"
+		clip: false
+	controls.superLayer = slider
+	
+	# SLIDER RIGHT
+	# define sliderLeft component
+	sliderRight = new SliderComponent
+		width: (controls.width - 120) / 2 - 30
+		height: 6
+		x: (controls.width - 120) / 2 + 70
+		y: -35
+		backgroundColor: "#cccfd3"
+		superLayer: controls
+	sliderRight.fill.backgroundColor = "#3dd0d8"
+	
+	# Customize knob appearence
+	sliderRight.knobSize = 100
+	sliderRight.knob.borderRadius = 50
+	sliderRight.knob.backgroundColor = "#1FBAAD"
+	sliderRight.knob.borderColor = "#2BA99F"
+	sliderRight.knob.shadowColor = "rgba(0, 0, 0, 0.4)"
+	sliderRight.knob.shadowX = -6
+	sliderRight.knob.draggable.momentum = false
+	# set x pos for right knob
+	sliderRight.knob.x = sliderRight.width - 40
+	
+	# set up min/max val for the slider
+	sliderRight.min = 20
+	sliderRight.max = 38
+	
+	# add the icon to the knob
+	landingIcon.superLayer = sliderRight.knob
+	landingIcon.x = 18
+	landingInnerShadow.superLayer = sliderRight.knob
+	landingInnerShadow.y = 6
+	
+	# define tooltip
+	toolTipRight.opacity = 0
+	toolTipRight.index = 1000
+	toolTipRight.html = "Landing by" + "<br/>" + ( (Utils.round(sliderRight.value, 0) + 11) % 12 + 1 ) +
+	":" + "00" + "PM"
+	
+	toolTipRight.style = {"font-size":"42px","text-align":"left","line-height":"50px","padding-top": "18px","padding-left": "12px","color": "#1cebf7"}
+	
+	# Define time stamp
+	timestampRight = new Layer
+		width: 180
+		height: 40
+		y: -153
+		x: controls.width - 190
+		backgroundColor: "transparent"
+		superLayer: controls
+	timestampRight.html = ((Utils.round(sliderRight.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "PM"
+	timestampRight.style = {"font-size":"42px","text-align":"center","line-height":"40px","color": "#2F4850","font-weight": "bold"}
+
+	plusDayToolTip = new Layer
+		width: 120
+		height: 40
+		y: 80
+		x: 158
+		backgroundColor: 'transparent'
+		superLayer: toolTipRight
+	plusDayToolTip.html = "(+1 Day)"
+	plusDayToolTip.style = {"font-size":"25px","text-align":"right","line-height":"30px","color": "#1cebf7","font-weight": "bold"}
+	
+	plusDay = new Layer
+		width: 120
+		height: 40
+		y: -190
+		x: controls.width - 150
+		backgroundColor: 'transparent'
+	plusDay.superLayer = controls
+	plusDay.html = "+1 Day"
+	plusDay.style = {"font-size":"32px","text-align":"right","line-height":"30px","color": "#FF0000"}
+
+	# Drag events
+	sliderRight.knob.on Events.Move,->
+		toolTipRight.x = (sliderRight.knob.midX + sliderRight.width) - 130
+		toolTipRight.opacity = 1
+		sliderRight.knobSize = 110
+		sliderRight.knob.backgroundColor = "#2BA99F"
+		
+		if sliderRight.value < 24
+			toolTipRight.html = "Landing by" + "<br/>" + 
+			( (Utils.round(sliderRight.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "PM"
+			timestampRight.html = ((Utils.round(sliderRight.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "PM"
+			
+		if sliderRight.value >= 24
+			toolTipRight.html = "Landing by" + "<br/>" + 
+			( (Utils.round(sliderRight.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "AM"
+			timestampRight.html = ((Utils.round(sliderRight.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "AM"
+			
+		if sliderRight.value > 35
+			toolTipRight.html = "Landing by" + "<br/>" + 
+			( (Utils.round(sliderRight.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "PM"
+			timestampRight.html = ((Utils.round(sliderRight.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "PM"
+		
+		# change the content list accordingly
+# 		if sliderRight.value > 31
+# 			scroll01.visible = false
+# 			scroll02.visible = false
+# 			scroll03.visible = false
+# 			scroll04.visible = true
+# 			scroll05.visible = false
+# 			
+# 		if sliderRight.value < 31
+# 			scroll01.visible = true
+# 			scroll02.visible = false
+# 			scroll03.visible = false
+# 			scroll04.visible = false
+# 			scroll05.visible = false
+# 			
+# 		if sliderRight.value < 24
+# 			scroll01.visible = false
+# 			scroll02.visible = false
+# 			scroll03.visible = false
+# 			scroll04.visible = false
+# 			scroll05.visible = true
+			
+		if sliderRight.value > 25
+			plusDay.animate
+				properties: {opacity: 1}
+				time: 0.1
+				curve: 'spring(350, 20, 0)'
+			plusDayToolTip.animate
+				properties: {opacity: 1}
+				time: 0.1
+				curve: 'spring(350, 20, 0)'
+				
+		if sliderRight.value < 25
+			plusDay.animate
+				properties: {opacity: 0}
+				time: 0.1
+				curve: 'spring(350, 20, 0)'
+			plusDayToolTip.animate
+				properties: {opacity: 0}
+				time: 0.1
+				curve: 'spring(350, 20, 0)'
+	
+	sliderRight.knob.on Events.DragEnd, ->
+		toolTipRight.opacity = 0
+		sliderRight.knobSize = 100
+		sliderRight.knob.backgroundColor = "#1FBAAD"
+	
+	# SLIDER LEFT
+	# define sliderLeft component
+	sliderLeft = new SliderComponent
+		width: (controls.width - 120) / 2 - 30
+		height: 6
+		x: 80
+		y: -35
+		backgroundColor: "#0D96FB"
+		superLayer: controls
+	sliderLeft.fill.backgroundColor = "#cccfd3"
+	
+	# Customize knob appearence
+	sliderLeft.knobSize = 100
+	sliderLeft.knob.borderRadius = 50
+	sliderLeft.knob.backgroundColor = "#0D96FB"
+	sliderLeft.knob.shadowColor = "rgba(0, 0, 0, 0.4)"
+	sliderLeft.knob.shadowX = -6
+	sliderLeft.knob.draggable.momentum = false
+	
+	# set up min/max val for the slider
+	sliderLeft.min = 7
+	sliderLeft.max = 21
+	
+	# add the icon to the knob
+	takeoffIcon.superLayer = sliderLeft.knob
+	takeoffIcon.x = 10
+	takeoffInnerShadow.superLayer = sliderLeft.knob
+	takeoffInnerShadow.y = 6
+	
+	# define tooltip
+	toolTipLeft.opacity = 0
+	toolTipLeft.index = 1000
+	toolTipLeft.html = "Takeoff from" + "<br/>" + ( (Utils.round(sliderLeft.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "AM"
+	toolTipLeft.style = {"font-size":"42px","text-align":"left","line-height":"50px","padding-top": "18px","padding-left": "12px","color": "#1cebf7"}
+	
+	# Define time stamp
+	timestampLeft = new Layer
+		width: 180
+		height: 40
+		y: -155
+		x: 300
+		backgroundColor: "transparent"
+		superLayer: controls
+	timestampLeft.html = ((Utils.round(sliderLeft.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "AM"
+	timestampLeft.style = {"font-size":"42px","text-align":"center","line-height":"40px","color": "#2F4850","font-weight": "bold"}
+
+	# Drag events 
+	sliderLeft.knob.on Events.Move,->
+		toolTipLeft.x = (sliderLeft.knob.midX + 10)
+		toolTipLeft.opacity = 1
+		sliderLeft.knobSize = 110
+		sliderLeft.knob.backgroundColor = "#1A60B3"
+	
+		if sliderLeft.value > 0
+			toolTipLeft.html = "Take-off from" + "<br/>" + 
+			( (Utils.round(sliderLeft.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "AM"
+			timestampLeft.html = ((Utils.round(sliderLeft.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "AM"
+			
+		if sliderLeft.value > 12
+			toolTipLeft.html = "Take-off from" + "<br/>" +
+			( (Utils.round(sliderLeft.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "PM"
+			timestampLeft.html = ((Utils.round(sliderLeft.value, 0) + 11) % 12 + 1 ) + ":" + "00" + "PM"
+		
+	# 	change the content list accordingly
+# 		if sliderLeft.value > 0
+# 			scroll01.visible = true
+# 			scroll02.visible = false
+# 			scroll03.visible = false
+# 			scroll04.visible = false
+# 			scroll05.visible = false
+# 		
+# 		if sliderLeft.value > 15
+# 			scroll01.visible = false
+# 			scroll02.visible = true
+# 			scroll03.visible = false
+# 			scroll04.visible = false
+# 			scroll05.visible = false
+# 			
+# 		if sliderLeft.value >= 21
+# 			scroll01.visible = false
+# 			scroll02.visible = false
+# 			scroll03.visible = true
+# 			scroll04.visible = false
+# 			scroll05.visible = false		
+	
+	sliderLeft.knob.on Events.DragEnd, ->
+		toolTipLeft.opacity = 0
+		sliderLeft.knobSize = 100
+		sliderLeft.knob.backgroundColor = "#0D96FB"
+	
+		
+####################################################################################
+
 enterOutboundResultsAnimation = (loadingAnimationLayer) ->
 	# animate the loading msg out
 	for layer, i in [msg, SearchingFlightTxt, loadingAnimationLayer]
@@ -215,13 +462,16 @@ enterOutboundResultsAnimation = (loadingAnimationLayer) ->
 		items.states.switch 'fadein'
 		
 	# animate the timeFilters title
-	timeFilters.states.switch 'fadein'
+	slider.states.switch 'fadein'
 	
 #####################################################################################
 
 outBoundResultsScreen = ->
+	
+	createTimeFilters()
+	
 	# hide layers from outbound results
-	for layer in [dialog, scrim, planeAnimationPlaceholder, timeFilters]
+	for layer in [planeAnimationPlaceholder, slider]
 		layer.opacity = 0
 		
 	# place loading gif animation
@@ -247,15 +497,15 @@ outBoundResultsScreen = ->
 		items.states.animationOptions.delay = 0.5 + (0.08 * i)
 	
 	# state animation for timeFilters
-	timeFiltersY = timeFilters.y
-	timeFilters.states.add
-		hide: {y: timeFiltersY - timeFilters.height, opacity: 0}
-		fadein: {y: timeFiltersY ,opacity: 1}
-	timeFilters.states.switchInstant "hide"
+	sliderY = slider.y
+	slider.states.add
+		hide: {y: sliderY - slider.height, opacity: 0}
+		fadein: {y: sliderY ,opacity: 1}
+	slider.states.switchInstant "hide"
 	
-	timeFilters.states.animationOptions = 
+	slider.states.animationOptions = 
 		curve: "spring(330, 35, 0)"
-	timeFilters.states.animationOptions.delay = 0.4
+	slider.states.animationOptions.delay = 0.4
 	
 	# listen to x change on the whole screen to initiate
 	outboundResults.on "change:x", ->
