@@ -138,72 +138,10 @@ createScrollComponent = (containerName, wrapThis, insetNumber, superLayerName) -
 filterModelTabs = ->
 	page = new PageComponent
 	    width: Screen.width
-	    height: Screen.height - 400 - navbar.height
-	    y: 385
+	    height: Screen.height
 	    scrollVertical: false
 	    superLayer: filterModal
-	    directionLock: true
 
-	    
-	# create scroll conponent of filter
-	scrollFilterList = ScrollComponent.wrap(scrollContentFilters)
-	scrollFilterList.contentInset =
-		bottom: 350
-		top: 100
-	scrollFilterList.directionLock = true
-	scrollFilterList.scrollHorizontal = false
-	scrollFilterList.superLayer = page.content
-	
-	# create scroll conponent of sort
-	scrollSortList = ScrollComponent.wrap(contentSort)
-	scrollSortList.contentInset =
-		bottom: 0
-		top: 100
-	scrollSortList.directionLock = true
-	scrollSortList.scrollHorizontal = false
-	scrollSortList.superLayer = page.content
-
-	page.addPage(scrollFilterList, "right")
-	page.addPage(scrollSortList, "right")
-	page.snapToPage(scrollFilterList)
-	page.placeBehind(applyBtn)
-	
-	filterTab.page = scrollFilterList
-	sortTab.page = scrollSortList
-	
-	filterTab.states.add
-		notSelected: {opacity: 0.5}
-		selected: {opacity: 1}
-	filterTab.states.switchInstant "selected"
-
-	
-	sortTab.states.add
-		notSelected: {opacity: 0.5}
-		selected: {opacity: 1}
-	sortTab.states.switchInstant "notSelected"
-
-	indicator.states.add
-		filterSelected: {x:0}
-		sortSelected: {x:540}
-	indicator.states.switchInstant "filterSelected"
-	indicator.states.animationOptions = 
-		curve: "spring(280, 45, 0)"
-
-	filterTab.on(Events.Click, android.ripple)
-	filterTab.on Events.Click, ->
-	    page.snapToPage(@page)
-	    filterTab.states.switch("selected")
-	    sortTab.states.switch("notSelected")
-	    indicator.states.switch("filterSelected")
-	
-	sortTab.on(Events.Click, android.ripple)
-	sortTab.on Events.Click, ->
-	    page.snapToPage(@page)
-	    sortTab.states.switch("selected")
-	    filterTab.states.switch("notSelected")
-	    indicator.states.switch("sortSelected")
-
-	    
 ###################################################################
 
 filterModel = ->
@@ -215,16 +153,13 @@ filterModel = ->
 		x: Screen.width - 240
 	btnFilter.superLayer = outboundResults
 	
-
-	
-	# click the filter button
-	animateModelUp(btnFilter, filterModal, outboundResults)
-# 	create scroll conponent of filter modal
-# 	createScrollComponent(scrollFilterList, scrollContentFilters, 350, filterModal)
-	
 	#Create the tabs
 	filterModelTabs()
 	
+	# click the filter button
+	animateModelUp(btnFilter, filterModal, outboundResults)
+	# create scroll conponent of filter modal
+	createScrollComponent(scrollFilterList, scrollContentFilters, 350, filterModal)
 	# click the apply button in filters modal
 	animateModelDown(applyBtn, filterModal, outboundResults)
 
@@ -719,3 +654,5 @@ init = ->
 #####################################################################################
 
 init()
+
+
