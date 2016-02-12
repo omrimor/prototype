@@ -1,5 +1,4 @@
 
-# Import file "flightBooking-Android-01" (sizes and positions are scaled 1:3)
 $ = Framer.Importer.load("imported/flightBooking-Android-prototype@3x")
 
 # Modules
@@ -18,6 +17,7 @@ scrolloutboundResults = {}
 scrollReturnDetails = null
 scrollCheckout = null
 scrollFilterList = null
+calScroller = {}
 
 # hide filled group form home
 filled.visible = false
@@ -85,7 +85,7 @@ animateBackView = (clickLayer, animateLayer, originalLayer) ->
 		
 ##################################################################
 
-animateModelUp = (clickLayer, animateLayer, layerToHide) ->
+animateModelUp = (clickLayer, animateLayer, layerToHide, callback) ->
 	clickLayer.on(Events.Click, android.ripple)
 	clickLayer.on Events.Click, ->
 		# Create back button layer
@@ -109,6 +109,8 @@ animateModelUp = (clickLayer, animateLayer, layerToHide) ->
 			curve: "spring(310, 32, 0)"
 		Utils.delay 0.5, ->
 			layerToHide.visible = false
+	
+		callback
 			
 ##################################################################
 
@@ -215,13 +217,9 @@ filterModel = ->
 		x: Screen.width - 240
 	btnFilter.superLayer = outboundResults
 	
-
-	
 	# click the filter button
 	animateModelUp(btnFilter, filterModal, outboundResults)
-# 	create scroll conponent of filter modal
-# 	createScrollComponent(scrollFilterList, scrollContentFilters, 350, filterModal)
-	
+
 	#Create the tabs
 	filterModelTabs()
 	
@@ -234,46 +232,77 @@ searchModal = ->
 	# recent search row array
 	recentCells = [sCellItem01, sCellItem02, sCellItem03, sCellItem04]
 	
+	recentSearchs = [recentCellItem1,recentCellItem2]
+	letters = [n, e, w]
+	
+	for letter in letters
+		letter.opacity = 0
+		
 	# hide all suggestion cells from search
 	for cell in recentCells
+		cell.visible = false
 		cell.opacity = 0
+	
+	caret.originalX = caret.x	
+	caret.states.add
+		off:{opacity:0}
+		on:{opacity:1}
+		progress:{x:caret.originalX + 93}
+	caret.states.switchInstant "off"
+	
+	keyboardLightRecent.originalY = keyboardLightRecent.y
+	keyboardLightRecent.y = Screen.height
+	
+	#Click the search bar to upload keyboard
+	AppBarSearchPlaceHolder.onClick ->
+		keyboardLightRecent.animate
+			properties: {y:keyboardLightRecent.originalY}
+			curve: "spring(330, 25, 0)"
+		placeHolderText.animate
+			properties: {y: 105, width: 350, height: 36}
+			time: 0.3
+			curve: "spring(330, 25, 0)"
+			Utils.interval 0.4, ->
+				caret.states.next("on","off")
 		
 	# Click keyboard to simulate search	
 	keyboardLightRecent.on Events.Click, ->
 		placeHolderText.originX = 0
 		placeHolderText.originY = 0
 		
-		placeHolderText.animate
-			properties: {y: 102, width: 210, height: 36}
-			time: 0.3
-			curve: "spring(330, 17, 0)"
-			
-		placeHolderText.animate
-			properties: {opacity: 0}
-			time: 2
-			curve: "ease-in"
-			
-		AppBarSearchPlaceHolder.animate
-			properties: {opacity: 0}
-			time: 1.5
-			curve: "ease-in-out"
-
-		recentCellItem.animate
-			properties: {opacity: 0}
+		for letter, i in letters
+			letter.animate
+				properties:{opacity:1}
+				delay: 0.3 * i
+				curve: "spring(250, 35, 0)"
+				
+		caret.states.switch("progress")		
+		
+		recentSubheader.opacity = 0
+		for cell in recentSearchs
+			cell.opacity = 0
 			
 		# show suggestion cells		
 		for cell, i in recentCells
+			cell.visible = true
 			cell.animate
 				properties: {opacity: 1}
-				delay: 0.09 * i
+				delay: 0.02 * i
 				curve: "spring(250, 35, 0)"
 				
 		# show filled group
 		filled.visible = true
 		
-	# animate the search model back down on click
+	# animate the search model back down on click suggestionCells
 	for cell, i in recentCells
 		animateModelDown(cell, search, home)
+		
+	# animate the search model back down on click recentCells
+	for item in recentSearchs
+		item.onClick ->
+			filled.visible = true
+		animateModelDown(item, search, home)
+
 		
 ####################################################################################
 
@@ -659,8 +688,11 @@ homeScreen = ->
 	animateModelUp(arrivalClick, search, home)
 	# handle search modal
 	searchModal()
-	# click the dates cell
-	animateModelUp(datesHomeActive, datePickerPrepopulated, home)
+	# click the dates cell after arrival populated
+	animateModelUp(datesHomeActive, datePickerPrepopulated, home, showDatePickerTooltip(5))
+
+	# click the dates cell before arrival populated
+	animateModelUp(datesHomeBefore, datePickerPrepopulated, home, showDatePickerTooltip(5))
 	# click the done button in date picker
 	animateModelDown(doneDates, datePickerPrepopulated, home)
 	# click find my flights button
@@ -674,6 +706,22 @@ outBoundDetailsScreen = ->
 	# click select this outbound btn to next screen
 	animateNextView(selectOutBoundBtn, returnResults, outboundDetails)
 	
+#####################################################################################
+
+datePicker = ->
+	createScrollComponent(calScroller, calenderScroll, 95, datePickerPrepopulated)
+
+
+#####################################################################################
+
+showDatePickerTooltip = (delayTime) ->
+	ToolTip2Selected.opacity = 0
+	ToolTip2Selected.scale = 0
+	ToolTip2Selected.originY = 1
+	ToolTip2Selected.animate
+		properties: {scale:1, opacity:1}
+		delay: delayTime
+
 #####################################################################################
 
 returnResultsScreen = ->
@@ -709,6 +757,7 @@ checkoutScreen = ->
 init = ->
 	# init prototype
 	homeScreen()
+	datePicker()
 	outBoundResultsScreen()
 	outBoundDetailsScreen()
 	returnResultsScreen()
