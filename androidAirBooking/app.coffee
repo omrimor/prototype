@@ -247,7 +247,7 @@ searchModal = ->
 	caret.states.add
 		off:{opacity:0}
 		on:{opacity:1}
-		progress:{x:caret.originalX + 93}
+		progress:{x:caret.originalX + 90}
 	caret.states.switchInstant "off"
 	
 	keyboardLightRecent.originalY = keyboardLightRecent.y
@@ -262,8 +262,8 @@ searchModal = ->
 			properties: {y: 105, width: 350, height: 36}
 			time: 0.3
 			curve: "spring(330, 25, 0)"
-			Utils.interval 0.4, ->
-				caret.states.next("on","off")
+		Utils.interval 0.4, ->
+			caret.states.next("on","off")
 		
 	# Click keyboard to simulate search	
 	keyboardLightRecent.on Events.Click, ->
@@ -276,7 +276,7 @@ searchModal = ->
 				delay: 0.3 * i
 				curve: "spring(250, 35, 0)"
 				
-		caret.states.switch("progress")		
+		caret.states.switchInstant("progress")	
 		
 		recentSubheader.opacity = 0
 		for cell in recentSearchs

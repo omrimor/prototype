@@ -17,6 +17,7 @@ scrolloutboundResults = {}
 scrollReturnDetails = null
 scrollCheckout = null
 scrollFilterList = null
+calScroller = {}
 
 # hide filled group form home
 filled.visible = false
@@ -84,7 +85,7 @@ animateBackView = (clickLayer, animateLayer, originalLayer) ->
 		
 ##################################################################
 
-animateModelUp = (clickLayer, animateLayer, layerToHide) ->
+animateModelUp = (clickLayer, animateLayer, layerToHide, callback) ->
 	clickLayer.on(Events.Click, android.ripple)
 	clickLayer.on Events.Click, ->
 		# Create back button layer
@@ -108,6 +109,8 @@ animateModelUp = (clickLayer, animateLayer, layerToHide) ->
 			curve: "spring(310, 32, 0)"
 		Utils.delay 0.5, ->
 			layerToHide.visible = false
+	
+		callback
 			
 ##################################################################
 
@@ -686,9 +689,10 @@ homeScreen = ->
 	# handle search modal
 	searchModal()
 	# click the dates cell after arrival populated
-	animateModelUp(datesHomeActive, datePickerPrepopulated, home)
+	animateModelUp(datesHomeActive, datePickerPrepopulated, home, showDatePickerTooltip(5))
+
 	# click the dates cell before arrival populated
-	animateModelUp(datesHomeBefore, datePickerPrepopulated, home)
+	animateModelUp(datesHomeBefore, datePickerPrepopulated, home, showDatePickerTooltip(5))
 	# click the done button in date picker
 	animateModelDown(doneDates, datePickerPrepopulated, home)
 	# click find my flights button
@@ -706,6 +710,17 @@ outBoundDetailsScreen = ->
 
 datePicker = ->
 	createScrollComponent(calScroller, calenderScroll, 95, datePickerPrepopulated)
+
+
+#####################################################################################
+
+showDatePickerTooltip = (delayTime) ->
+	ToolTip2Selected.opacity = 0
+	ToolTip2Selected.scale = 0
+	ToolTip2Selected.originY = 1
+	ToolTip2Selected.animate
+		properties: {scale:1, opacity:1}
+		delay: delayTime
 
 #####################################################################################
 
@@ -742,6 +757,7 @@ checkoutScreen = ->
 init = ->
 	# init prototype
 	homeScreen()
+	datePicker()
 	outBoundResultsScreen()
 	outBoundDetailsScreen()
 	returnResultsScreen()

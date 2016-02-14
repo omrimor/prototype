@@ -17820,20 +17820,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "id": "B5A13ABD-1702-4534-AFAB-88DC397D759F", 
                                 "image": {
                                     "frame": {
-                                        "height": 42, 
-                                        "width": 109, 
-                                        "x": 237, 
-                                        "y": 1037
+                                        "height": 36, 
+                                        "width": 105, 
+                                        "x": 239, 
+                                        "y": 1039
                                     }, 
                                     "path": "images/Layer-button-B5A13ABD-1702-4534-AFAB-88DC397D759F.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 42, 
-                                    "width": 109, 
-                                    "x": 237, 
-                                    "y": 1037
+                                    "height": 36, 
+                                    "width": 105, 
+                                    "x": 239, 
+                                    "y": 1039
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
@@ -22768,20 +22768,20 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                                 "id": "3AB98263-FDA7-4E9F-B6B2-7BD52C191B83", 
                                 "image": {
                                     "frame": {
-                                        "height": 42, 
-                                        "width": 149, 
-                                        "x": 106, 
-                                        "y": 226
+                                        "height": 36, 
+                                        "width": 145, 
+                                        "x": 108, 
+                                        "y": 228
                                     }, 
                                     "path": "images/Layer-button-3AB98263-FDA7-4E9F-B6B2-7BD52C191B83.png"
                                 }, 
                                 "imageType": "png", 
                                 "kind": "group", 
                                 "layerFrame": {
-                                    "height": 42, 
-                                    "width": 149, 
-                                    "x": 106, 
-                                    "y": 226
+                                    "height": 36, 
+                                    "width": 145, 
+                                    "x": 108, 
+                                    "y": 228
                                 }, 
                                 "maskFrame": null, 
                                 "metadata": {
