@@ -16744,22 +16744,22 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "children": [
                     {
                         "children": [], 
-                        "id": "6ADF281C-B07D-4F8F-8DC2-BD3D0FF818D4", 
+                        "id": "161B49A0-6960-4AC3-891B-CDCBCF3D2F80", 
                         "image": {
                             "frame": {
                                 "height": 43, 
-                                "width": 84, 
-                                "x": 226, 
+                                "width": 128, 
+                                "x": 204, 
                                 "y": 304
                             }, 
-                            "path": "images/Layer-ToolTip2Selected-6ADF281C-B07D-4F8F-8DC2-BD3D0FF818D4.png"
+                            "path": "images/Layer-ToolTip2Selected-161B49A0-6960-4AC3-891B-CDCBCF3D2F80.png"
                         }, 
                         "imageType": "png", 
                         "kind": "group", 
                         "layerFrame": {
                             "height": 43, 
-                            "width": 84, 
-                            "x": 226, 
+                            "width": 128, 
+                            "x": 204, 
                             "y": 304
                         }, 
                         "maskFrame": null, 
@@ -17048,7 +17048,7 @@ window.__imported__["flightBooking-Android-prototype/layers.json.js"] = [
                 "kind": "group", 
                 "layerFrame": {
                     "height": 848, 
-                    "width": 278, 
+                    "width": 291, 
                     "x": 41, 
                     "y": 169
                 }, 
